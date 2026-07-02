@@ -32,17 +32,20 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
+			"TargetField": [
+				"Mountain", 
+				"Fish" 
+			],
 			"Entries": {
-				"Mountain": {
-					"Fish": [
-						{
-							"Id": "{{ModId}}.Abigail",
-							"ItemId": "{{ModId}}.Abigail",
-							"Condition": "LOCATION_SEASON Here fall"
+						"{{ModId}}.AbigailFish":{
+					"Chance": 1.0,
+					"Id": "tiakall.seabass.beach",
+					"ItemId": "{{ModId}}.Abigail", 
+					"Condition": "LOCATION_SEASON Here fall"
 						}
-					]
+					
 				}
-			}
+			
 		},
 		{
 			"Action": "EditData",
