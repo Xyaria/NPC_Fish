@@ -1,11 +1,11 @@
 {
    "Name": "NPC Fish",
-   "Author": "",
-   "Version": "",
+   "Author": "Test",
+   "Version": "1.0.0",
    "Description": "",
-   "UniqueID": ".NPCFish",
+   "UniqueID": "Test.NPCFish",
    "MinimumApiVersion": "4.0.0",
-   "UpdateKeys": ["Nexus:"],
+   "UpdateKeys": ["Nexus:111"],
 
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"
