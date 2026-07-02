@@ -1,0 +1,69 @@
+{
+	"Format": "2.9.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_NPCFishVanilla",
+			"FromFile": "Assets/NPCFish_Vanilla.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.Abigail": {
+					"Name": "{{i18n:NPCFish.Name.Abigail}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Abigail}}",
+					"Description": "{{i18n:NPCFish.Desc.Abigail}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Maps/{{ModId}}_NPCFishVanilla",
+					"SpriteIndex": 0
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{ModId}}.Abigail": "Abigail/50/mixed/10/40/600 2600/spring summer fall winter/both/690 .4 685 .1/1/.50/.1/0"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Mountain": {
+					"Fish": [
+						{
+							"Id": "{{ModId}}.Abigail",
+							"ItemId": "{{ModId}}.Abigail",
+							"Condition": "LOCATION_SEASON Here fall"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+				"id_(o){{ModId}}.Abigail": {
+					"RequiredTags": [
+						"id_(o){{ModId}}.Abigail"
+					],
+					"SpawnTime": 3,
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 5,
+							"Chance": 0.5,
+							"ItemID": "(O)66",
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}
+					]
+				}
+			}
+		}
+	]
+}

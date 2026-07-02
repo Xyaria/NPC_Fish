@@ -1,0 +1,29 @@
+{
+   "Name": "NPC Fish",
+   "Author": "",
+   "Version": "",
+   "Description": "",
+   "UniqueID": ".NPCFish",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": ["Nexus:"],
+
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+  "Dependencies": [   
+  
+   {
+        "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+        "IsRequired": "False"
+     },
+	    {
+        "UniqueID": "NassiLove.AikawaAsakaiCP",
+        "IsRequired": "False"
+     }
+	
+  ]
+
+
+}
+
+
