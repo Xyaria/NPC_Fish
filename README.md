@@ -20,4 +20,4 @@ Choco (chocolatte12) for wanting to be credited <3
 
 Used assets base:  
 - ConcernedApe, creator of Stardew Valley, for most fish base  
-- FlashShifter, creator of the Stardew Valley Expanded mod, for Grubastian base  
+- FlashShifter, creator of the Stardew Valley Expanded mod, for Grubbastian & Abigoby base  
