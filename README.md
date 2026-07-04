@@ -10,3 +10,9 @@ They will be legendary fish that you will be able to add to fish ponds, to have 
 ## Progress tracker
 
 [NPC Fish Google Spreadsheet](https://docs.google.com/spreadsheets/d/1LvxbBvUKoVbXvyRxsZAdrs3gpZejBaZ_RW5pAib6U9s/edit?gid=0#gid=0)
+
+## Credits
+
+Huskyn1nja, FionaDanger, duck_base, Mint (luminte), UsefulorNot, Mr. Duck (xyariaa_), Nullnnow, Si (sithegreat), Nassi (nassilove), Trixy (_peeeep\_)
+For art, code, and general brainstorming
+And Mia (eltolinde) for the idea that started it all (it's your fault <3 /pos)
