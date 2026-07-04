@@ -1,6 +1,6 @@
 {
 	// Fish Names
-	"NPCFish.Name.Abigail": "Abigail Fish",
+	"NPCFish.Name.Abigail": "Abigoby",
 	"NPCFish.Name.Alex": "Alex Fish",
 	"NPCFish.Name.Caroline": "Caroline Fish",
 	"NPCFish.Name.Clint": "Clint Fish",
@@ -29,16 +29,16 @@
 	"NPCFish.Name.Robin": "Robin Fish",
 	"NPCFish.Name.Sam": "Sam Fish",
 	"NPCFish.Name.Sandy": "Sandy Fish",
-	"NPCFish.Name.Sebastian": "Sebastian Fish",
+	"NPCFish.Name.Sebastian": "Grubbastian",
 	"NPCFish.Name.Shane": "Shane Fish",
 	"NPCFish.Name.Vincent": "Vincent Fish",
 	"NPCFish.Name.Willy": "Willy Fish",
-	"NPCFish.Name.Wizard ": "Wizard Fish",
+	"NPCFish.Name.Wizard ": "Salmodius",
 	
 	// Fish Descriptions
-	"NPCFish.Desc.Abigail": "",
+	"NPCFish.Desc.Abigail": "This weird fish derives sustenance from mountain rocks and minerals.",
 	"NPCFish.Desc.Alex": "That is one big buff fish!",
-	"NPCFish.Desc.Caroline": "",
+	"NPCFish.Desc.Caroline": "This fish nests in the middle of algae which it takes care and feeds off of.",
 	"NPCFish.Desc.Clint": "It possesses very hard scales with a metallic shine.",
 	"NPCFish.Desc.Demetrius": "Its elastic scales allows it to resist the harsh sea floor conditions and clean it.",
 	"NPCFish.Desc.Dwarf": "It used its hardened tentacles to dig through rocks to nest.",
@@ -57,7 +57,7 @@
 	"NPCFish.Desc.Leo": "A unique variant of the blue discus, believed to have been sole responsible of the sandiness of Ginger Island.",
 	"NPCFish.Desc.Lewis": "It is often found around other fish, enjoying their hard work for itself.",
 	"NPCFish.Desc.Linus": "Quite nomadic, this little snail shell holds a very comfortable and transportable nest.",
-	"NPCFish.Desc.Marnie": "",
+	"NPCFish.Desc.Marnie": "A curious fish that can be seen herding around other fish.",
 	"NPCFish.Desc.Maru": "Its tentacles can give electric shocks if you touch them.",
 	"NPCFish.Desc.Pam": "Once out of the water, it exudes a weird ale-like liquid reeking of alcohol.",
 	"NPCFish.Desc.Penny": "Its dorsal fin has a different, hardback texture.",
