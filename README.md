@@ -13,6 +13,11 @@ They will be legendary fish that you will be able to add to fish ponds, to have 
 
 ## Credits
 
-Huskyn1nja, FionaDanger, duck_base, Mint (luminte), UsefulorNot, Mr. Duck (xyariaa_), Nullnnow, Si (sithegreat), Nassi (nassilove), Trixy (_peeeep\_)  – for art, code, and general brainstorming  
-  
-And Mia (eltolinde) for the idea that started it all (it's your fault <3 /pos)
+Huskyn1nja, FionaDanger, duck_base, Mint (luminte), Mr. Duck (xyariaa_), Nassi (nassilove) for art, code, and general brainstorming  
+Nullnnow, Si (sithegreat), UsefulorNot, Trixy (_peeeep\_) for brainstorming help  
+Mia (eltolinde) for the idea that started it all (it's your fault <3 /pos)  
+Choco (chocolatte12) for wanting to be credited <3  
+
+Used assets base:  
+- ConcernedApe, creator of Stardew Valley, for most fish base  
+- FlashShifter, creator of the Stardew Valley Expanded mod, for Grubastian base  
