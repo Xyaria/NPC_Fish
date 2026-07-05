@@ -5,25 +5,20 @@
    "Description": "",
    "UniqueID": "Test.NPCFish",
    "MinimumApiVersion": "4.0.0",
-   "UpdateKeys": ["Nexus:111"],
-
+   "UpdateKeys": [
+      "Nexus:111"
+   ],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"
    },
-  "Dependencies": [   
-  
-   {
-        "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-        "IsRequired": "False"
-     },
-	    {
-        "UniqueID": "NassiLove.AikawaAsakaiCP",
-        "IsRequired": "False"
-     }
-	
-  ]
-
-
+   "Dependencies": [
+      {
+         "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+         "IsRequired": "False"
+      },
+      {
+         "UniqueID": "NassiLove.AikawaAsakaiCP",
+         "IsRequired": "False"
+      }
+   ]
 }
-
-
