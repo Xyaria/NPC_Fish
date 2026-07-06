@@ -6,6 +6,27 @@
 			"Target": "Maps/{{ModId}}_NPCFishVanilla",
 			"FromFile": "Assets/vanilla_sprites.png"
 		},
+				{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_AquariumFish",
+			"FromFile": "Assets/vanilla_aquarium.png"
+		},
+		      {
+         "Action": "Include",
+         "FromFile": "Data/FishData.json"
+      },	
+		      {
+         "Action": "Include",
+         "FromFile": "Data/FishPondData.json"
+      },	
+		      {
+         "Action": "Include",
+         "FromFile": "Data/LocationEdits.json"
+      },
+		      {
+         "Action": "Include",
+         "FromFile": "Data/AquariumFish.json"
+      },		  
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -20,9 +41,10 @@
 					"Texture": "Maps/{{ModId}}_NPCFishVanilla",
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"color_dark_purple",
 						"fish_legendary",
-						"fish_upright",
 						"fish_has_roe"
+
 					]
 				},
 				"{{ModId}}.Alex": {
@@ -35,8 +57,8 @@
 					"Texture": "Maps/{{ModId}}_NPCFishVanilla",
 					"SpriteIndex": 1,
 					"ContextTags": [
+						"color_Green",
 						"fish_legendary",
-						"fish_upright",
 						"fish_has_roe"
 					]
 				},
@@ -50,8 +72,8 @@
 					"Texture": "Maps/{{ModId}}_NPCFishVanilla",
 					"SpriteIndex": 2,
 					"ContextTags": [
+						"color_cyan",
 						"fish_legendary",
-						"fish_upright",
 						"fish_has_roe"
 					]
 				},
@@ -66,7 +88,7 @@
 					"SpriteIndex": 3,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_copper",
 						"fish_has_roe"
 					]
 				},
@@ -81,7 +103,7 @@
 					"SpriteIndex": 4,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_yellow,",
 						"fish_has_roe"
 					]
 				},
@@ -96,7 +118,7 @@
 					"SpriteIndex": 5,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_orange",
 						"fish_has_roe"
 					]
 				},
@@ -111,7 +133,7 @@
 					"SpriteIndex": 6,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_red",
 						"fish_has_roe"
 					]
 				},
@@ -126,7 +148,7 @@
 					"SpriteIndex": 7,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_blue",
 						"fish_has_roe"
 					]
 				},
@@ -141,7 +163,7 @@
 					"SpriteIndex": 8,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_salmon",
 						"fish_has_roe"
 					]
 				},
@@ -156,7 +178,7 @@
 					"SpriteIndex": 9,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_sea_green",
 						"fish_has_roe"
 					]
 				},
@@ -171,7 +193,7 @@
 					"SpriteIndex": 10,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_dark_orange",
 						"fish_has_roe"
 					]
 				},
@@ -186,7 +208,7 @@
 					"SpriteIndex": 11,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_jade",
 						"fish_has_roe"
 					]
 				},
@@ -201,7 +223,7 @@
 					"SpriteIndex": 12,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_pink",
 						"fish_has_roe"
 					]
 				},
@@ -216,7 +238,7 @@
 					"SpriteIndex": 13,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_pale_violet_red",
 						"fish_has_roe"
 					]
 				},
@@ -231,7 +253,7 @@
 					"SpriteIndex": 14,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_dark_pink",
 						"fish_has_roe"
 					]
 				},
@@ -246,7 +268,7 @@
 					"SpriteIndex": 15,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_iron",
 						"fish_has_roe"
 					]
 				},
@@ -261,7 +283,7 @@
 					"SpriteIndex": 16,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_black",
 						"fish_has_roe"
 					]
 				},
@@ -276,7 +298,7 @@
 					"SpriteIndex": 17,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_poppyseed",
 						"fish_has_roe"
 					]
 				},
@@ -291,7 +313,7 @@
 					"SpriteIndex": 18,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_orange",
 						"fish_has_roe"
 					]
 				},
@@ -306,7 +328,7 @@
 					"SpriteIndex": 19,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_lime",
 						"fish_has_roe"
 					]
 				},
@@ -321,7 +343,7 @@
 					"SpriteIndex": 20,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_gold",
 						"fish_has_roe"
 					]
 				},
@@ -336,7 +358,7 @@
 					"SpriteIndex": 21,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_sea_green",
 						"fish_has_roe"
 					]
 				},
@@ -351,7 +373,7 @@
 					"SpriteIndex": 22,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_iridium",
 						"fish_has_roe"
 					]
 				},
@@ -366,7 +388,7 @@
 					"SpriteIndex": 23,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_dark_yellow",
 						"fish_has_roe"
 					]
 				},
@@ -381,7 +403,7 @@
 					"SpriteIndex": 24,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_dark_red",
 						"fish_has_roe"
 					]
 				},
@@ -396,7 +418,7 @@
 					"SpriteIndex": 25,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_brown",
 						"fish_has_roe"
 					]
 				},
@@ -411,7 +433,7 @@
 					"SpriteIndex": 26,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_copper",
 						"fish_has_roe"
 					]
 				},
@@ -426,7 +448,7 @@
 					"SpriteIndex": 27,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_dark_blue",
 						"fish_has_roe"
 					]
 				},
@@ -441,7 +463,7 @@
 					"SpriteIndex": 28,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_sand",
 						"fish_has_roe"
 					]
 				},
@@ -456,7 +478,7 @@
 					"SpriteIndex": 29,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_dark_gray",
 						"fish_has_roe"
 					]
 				},
@@ -471,7 +493,7 @@
 					"SpriteIndex": 30,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_dark_cyan",
 						"fish_has_roe"
 					]
 				},
@@ -486,7 +508,7 @@
 					"SpriteIndex": 31,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_salmon",
 						"fish_has_roe"
 					]
 				},
@@ -501,7 +523,7 @@
 					"SpriteIndex": 32,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_red",
 						"fish_has_roe"
 					]
 				},
@@ -516,114 +538,13 @@
 					"SpriteIndex": 33,
 					"ContextTags": [
 						"fish_legendary",
-						"fish_upright",
+						"color_prismatic",
 						"fish_has_roe"
 					]
 				}
 			}
 		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Fish",
-			"Entries": {
-				"{{ModId}}.Abigail": "{{i18n:NPCFish.Name.Abigail}}/70/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Alex": "{{i18n:NPCFish.Name.Alex}}/55/dart/20/50/600 2600/summer/rainy/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Caroline": "{{i18n:NPCFish.Name.Caroline}}/50/smooth/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Clint": "{{i18n:NPCFish.Name.Clint}}/65/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Demetrius": "{{i18n:NPCFish.Name.Demetrius}}/60/mixed/20/50/600 2600/summer/sunny/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Dwarf": "{{i18n:NPCFish.Name.Dwarf}}/75/dart/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Elliott": "{{i18n:NPCFish.Name.Elliott}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Emily": "{{i18n:NPCFish.Name.Emily}}/55/floater/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Evelyn": "{{i18n:NPCFish.Name.Evelyn}}/50/smooth/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.George": "{{i18n:NPCFish.Name.George}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Gus": "{{i18n:NPCFish.Name.Gus}}/55/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Harvey": "{{i18n:NPCFish.Name.Harvey}}/50/mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Haley": "{{i18n:NPCFish.Name.Haley}}/60/dart/20/50/600 2600/spring/sunny/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Jas": "{{i18n:NPCFish.Name.Jas}}/50/floater/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Jodi": "{{i18n:NPCFish.Name.Jodi}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Kent": "{{i18n:NPCFish.Name.Kent}}/80/sinker/20/50/600 2600/spring/rainy/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Krobus": "{{i18n:NPCFish.Name.Krobus}}/95/smooth/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Leah": "{{i18n:NPCFish.Name.Leah}}/50/mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Leo": "{{i18n:NPCFish.Name.Leo}}/60/mixed/20/50/600 2600/summer/sunny/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Lewis": "{{i18n:NPCFish.Name.Lewis}}/50/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Linus": "{{i18n:NPCFish.Name.Linus}}/50/mixed/20/50/600 2600/winter/sunny/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Marnie": "{{i18n:NPCFish.Name.Marnie}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Maru": "{{i18n:NPCFish.Name.Maru}}/70/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Pam": "{{i18n:NPCFish.Name.Pam}}/50/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Penny": "{{i18n:NPCFish.Name.Penny}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Pierre": "{{i18n:NPCFish.Name.Pierre}}/65/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Robin": "{{i18n:NPCFish.Name.Robin}}/60/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Sam": "{{i18n:NPCFish.Name.Sam}}/60/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Sandy": "{{i18n:NPCFish.Name.Sandy}}/60/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Sebastian": "{{i18n:NPCFish.Name.Sebastian}}/70/dart/20/50/600 2600/winter/rainy/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Shane": "{{i18n:NPCFish.Name.Shane}}/60/mixed/20/50/600 2600/spring/rainy/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Vincent": "{{i18n:NPCFish.Name.Vincent}}/50/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Willy": "{{i18n:NPCFish.Name.Willy}}/70/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Wizard": "{{i18n:NPCFish.Name.Wizard}}/90/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [
-				"Town",
-				"FishAreas"
-			],
-			"Entries": {
-				"River West of Blacksmith": {
-					"Position": {
-						"X": 70,
-						"Y": 80,
-						"Width": 10,
-						"Height": 10
-					}
-				},
-				"Pelican Town Waterfall": {
-					"Position": {
-						"X": 92,
-						"Y": 5,
-						"Width": 7,
-						"Height": 3
-					}
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [
-				"Mountain",
-				"FishAreas"
-			],
-			"Entries": {
-				"Mine Bridge": {
-					"Position": {
-						"X": 45,
-						"Y": 5,
-						"Width": 5,
-						"Height": 6
-					}
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [
-				"Railroad",
-				"FishAreas"
-			],
-			"Entries": {
-				"Bathhouse Fountain": {
-					"Position": {
-						"X": 14,
-						"Y": 55,
-						"Width": 3,
-						"Height": 3
-					}
-				}
-			}
-		},
+		
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -636,17 +557,21 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.AbigailFish",
 					"ItemId": "{{ModId}}.Abigail",
+					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "PLAYER_HAS_Mail current carolineNecklace, LOCATION_SEASON Here Fall,",
+					"Condition": "PLAYER_HAS_Mail current carolinesNecklace, LOCATION_SEASON Here Fall",
 					"FishAreaId": "Mine Bridge",
 					"ContextTags": [
-						"fish_legendary"
+						"fish_legendary",
 					]
 				},
 				"{{ModId}}.LinusFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.LinusFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Linus",
+					"FishAreaId": "Lake Bridge",
 					"Condition": "LOCATION_SEASON Here winter, WEATHER Here Sunny"
 				}
 			}
@@ -663,40 +588,15 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.AlexFish",
 					"ItemId": "{{ModId}}.Alex",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"FishAreaId": "Bathhouse Fountain",
 					"Precedence": -10,
 					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Rain Storm"
 				}
 			}
 		},
-		{
-			"Action": "EditMap",
-			"Target": "Maps/Sunroom",
-			"MapProperties": {
-				"IndoorWater": "T"
-			},
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 3,
-						"Y": 4
-					},
-					"Layer": "Buildings",
-					"Remove": true
-				},
-				{
-					"Position": {
-						"X": 3,
-						"Y": 4
-					},
-					"Layer": "Back",
-					"SetIndex": 112,
-					"SetProperties": {
-						"Water": "T"
-					}
-				}
-			]
-		},
+		
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -709,7 +609,9 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.CarolineFish",
 					"ItemId": "{{ModId}}.Caroline",
-					"Condition": "LOCATION_SEASON Here winter"
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter,PLAYER_SPECIAL_ORDER_COMPLETE current Caroline"
 				}
 			}
 		},
@@ -725,6 +627,8 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.ClintFish",
 					"ItemId": "{{ModId}}.Clint",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here winter",
 					"FishAreaId": "River West of Blacksmith"
 				},
@@ -732,18 +636,24 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.EvelynFish",
 					"ItemId": "{{ModId}}.Evelyn",
-					"Condition": "LOCATION_SEASON Here winter"
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter, PLAYER_HAS_Mail current ccPantry"
 				},
 				"{{ModId}}.GeorgeFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.GeorgeFish",
 					"ItemId": "{{ModId}}.George",
-					"Condition": "LOCATION_SEASON Here fall"
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here fall, PLAYER_HAS_SEEN_EVENT current 5837189"
 				},
 				"{{ModId}}.HarveyFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.HarveyFish",
 					"ItemId": "{{ModId}}.Harvey",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here winter",
 					"FishAreaId": "Pelican Town Waterfall"
 				},
@@ -751,6 +661,8 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.HaleyFish",
 					"ItemId": "{{ModId}}.Haley",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here spring",
 					"FishAreaId": "Fountain",
 					"Precedence": -10,
@@ -762,10 +674,25 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.PennyFish",
 					"ItemId": "{{ModId}}.Penny",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "South of Bridge",
 					"Condition": "LOCATION_SEASON Here fall"
+				},
+				"{{ModId}}.LewisFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.LewisFish",
+					"ItemId": "{{ModId}}.Lewis",
+					"CatchLimit": 1,
+					"Precedence": 250,
+					"IsBossFish": "True",
+					"FishAreaId": "Truck Bed",
+										"Condition": "LOCATION_SEASON Here spring"
 				}
+			
 			}
 		},
+		
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -778,12 +705,17 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.DemetriusFish",
 					"ItemId": "{{ModId}}.Demetrius",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "Southern Falls",
 					"Condition": "LOCATION_SEASON Here summer, WEATHER Here GreenRain"
 				},
 				"{{ModId}}.JasFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.JasFish",
 					"ItemId": "{{ModId}}.Jas",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here summer",
 					"FishAreaId": "River"
 				},
@@ -791,6 +723,8 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.LeahFish",
 					"ItemId": "{{ModId}}.Leah",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here winter",
 					"FishAreaId": "River"
 				},
@@ -798,20 +732,27 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.MarnieFish",
 					"ItemId": "{{ModId}}.Marnie",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here fall",
-					"FishAreaId": "Pond"
+					"Precedence": 250,
+					"FishAreaId": "Marnie's Animal Trough"
 				},
 				"{{ModId}}.ShaneFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.ShaneFish",
 					"ItemId": "{{ModId}}.Shane",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here spring",
-					"FishAreaId": "Pond"
+					"FishAreaId": "Lake"
 				},
 				"{{ModId}}.VincentFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.VincentFish",
 					"ItemId": "{{ModId}}.Vincent",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here spring",
 					"FishAreaId": "River"
 				}
@@ -829,12 +770,16 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.DwarfFish",
 					"ItemId": "{{ModId}}.Dwarf",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here summer, Location_Name Here UndergroundMine20"
 				},
 				"{{ModId}}.SebastianFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.SebastianFish",
 					"ItemId": "{{ModId}}.Sebastian",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here winter, Location_Name Here UndergroundMine60"
 				}
 			}
@@ -851,18 +796,26 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.ElliottFish",
 					"ItemId": "{{ModId}}.Elliott",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "North of Tidepool Bridge",
 					"Condition": "LOCATION_SEASON Here fall"
 				},
 				"{{ModId}}.MaruFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.MaruFish",
 					"ItemId": "{{ModId}}.Maru",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "Around the Rock",
 					"Condition": "LOCATION_SEASON Here summer"
 				},
 				"{{ModId}}.SamFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.SamFish",
 					"ItemId": "{{ModId}}.Sam",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here summer"
 				}
 			}
@@ -879,12 +832,16 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.EmilyFish",
 					"ItemId": "{{ModId}}.Emily",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here spring"
 				},
 				"{{ModId}}.RobinFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.RobinFish",
 					"ItemId": "{{ModId}}.Robin",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here fall"
 				}
 			}
@@ -901,6 +858,8 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.GusFish",
 					"ItemId": "{{ModId}}.Gus",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here summer"
 				}
 			}
@@ -917,32 +876,33 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.KentFish",
 					"ItemId": "{{ModId}}.Kent",
-					"Condition": "LOCATION_SEASON Here spring"
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "PLAYER_HAS_Mail Current birdieQuestFinished"
 				},
+			}
+		},
+				{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouthEast",
+				"Fish"
+			],
+			"Entries": {
 				"{{ModId}}.LeoFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.LeoFish",
 					"ItemId": "{{ModId}}.Leo",
-					"Condition": "LOCATION_SEASON Here summer"
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "Tidepool",
+
 				}
 			}
 		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [
-				"Farm",
-				"Fish"
-			],
-			"Entries": {
-				"{{ModId}}.LewisFish": {
-					"Chance": 1.0,
-					"Id": "{{ModId}}.LewisFish",
-					"ItemId": "{{ModId}}.Lewis",
-					"Condition": "LOCATION_SEASON Here spring"
-				}
-			}
-		},
+		
+		
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -955,7 +915,8 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.PamFish",
 					"ItemId": "{{ModId}}.Pam",
-					"Condition": "LOCATION_SEASON Here spring"
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 				}
 			}
 		},
@@ -971,7 +932,8 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.PierreFish",
 					"ItemId": "{{ModId}}.Pierre",
-					"Condition": "LOCATION_SEASON Here spring"
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 				}
 			}
 		},
@@ -987,6 +949,8 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.SandyFish",
 					"ItemId": "{{ModId}}.Sandy",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here fall"
 				}
 			}
@@ -1003,6 +967,8 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.KrobusFish",
 					"ItemId": "{{ModId}}.Krobus",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here winter"
 				}
 			}
@@ -1019,6 +985,8 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.WillyFish",
 					"ItemId": "{{ModId}}.Willy",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here summer"
 				}
 			}
@@ -1035,38 +1003,13 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.WizardFish",
 					"ItemId": "{{ModId}}.Wizard",
-					"Condition": "LOCATION_SEASON Here winter"
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard2"
 				}
 			}
 		},
-		{
-			"Action": "EditMap",
-			"Target": "Maps/SamHouse",
-			"MapProperties": {
-				"IndoorWater": "T"
-			},
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 6,
-						"Y": 3
-					},
-					"Layer": "Buildings",
-					"Remove": true
-				},
-				{
-					"Position": {
-						"X": 6,
-						"Y": 3
-					},
-					"Layer": "Back",
-					"SetIndex": 601,
-					"SetProperties": {
-						"Water": "T"
-					}
-				}
-			]
-		},
+		
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -1079,61 +1022,10 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.JodiFish",
 					"ItemId": "{{ModId}}.Jodi",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
 					"Condition": "LOCATION_SEASON Here fall"
 				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/FishPondData",
-			"Entries": {
-				"id_(o){{ModId}}.Abigail": {
-					"RequiredTags": [
-						"id_(o){{ModId}}.Abigail"
-					],
-					"SpawnTime": 3,
-					"ProducedItems": [
-						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)276", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)276", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)66", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)276", "MinQuantity": 2, "MaxQuantity": 3 },
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "AbigailsBow", "MinQuantity": 1, "MaxQuantity": 1 }
-					]
-				},
-				"id_(o){{ModId}}.Alex": {
-					"RequiredTags": [
-						"id_(o){{ModId}}.Alex"
-					],
-					"SpawnTime": 3,
-					"ProducedItems": [
-						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.1, "ItemID": "(O)212", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)349", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)212", "MinQuantity": 2, "MaxQuantity": 3 },
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "MagicHairDye", "MinQuantity": 1, "MaxQuantity": 1 }
-					]
-				},
-				"id_(o){{ModId}}.Caroline": {
-					"RequiredTags": [
-						"id_(o){{ModId}}.Caroline"
-					],
-					"SpawnTime": 3,
-					"ProducedItems": [
-						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)593", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)593", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)815", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)593", "MinQuantity": 2, "MaxQuantity": 3 },
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)614", "MinQuantity": 1, "MaxQuantity": 1 }
-					]
-				},
 			}
 		}
 	]
