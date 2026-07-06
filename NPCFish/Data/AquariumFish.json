@@ -1,0 +1,45 @@
+{
+  "Changes": [
+    {
+      "LogName": "Adding Vanilla Aquarium Fish",
+      "Action": "EditData",
+      "Target": "Data/AquariumFish",
+      "Entries": {
+        "{{ModId}}.Abigail": "0/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Alex": "1/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Caroline": "2/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Clint": "3/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Demetrius": "4/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Dwarf": "5/cephalopod/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Elliott": "10/eel/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Emily": "11/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Evelyn": "12/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.George": "13/ground/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Gus": "13/float/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Harvey": "14/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Haley": "16/crawl/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Jas": "19/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Jodi": "20/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Kent": "21/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Krobus": "22/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Leah": "23/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Leo": "24/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Lewis": "25/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Linus": "26/crawl/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Marnie": "27/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Maru": "28/float/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Pam": "29/ground/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Penny": "31/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Pierre": "32/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Robin": "33/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Sam": "34/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Sandy": "35/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Sebastian": "36/static/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Shane": "37/cephalopod/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Vincent": "42/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Willy": "43/fish/////Maps\\{{ModId}}_AquariumFish",
+        "{{ModId}}.Wizard": "44/fish/////Maps\\{{ModId}}_AquariumFish"
+      }
+    }
+  ]
+}
