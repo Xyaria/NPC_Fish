@@ -1,0 +1,436 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Town",
+				"FishAreas"
+			],
+			"Entries": {
+				"River West of Blacksmith": {
+					"Position": {
+						"X": 70,
+						"Y": 80,
+						"Width": 10,
+						"Height": 10
+					}
+				},
+				"Pelican Town Waterfall": {
+					"Position": {
+						"X": 92,
+						"Y": 5,
+						"Width": 7,
+						"Height": 3
+					}
+				},
+					"Truck Bed": {
+					"Position": {
+						"X": 65,
+						"Y": 80,
+						"Width": 3,
+						"Height": 2
+					}
+				},
+				"South of Bridge": {
+					"Position": {
+						"X": 75,
+						"Y": 97,
+						"Width": 8,
+						"Height": 6
+					}
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouthEast",
+				"FishAreas"
+			],
+			"Entries": {
+				"Tidepool": {
+					"Position": {
+						"X": 17,
+						"Y": 19,
+						"Width": 5,
+						"Height": 6
+					}
+				},
+				
+			}
+		},
+{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Mountain",
+				"FishAreas"
+			],
+			"Entries": {
+				"Mine Bridge": {
+					"Position": {
+						"X": 45,
+						"Y": 5,
+						"Width": 5,
+						"Height": 6
+					}
+				},
+				"Lake Bridge": {
+					"Position": {
+						"X": 59,
+						"Y": 21,
+						"Width": 9,
+						"Height": 4
+					}
+				}
+			
+		},
+},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Railroad",
+				"FishAreas"
+			],
+			"Entries": {
+				"Bathhouse Fountain": {
+					"Position": {
+						"X": 14,
+						"Y": 55,
+						"Width": 3,
+						"Height": 3
+					}
+				}
+			}
+		},
+			{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Forest",
+				"FishAreas"
+			],
+			"Entries": {
+				"Southern Falls": {
+					"Position": {
+						"X": 51,
+						"Y": 100,
+						"Width": 15,
+						"Height": 255
+					}
+				},
+			
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_Test.NPCFish.Marnie, season Fall",
+			"TargetField": [
+				"Forest",
+				"FishAreas"
+			],
+			"Entries": {
+				"Marnie's Animal Trough": {
+					"Position": {
+						"X": 94,
+						"Y": 16,
+						"Width": 2,
+						"Height": 1
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_Test.NPCFish.Marnie, season Fall",
+			"TargetField": [
+				"Forest",
+				"FishAreas"
+			],
+			"Entries": {
+				"Marnie's Animal Trough": {
+					"Position": {
+						"X": 0,
+						"Y": 0,
+						"Width": 1,
+						"Height": 1
+					}
+				}
+			}
+		},
+					{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Beach",
+				"FishAreas"
+			],
+			"Entries": {
+				"North of Tidepool Bridge": {
+					"Position": {
+						"X": 57,
+						"Y": 0,
+						"Width": 6,
+						"Height": 13
+					}
+				},
+				"Around the Rock": {
+					"Position": {
+						"X": 2,
+						"Y": 23,
+						"Width": 8,
+						"Height": 7
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Sunroom",
+			"MapProperties": {
+				"IndoorWater": "T"
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 3,
+						"Y": 4
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 3,
+						"Y": 4
+					},
+					"Layer": "Back",
+					"SetIndex": 112,
+					"SetProperties": {
+						"Water": "T"
+					}
+				}
+			]
+		},
+		{
+	"Action": "EditMap",
+	"Target": "Maps/Forest",
+			"Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_Test.NPCFish.Marnie, season Fall",
+	"MapTiles": [
+		{
+			"Position": {
+				"X": 94,
+				"Y": 16
+			},
+			"Layer": "Buildings",
+			"Remove": true
+		},
+		{
+			"Position": {
+				"X": 94,
+				"Y": 16
+			},
+			"Layer": "Back",
+			"SetIndex": 218,
+			"SetProperties": {
+				"Water": "I",
+				"Passable": "F"
+			}
+		},
+		{
+			"Position": {
+				"X": 95,
+				"Y": 16
+			},
+			"Layer": "Buildings",
+			"Remove": true
+		},
+		{
+			"Position": {
+				"X": 95,
+				"Y": 16
+			},
+			"Layer": "Back",
+			"SetIndex": 219,
+			"SetProperties": {
+				"Water": "I",
+				"Passable": "F"
+			}
+		}
+	]
+},
+{
+	"Action": "EditMap",
+	"Target": "Maps/Forest",
+			"Condition": "PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_Test.NPCFish.Marnie",
+	"MapTiles": [
+		{
+			"Position": {
+				"X": 94,
+				"Y": 16
+			},
+			"Layer": "Buildings",
+			"SetTilesheet":"outdoors", 
+			"SetIndex": 218,
+			"SetProperties": {
+				"Water": "N",
+				"Passable": "F"
+			}
+		},
+		{
+			"Position": {
+				"X": 95,
+				"Y": 16
+			},
+			"Layer": "Buildings",
+			"SetTilesheet":"outdoors",
+			"SetIndex": 219,
+		
+		},
+			{
+			"Position": {
+				"X": 94,
+				"Y": 16
+			},
+			"Layer": "Back",
+			"SetTilesheet":"outdoors",
+			"SetIndex": 200,
+		
+		},
+		{
+			"Position": {
+				"X": 95,
+				"Y": 16
+			},
+			"Layer": "Back",
+			"SetTilesheet":"outdoors",
+			"SetIndex": 202,
+		
+		}
+	]
+},
+{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"When": "!PLAYER_HAS_CAUGHT_FISH current {{ModId}}.Lewis, LOCATION_SEASON Here spring" ,
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 66,
+						"Y": 80
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 66,
+						"Y": 80
+					},
+					"Layer": "Back",
+			"SetTilesheet": "Town",
+			"SetIndex": 1080,
+					"SetProperties": {
+						"Water": "I",
+						"Passable": "F"
+					}
+				},
+								{
+					"Position": {
+						"X": 67,
+						"Y": 80
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 67,
+						"Y": 80
+					},
+					"Layer": "Back",
+			"SetTilesheet": "Town",
+			"SetIndex": 1081,
+					"SetProperties": {
+						"Water": "I",
+						"Passable": "F"
+					}
+				},
+				{
+					"Position": {
+						"X": 66,
+						"Y": 81
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 66,
+						"Y": 81
+					},
+					"Layer": "Back",
+			"SetTilesheet": "Town",
+			"SetIndex": 1112,
+					"SetProperties": {
+						"Water": "I"
+					}
+				},
+				{
+					"Position": {
+						"X": 67,
+						"Y": 81
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 67,
+						"Y": 81
+					},
+					"Layer": "Back",
+			"SetTilesheet": "Town",
+			"SetIndex": 1113,
+					"SetProperties": {
+						"Water": "I"
+					}
+				},
+				
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SamHouse",
+			"MapProperties": {
+				"IndoorWater": "T"
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 6,
+						"Y": 3
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 6,
+						"Y": 3
+					},
+					"Layer": "Back",
+					"SetIndex": 601,
+					"SetProperties": {
+						"Water": "T"
+					}
+				}
+			]
+		},
+	]
+}
