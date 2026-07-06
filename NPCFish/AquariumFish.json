@@ -1,0 +1,45 @@
+{
+  "Changes": [
+    {
+      "LogName": "Adding Vanilla Aquarium Fish",
+      "Action": "EditData",
+      "Target": "Data/AquariumFish",
+      "Entries": {
+        "{{ModId}}.Abigail": "0/fish",
+        "{{ModId}}.Alex": "1/fish",
+        "{{ModId}}.Caroline": "2/fish",
+        "{{ModId}}.Clint": "3/fish",
+        "{{ModId}}.Demetrius": "4/fish",
+        "{{ModId}}.Dwarf": "5/cephalopod/5/5 6/7 7 8 8/8 9",
+        "{{ModId}}.Elliott": "10/eel",
+        "{{ModId}}.Emily": "11/fish",
+        "{{ModId}}.Evelyn": "12/fish",
+        "{{ModId}}.George": "13/ground",
+        "{{ModId}}.Gus": "13/float",
+        "{{ModId}}.Harvey": "14/fish",
+        "{{ModId}}.Haley": "16/front_crawl/16//16 16 17 17 18 18 17 17",
+        "{{ModId}}.Jas": "19/fish",
+        "{{ModId}}.Jodi": "20/fish",
+        "{{ModId}}.Kent": "21/fish",
+        "{{ModId}}.Krobus": "22/fish",
+        "{{ModId}}.Leah": "23/fish",
+        "{{ModId}}.Leo": "24/fish",
+        "{{ModId}}.Lewis": "25/fish",
+        "{{ModId}}.Linus": "26/crawl",
+        "{{ModId}}.Marnie": "27/fish",
+        "{{ModId}}.Maru": "28/float",
+        "{{ModId}}.Pam": "29/ground/29//30 30 29 29",
+        "{{ModId}}.Penny": "31/fish",
+        "{{ModId}}.Pierre": "32/fish",
+        "{{ModId}}.Robin": "33/fish",
+        "{{ModId}}.Sam": "34/fish",
+        "{{ModId}}.Sandy": "35/fish",
+        "{{ModId}}.Sebastian": "36/static",
+        "{{ModId}}.Shane": "37/cephalopod/37/37 38/39 39 40 40/40 41",
+        "{{ModId}}.Vincent": "42/fish",
+        "{{ModId}}.Willy": "43/fish",
+        "{{ModId}}.Wizard": "44/fish"
+      }
+    }
+  ]
+}
