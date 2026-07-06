@@ -1,0 +1,44 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{ModId}}.Abigail": "{{i18n:NPCFish.Name.Abigail}}/70/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Alex": "{{i18n:NPCFish.Name.Alex}}/55/dart/20/50/600 2600/summer/rainy/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Caroline": "{{i18n:NPCFish.Name.Caroline}}/50/smooth/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Clint": "{{i18n:NPCFish.Name.Clint}}/65/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Demetrius": "{{i18n:NPCFish.Name.Demetrius}}/60/mixed/20/50/600 2600/summer/Rainy/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Dwarf": "{{i18n:NPCFish.Name.Dwarf}}/75/dart/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Elliott": "{{i18n:NPCFish.Name.Elliott}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Emily": "{{i18n:NPCFish.Name.Emily}}/55/floater/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Evelyn": "{{i18n:NPCFish.Name.Evelyn}}/50/smooth/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.George": "{{i18n:NPCFish.Name.George}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Gus": "{{i18n:NPCFish.Name.Gus}}/55/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Harvey": "{{i18n:NPCFish.Name.Harvey}}/50/mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Haley": "{{i18n:NPCFish.Name.Haley}}/60/dart/20/50/600 2600/spring/sunny/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Jas": "{{i18n:NPCFish.Name.Jas}}/50/floater/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Jodi": "{{i18n:NPCFish.Name.Jodi}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Kent": "{{i18n:NPCFish.Name.Kent}}/80/sinker/20/50/600 2600/spring/rainy/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Krobus": "{{i18n:NPCFish.Name.Krobus}}/95/smooth/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Leah": "{{i18n:NPCFish.Name.Leah}}/50/mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Leo": "{{i18n:NPCFish.Name.Leo}}/60/mixed/20/50/600 2600/summer/sunny/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Lewis": "{{i18n:NPCFish.Name.Lewis}}/50/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Linus": "{{i18n:NPCFish.Name.Linus}}/50/mixed/20/50/600 2600/winter/sunny/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Marnie": "{{i18n:NPCFish.Name.Marnie}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Maru": "{{i18n:NPCFish.Name.Maru}}/70/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Pam": "{{i18n:NPCFish.Name.Pam}}/50/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Penny": "{{i18n:NPCFish.Name.Penny}}/50/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Pierre": "{{i18n:NPCFish.Name.Pierre}}/65/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Robin": "{{i18n:NPCFish.Name.Robin}}/60/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Sam": "{{i18n:NPCFish.Name.Sam}}/60/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Sandy": "{{i18n:NPCFish.Name.Sandy}}/60/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Sebastian": "{{i18n:NPCFish.Name.Sebastian}}/70/dart/20/50/600 2600/winter/rainy/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Shane": "{{i18n:NPCFish.Name.Shane}}/60/mixed/20/50/600 2600/spring/rainy/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Vincent": "{{i18n:NPCFish.Name.Vincent}}/50/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Willy": "{{i18n:NPCFish.Name.Willy}}/70/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Wizard": "{{i18n:NPCFish.Name.Wizard}}/90/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0"
+			}
+		}
+	]
+}
