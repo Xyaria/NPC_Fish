@@ -13,8 +13,8 @@ They will be legendary fish that you will be able to add to fish ponds, to have 
 
 ## Credits
 
-Huskyn1nja, FionaDanger, duck_base, Mint (luminte), Mr. Duck (xyariaa_), UsefulorNot, Nassi (nassilove) for art, code, and general brainstorming  
-Nullnnow, Si (sithegreat), Trixy (_peeeep\_) for brainstorming help  
+Huskyn1nja, FionaDanger, duck_base, Mint (luminte), Mr. Duck (xyariaa_), UsefulorNot, Nassi (nassilove), Trixy (_peep\_), Mia (eltolinde) for art, code, and general brainstorming  
+Nullnnow, Si (sithegreat) for brainstorming help  
 Mia (eltolinde) for the idea that started it all (it's your fault <3 /pos)  
 Choco (chocolatte12) for wanting to be credited <3  
 
