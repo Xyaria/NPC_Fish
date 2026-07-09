@@ -1,0 +1,45 @@
+{
+  "Changes": [
+    {
+      "LogName": "Adding Vanilla Aquarium Fish",
+      "Action": "EditData",
+      "Target": "Data/AquariumFish",
+      "Entries": {
+        "{{ModId}}.Abigail": "0/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Alex": "1/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Caroline": "2/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Clint": "3/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Demetrius": "4/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Dwarf": "5/cephalopod/5/5 6/7 7 8 8/8 9/Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Elliott": "10/eel/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Emily": "11/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Evelyn": "12/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.George": "13/ground/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Gus": "14/float/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Harvey": "15/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Haley": "16/front_crawl/16//16 16 17 17 18 18 17 17//Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Jas": "19/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Jodi": "20/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Kent": "21/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Krobus": "22/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Leah": "23/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Leo": "24/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Lewis": "25/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Linus": "26/crawl/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Marnie": "27/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Maru": "28/float/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Pam": "29/ground/29//30 30 29 29//Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Penny": "31/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Pierre": "32/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Robin": "33/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Sam": "34/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Sandy": "35/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Sebastian": "36/static/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Shane": "37/cephalopod/37/37 38/39 39 40 40/40 41/Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Vincent": "42/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Willy": "43/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+        "{{ModId}}.Wizard": "44/fish/////Mods\\{{ModId}}\\vanilla_aquarium"
+      }
+    }
+  ]
+}

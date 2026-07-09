@@ -1,0 +1,1005 @@
+{
+	"Changes": [  
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.Abigail": {
+					"Name": "{{i18n:NPCFish.Name.Abigail}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Abigail}}",
+					"Description": "{{i18n:NPCFish.Desc.Abigail}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\vanilla_sprites",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"color_dark_purple",
+						"fish_legendary",
+						"fish_has_roe"
+
+					]
+				},
+				"{{ModId}}.Alex": {
+					"Name": "{{i18n:NPCFish.Name.Alex}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Alex}}",
+					"Description": "{{i18n:NPCFish.Desc.Alex}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 1,
+					"ContextTags": [
+						"color_Green",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Caroline": {
+					"Name": "{{i18n:NPCFish.Name.Caroline}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Caroline}}",
+					"Description": "{{i18n:NPCFish.Desc.Caroline}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 2,
+					"ContextTags": [
+						"color_cyan",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Clint": {
+					"Name": "{{i18n:NPCFish.Name.Clint}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Clint}}",
+					"Description": "{{i18n:NPCFish.Desc.Clint}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"fish_legendary",
+						"color_copper",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Demetrius": {
+					"Name": "{{i18n:NPCFish.Name.Demetrius}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Demetrius}}",
+					"Description": "{{i18n:NPCFish.Desc.Demetrius}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 4,
+					"ContextTags": [
+						"fish_legendary",
+						"color_yellow,",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Dwarf": {
+					"Name": "{{i18n:NPCFish.Name.Dwarf}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Dwarf}}",
+					"Description": "{{i18n:NPCFish.Desc.Dwarf}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 5,
+					"ContextTags": [
+						"fish_legendary",
+						"color_orange",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Elliott": {
+					"Name": "{{i18n:NPCFish.Name.Elliott}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Elliott}}",
+					"Description": "{{i18n:NPCFish.Desc.Elliott}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 6,
+					"ContextTags": [
+						"fish_legendary",
+						"color_red",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Emily": {
+					"Name": "{{i18n:NPCFish.Name.Emily}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Emily}}",
+					"Description": "{{i18n:NPCFish.Desc.Emily}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 7,
+					"ContextTags": [
+						"fish_legendary",
+						"color_blue",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Evelyn": {
+					"Name": "{{i18n:NPCFish.Name.Evelyn}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Evelyn}}",
+					"Description": "{{i18n:NPCFish.Desc.Evelyn}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 8,
+					"ContextTags": [
+						"fish_legendary",
+						"color_salmon",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.George": {
+					"Name": "{{i18n:NPCFish.Name.George}}",
+					"DisplayName": "{{i18n:NPCFish.Name.George}}",
+					"Description": "{{i18n:NPCFish.Desc.George}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 9,
+					"ContextTags": [
+						"fish_legendary",
+						"color_sea_green",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Gus": {
+					"Name": "{{i18n:NPCFish.Name.Gus}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Gus}}",
+					"Description": "{{i18n:NPCFish.Desc.Gus}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 10,
+					"ContextTags": [
+						"fish_legendary",
+						"color_dark_orange",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Harvey": {
+					"Name": "{{i18n:NPCFish.Name.Harvey}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Harvey}}",
+					"Description": "{{i18n:NPCFish.Desc.Harvey}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 11,
+					"ContextTags": [
+						"fish_legendary",
+						"color_jade",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Haley": {
+					"Name": "{{i18n:NPCFish.Name.Haley}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Haley}}",
+					"Description": "{{i18n:NPCFish.Desc.Haley}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 12,
+					"ContextTags": [
+						"fish_legendary",
+						"color_pink",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Jas": {
+					"Name": "{{i18n:NPCFish.Name.Jas}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Jas}}",
+					"Description": "{{i18n:NPCFish.Desc.Jas}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 13,
+					"ContextTags": [
+						"fish_legendary",
+						"color_pale_violet_red",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Jodi": {
+					"Name": "{{i18n:NPCFish.Name.Jodi}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Jodi}}",
+					"Description": "{{i18n:NPCFish.Desc.Jodi}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 14,
+					"ContextTags": [
+						"fish_legendary",
+						"color_dark_pink",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Kent": {
+					"Name": "{{i18n:NPCFish.Name.Kent}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Kent}}",
+					"Description": "{{i18n:NPCFish.Desc.Kent}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 15,
+					"ContextTags": [
+						"fish_legendary",
+						"color_iron",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Krobus": {
+					"Name": "{{i18n:NPCFish.Name.Krobus}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Krobus}}",
+					"Description": "{{i18n:NPCFish.Desc.Krobus}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 16,
+					"ContextTags": [
+						"fish_legendary",
+						"color_black",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Leah": {
+					"Name": "{{i18n:NPCFish.Name.Leah}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Leah}}",
+					"Description": "{{i18n:NPCFish.Desc.Leah}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 17,
+					"ContextTags": [
+						"fish_legendary",
+						"color_poppyseed",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Leo": {
+					"Name": "{{i18n:NPCFish.Name.Leo}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Leo}}",
+					"Description": "{{i18n:NPCFish.Desc.Leo}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 18,
+					"ContextTags": [
+						"fish_legendary",
+						"color_orange",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Lewis": {
+					"Name": "{{i18n:NPCFish.Name.Lewis}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Lewis}}",
+					"Description": "{{i18n:NPCFish.Desc.Lewis}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 19,
+					"ContextTags": [
+						"fish_legendary",
+						"color_lime",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Linus": {
+					"Name": "{{i18n:NPCFish.Name.Linus}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Linus}}",
+					"Description": "{{i18n:NPCFish.Desc.Linus}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 20,
+					"ContextTags": [
+						"fish_legendary",
+						"color_gold",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Marnie": {
+					"Name": "{{i18n:NPCFish.Name.Marnie}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Marnie}}",
+					"Description": "{{i18n:NPCFish.Desc.Marnie}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 21,
+					"ContextTags": [
+						"fish_legendary",
+						"color_sea_green",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Maru": {
+					"Name": "{{i18n:NPCFish.Name.Maru}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Maru}}",
+					"Description": "{{i18n:NPCFish.Desc.Maru}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 22,
+					"ContextTags": [
+						"fish_legendary",
+						"color_iridium",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Pam": {
+					"Name": "{{i18n:NPCFish.Name.Pam}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Pam}}",
+					"Description": "{{i18n:NPCFish.Desc.Pam}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 23,
+					"ContextTags": [
+						"fish_legendary",
+						"color_dark_yellow",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Penny": {
+					"Name": "{{i18n:NPCFish.Name.Penny}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Penny}}",
+					"Description": "{{i18n:NPCFish.Desc.Penny}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 24,
+					"ContextTags": [
+						"fish_legendary",
+						"color_dark_red",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Pierre": {
+					"Name": "{{i18n:NPCFish.Name.Pierre}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Pierre}}",
+					"Description": "{{i18n:NPCFish.Desc.Pierre}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 25,
+					"ContextTags": [
+						"fish_legendary",
+						"color_brown",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Robin": {
+					"Name": "{{i18n:NPCFish.Name.Robin}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Robin}}",
+					"Description": "{{i18n:NPCFish.Desc.Robin}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 26,
+					"ContextTags": [
+						"fish_legendary",
+						"color_copper",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Sam": {
+					"Name": "{{i18n:NPCFish.Name.Sam}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Sam}}",
+					"Description": "{{i18n:NPCFish.Desc.Sam}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 27,
+					"ContextTags": [
+						"fish_legendary",
+						"color_dark_blue",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Sandy": {
+					"Name": "{{i18n:NPCFish.Name.Sandy}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Sandy}}",
+					"Description": "{{i18n:NPCFish.Desc.Sandy}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 28,
+					"ContextTags": [
+						"fish_legendary",
+						"color_sand",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Sebastian": {
+					"Name": "{{i18n:NPCFish.Name.Sebastian}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Sebastian}}",
+					"Description": "{{i18n:NPCFish.Desc.Sebastian}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 29,
+					"ContextTags": [
+						"fish_legendary",
+						"color_dark_gray",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Shane": {
+					"Name": "{{i18n:NPCFish.Name.Shane}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Shane}}",
+					"Description": "{{i18n:NPCFish.Desc.Shane}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 30,
+					"ContextTags": [
+						"fish_legendary",
+						"color_dark_cyan",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Vincent": {
+					"Name": "{{i18n:NPCFish.Name.Vincent}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Vincent}}",
+					"Description": "{{i18n:NPCFish.Desc.Vincent}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 31,
+					"ContextTags": [
+						"fish_legendary",
+						"color_salmon",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Willy": {
+					"Name": "{{i18n:NPCFish.Name.Willy}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Willy}}",
+					"Description": "{{i18n:NPCFish.Desc.Willy}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 32,
+					"ContextTags": [
+						"fish_legendary",
+						"color_red",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Wizard": {
+					"Name": "{{i18n:NPCFish.Name.Wizard}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Wizard}}",
+					"Description": "{{i18n:NPCFish.Desc.Wizard}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 33,
+					"ContextTags": [
+						"fish_legendary",
+						"color_prismatic",
+						"fish_has_roe"
+					]
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Mountain",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.AbigailFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.AbigailFish",
+					"ItemId": "{{ModId}}.Abigail",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "PLAYER_HAS_Mail current carolinesNecklace, LOCATION_SEASON Here Fall",
+					"FishAreaId": "Mine Bridge",
+					"ContextTags": [
+						"fish_legendary",
+					]
+				},
+				"{{ModId}}.LinusFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.LinusFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Linus",
+					"FishAreaId": "Lake Bridge",
+					"Condition": "LOCATION_SEASON Here winter, WEATHER Here Sunny"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Railroad",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.AlexFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.AlexFish",
+					"ItemId": "{{ModId}}.Alex",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "Bathhouse Fountain",
+					"Precedence": -10,
+					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Rain Storm"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Sunroom",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.CarolineFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.CarolineFish",
+					"ItemId": "{{ModId}}.Caroline",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter,PLAYER_SPECIAL_ORDER_COMPLETE current Caroline"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Town",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.ClintFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.ClintFish",
+					"ItemId": "{{ModId}}.Clint",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter",
+					"FishAreaId": "River West of Blacksmith"
+				},
+				"{{ModId}}.EvelynFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.EvelynFish",
+					"ItemId": "{{ModId}}.Evelyn",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter, PLAYER_HAS_Mail current ccPantry"
+				},
+				"{{ModId}}.GeorgeFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.GeorgeFish",
+					"ItemId": "{{ModId}}.George",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here fall, PLAYER_HAS_SEEN_EVENT current 5837189"
+				},
+				"{{ModId}}.HarveyFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.HarveyFish",
+					"ItemId": "{{ModId}}.Harvey",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter",
+					"FishAreaId": "Pelican Town Waterfall"
+				},
+				"{{ModId}}.HaleyFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.HaleyFish",
+					"ItemId": "{{ModId}}.Haley",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here spring",
+					"FishAreaId": "Fountain",
+					"Precedence": -10,
+					"ContextTags": [
+						"fish_legendary"
+					]
+				},
+				"{{ModId}}.PennyFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.PennyFish",
+					"ItemId": "{{ModId}}.Penny",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "South of Bridge",
+					"Condition": "LOCATION_SEASON Here fall"
+				},
+				"{{ModId}}.LewisFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.LewisFish",
+					"ItemId": "{{ModId}}.Lewis",
+					"CatchLimit": 1,
+					"Precedence": 250,
+					"IsBossFish": "True",
+					"FishAreaId": "Truck Bed",
+										"Condition": "LOCATION_SEASON Here spring"
+				}
+			
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Forest",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.DemetriusFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.DemetriusFish",
+					"ItemId": "{{ModId}}.Demetrius",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "Southern Falls",
+					"Condition": "LOCATION_SEASON Here summer, WEATHER Here GreenRain"
+				},
+				"{{ModId}}.JasFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.JasFish",
+					"ItemId": "{{ModId}}.Jas",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here summer",
+					"FishAreaId": "River"
+				},
+				"{{ModId}}.LeahFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.LeahFish",
+					"ItemId": "{{ModId}}.Leah",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter",
+					"FishAreaId": "River"
+				},
+				"{{ModId}}.MarnieFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MarnieFish",
+					"ItemId": "{{ModId}}.Marnie",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here fall",
+					"Precedence": 250,
+					"FishAreaId": "Marnie's Animal Trough"
+				},
+				"{{ModId}}.ShaneFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.ShaneFish",
+					"ItemId": "{{ModId}}.Shane",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here spring",
+					"FishAreaId": "Lake"
+				},
+				"{{ModId}}.VincentFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.VincentFish",
+					"ItemId": "{{ModId}}.Vincent",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here spring",
+					"FishAreaId": "River"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"UndergroundMine",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.DwarfFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.DwarfFish",
+					"ItemId": "{{ModId}}.Dwarf",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here summer, Location_Name Here UndergroundMine20"
+				},
+				"{{ModId}}.SebastianFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.SebastianFish",
+					"ItemId": "{{ModId}}.Sebastian",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter, Location_Name Here UndergroundMine60"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Beach",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.ElliottFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.ElliottFish",
+					"ItemId": "{{ModId}}.Elliott",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "North of Tidepool Bridge",
+					"Condition": "LOCATION_SEASON Here fall"
+				},
+				"{{ModId}}.MaruFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MaruFish",
+					"ItemId": "{{ModId}}.Maru",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "Around the Rock",
+					"Condition": "LOCATION_SEASON Here summer"
+				},
+				"{{ModId}}.SamFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.SamFish",
+					"ItemId": "{{ModId}}.Sam",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here summer"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Woods",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.EmilyFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.EmilyFish",
+					"ItemId": "{{ModId}}.Emily",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here spring"
+				},
+				"{{ModId}}.RobinFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.RobinFish",
+					"ItemId": "{{ModId}}.Robin",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here fall"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouth",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.GusFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.GusFish",
+					"ItemId": "{{ModId}}.Gus",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here summer"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandWest",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.KentFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.KentFish",
+					"ItemId": "{{ModId}}.Kent",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "PLAYER_HAS_Mail Current birdieQuestFinished"
+				},
+			}
+		},
+				{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouthEast",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.LeoFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.LeoFish",
+					"ItemId": "{{ModId}}.Leo",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "Tidepool",
+
+				}
+			}
+		},
+		
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouthEastCave",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.PamFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.PamFish",
+					"ItemId": "{{ModId}}.Pam",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"BugLand",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.PierreFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.PierreFish",
+					"ItemId": "{{ModId}}.Pierre",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Desert",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.SandyFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.SandyFish",
+					"ItemId": "{{ModId}}.Sandy",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here fall"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Sewer",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.KrobusFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.KrobusFish",
+					"ItemId": "{{ModId}}.Krobus",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"BoatTunnel",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.WillyFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.WillyFish",
+					"ItemId": "{{ModId}}.Willy",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here summer"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"WitchSwamp",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.WizardFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.WizardFish",
+					"ItemId": "{{ModId}}.Wizard",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here winter,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard2"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"SamHouse",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.JodiFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.JodiFish",
+					"ItemId": "{{ModId}}.Jodi",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"Condition": "LOCATION_SEASON Here fall"
+				}
+			}
+		}
+	]
+}
