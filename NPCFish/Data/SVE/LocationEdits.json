@@ -1,0 +1,301 @@
+{
+	"Changes": [
+	
+	{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Forest",
+				"FishAreas"
+			],
+			"Entries": {
+				"North of Andy's House": {
+					"Position": {
+						"X": 48,
+						"Y": 51,
+						"Width": 30,
+						"Height": 18
+					}
+				},
+			
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Town",
+				"FishAreas"
+			],
+			"Entries": {
+				"Joja Pond": {
+					"Position": {
+						"X": 98,
+						"Y": 60,
+						"Width": 7,
+						"Height": 7
+					}
+				},
+			
+			}
+		},
+			{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Forest",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.AndyFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.AndyFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "North of Andy's House",
+					"ItemId": "{{ModId}}.Andy",
+					"Condition": "LOCATION_SEASON Here spring"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_JunimoWoods",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.ApplesFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.ApplesFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Apples",
+					    "When": {"HasFlag": "vineyardUnlocked"},
+					
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Town",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.ClaireFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.ClaireFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Claire",
+					"FishAreaId": "Joja Pond",
+					"Condition": "LOCATION_SEASON Here fall"
+				},
+				"{{ModId}}.GuntherFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.GuntherFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Gunther",
+					"FishAreaId": "South of Bridge",
+					"Condition": "LOCATION_SEASON Here winter"
+				},
+				"{{ModId}}.MartinFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MartinFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Martin",
+					"FishAreaId": "Joja Pond",
+					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Sunny"
+				},
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_Garden",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.OliviaFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.OliviaFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Olivia",
+					"Condition": "LOCATION_SEASON Here spring, WEATHER Here Sunny"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"WitchSwamp",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.HenchmanFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.HenchmanFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Henchman",
+					"When": {"WEATHER": "Rain"}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_Highlands",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.LanceFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.LanceFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Lance",
+					"Condition": "LOCATION_SEASON Here spring, WEATHER Here Sunny"
+			}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_AdventurerSummit",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.MarlonFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MarlonFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Marlon",
+					"Condition": "LOCATION_SEASON Here winter"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_ForestWest",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.MorganFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MorganFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Morgan",
+					"Condition": "LOCATION_SEASON Here fall, WEATHER Here Rain, Year 3"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_MorrisProperty",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.MorrisFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MorrisFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Morris",
+					"When": {"HasFlag": "vineyardUnlocked"},
+					"Condition": "LOCATION_SEASON Here Spring"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_GrampletonSuburbs",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.ScarlettFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.ScarlettFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Scarlett",
+					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Sunny"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_BlueMoonVineyard",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.SophiaFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.SophiaFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Sophia",
+					"Condition": "LOCATION_SEASON Here winter"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Railroad",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.SusanFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.SusanFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Susan",
+					"Condition": "LOCATION_SEASON Here fall"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_ShearwaterBridge",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}.VictorFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.VictorFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Victor",
+					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Rain"
+				}
+			}
+		}
+	]
+}

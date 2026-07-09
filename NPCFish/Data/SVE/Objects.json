@@ -1,0 +1,236 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.Andy": {
+					"Name": "Spandy",
+					"DisplayName": "Spandy",
+					"Description": "This sponge becomes a bit red when you keep poking at it.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"color_cyan",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Apples": {
+					"Name": "Tadpples",
+					"DisplayName": "Tadpples",
+					"Description": "It can easily be mistaken with a cherry fallen into water.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 1,
+					"ContextTags": [
+						"color_green",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Claire": {
+					"Name": "Traire Trout",
+					"DisplayName": "Traire Trout",
+					"Description": "An elegant fish who likes to spin in water currents.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 2,
+					"ContextTags": [
+						"color_orange",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Gunther": {
+					"Name": "Guntheel",
+					"DisplayName": "Guntheel",
+					"Description": "Its tendency to wrap around lost treasures makes it a perfect archaeologist friend.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"color_light_blue",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Henchman": {
+					"Name": "Hencheel",
+					"DisplayName": "Hencheel",
+					"Description": "It ferociously defends the home against any intruders.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 4,
+					"ContextTags": [
+						"color_green",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Lance": {
+					"Name": "Sealance",
+					"DisplayName": "Sealance",
+					"Description": "This proud seahorse parades around divers, defending them from other fauna.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 5,
+					"ContextTags": [
+						"color_red",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Marlon": {
+					"Name": "Marworm",
+					"DisplayName": "Marworm",
+					"Description": "It can be seen grabbing sharp rocks and corals in its jaws to defend itself.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 6,
+					"ContextTags": [
+						"color_gray",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Martin": {
+					"Name": "Startin",
+					"DisplayName": "Startin",
+					"Description": "A shy starfish who often observes other fish swimming around.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 7,
+					"ContextTags": [
+						"color_brown",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Morgan": {
+					"Name": "Baby Morgaloo",
+					"DisplayName": "Baby Morgaloo",
+					"Description": "It is often seen in very deep meditation.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 8,
+					"ContextTags": [
+						"color_purple",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Morris": {
+					"Name": "Sharris",
+					"DisplayName": "Sharris",
+					"Description": "This fish uses its big body to intimidate other fish into give it their shinies.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 9,
+					"ContextTags": [
+						"color_dark_gray",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Olivia": {
+					"Name": "Olivian Sunfish",
+					"DisplayName": "Olivian Sunfish",
+					"Description": "This big fish ostensibly shows off its pretty scales shining under the sun.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 10,
+					"ContextTags": [
+						"color_red",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Scarlett": {
+					"Name": "Puplett",
+					"DisplayName": "Puplett",
+					"Description": "An energetic fish who likes to be petted.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 11,
+					"ContextTags": [
+						"color_teal",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Sophia": {
+					"Name": "Pinkyfish",
+					"DisplayName": "Pinkyfish",
+					"Description": "A timid fish who hates to be touched.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 12,
+					"ContextTags": [
+						"color_pink",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Susan": {
+					"Name": "Goldsan",
+					"DisplayName": "Goldsan",
+					"Description": "This friendly little fish seems ready to help despite the size of its fins.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 13,
+					"ContextTags": [
+						"color_dark_red",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Victor": {
+					"Name": "Butterfictor",
+					"DisplayName": "Butterfictor",
+					"Description": "It likes to fit into holes left by fallen bricks in bridges.",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 14,
+					"ContextTags": [
+						"color_purple",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				}
+			}
+		},
+	
+	]
+}

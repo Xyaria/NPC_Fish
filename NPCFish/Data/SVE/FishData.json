@@ -1,0 +1,25 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{ModId}}.Andy": "{{i18n:NPCFish.Name.Andy}}/65/Sinker/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Apples": "{{i18n:NPCFish.Name.Apples}}/70/Dart/20/50/600 2600/spring summer fall winter/sunny/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Claire": "{{i18n:NPCFish.Name.Claire}}/60/smooth/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Gunther": "{{i18n:NPCFish.Name.Gunther}}/80/Mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Henchman": "{{i18n:NPCFish.Name.Henchman}}/85/dart/20/50/600 2600/spring summer fall winter/Rainy/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Lance": "{{i18n:NPCFish.Name.Lance}}/95/Floater/20/50/600 2600/spring/Sunny/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.Marlon}}/90/mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Martin": "{{i18n:NPCFish.Name.Martin}}/55/sinker/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Morgan": "{{i18n:NPCFish.Name.Morgan}}/65/floater/20/50/600 2600/fall/Rainy/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Morris": "{{i18n:NPCFish.Name.Morris}}/75/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Olivia": "{{i18n:NPCFish.Name.Olivia}}/60/floater/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Scarlett": "{{i18n:NPCFish.Name.Scarlett}}/55/dart/20/50/600 2600/summer/Sunny/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Sophia": "{{i18n:NPCFish.Name.Sophia}}/65/smooth/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Susan": "{{i18n:NPCFish.Name.Susan}}/60/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Victor": "{{i18n:NPCFish.Name.Victor}}/65/smooth/20/50/600 2600/summer/Rainy/690 .4 685 .1/1/.50/.1/0"
+			}
+		}
+	]
+}

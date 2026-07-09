@@ -1,0 +1,370 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+				"id_(o){{ModId}}.Andy": {
+					"RequiredTags": [ "id_(o){{ModId}}.Andy" ],
+					"SpawnTime": 3,
+					"PondAttitude": "rude",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Andy",
+							"Color": "136 255 254",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)167", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)167", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)396", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)167", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)459", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Apples": {
+					"RequiredTags": [ "id_(o){{ModId}}.Apples" ],
+					"SpawnTime": 3,
+					"PondAttitude": "demanding",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Apples",
+							"Color": "126 221 48",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)Raisins", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)Raisins", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)268", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)Raisins", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)417", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Claire": {
+					"RequiredTags": [ "id_(o){{ModId}}.Claire" ],
+					"SpawnTime": 3,
+					"PondAttitude": "stiff",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Claire",
+							"Color": "254 168 70",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)421", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)421", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)560", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)421", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)614", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Gunther": {
+					"RequiredTags": [ "id_(o){{ModId}}.Gunther" ],
+					"SpawnTime": 3,
+					"PondAttitude": "default",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Gunther",
+							"Color": "11 180 230",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)538", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)103", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)538", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)103", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Baked_Potato", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Henchman": {
+					"RequiredTags": [ "id_(o){{ModId}}.Henchman" ],
+					"SpawnTime": 3,
+					"PondAttitude": "rude",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Henchman",
+							"Color": "64 196 71",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)308", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)308", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)305", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)308", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Void_Pebble", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Lance": {
+					"RequiredTags": [ "id_(o){{ModId}}.Lance" ],
+					"SpawnTime": 3,
+					"PondAttitude": "carnivore",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Lance",
+							"Color": "234 56 73",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Salal_Berry", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Monster_Mushroom", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Salal_Berry", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Monster_Mushroom", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Rusty_Blade", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Marlon": {
+					"RequiredTags": [ "id_(o){{ModId}}.Marlon" ],
+					"SpawnTime": 3,
+					"PondAttitude": "default",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Marlon",
+							"Color": "193 173 173",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Monster_Fruit", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Martin": {
+					"RequiredTags": [ "id_(o){{ModId}}.Martin" ],
+					"SpawnTime": 3,
+					"PondAttitude": "demanding",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Martin",
+							"Color": "208 124 71",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)184", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)184", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)184", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Candy", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Morgan": {
+					"RequiredTags": [ "id_(o){{ModId}}.Morgan" ],
+					"SpawnTime": 3,
+					"PondAttitude": "stiff",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Morgan",
+							"Color": "115 82 209",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Frog", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Frog", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)305", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Frog", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry", "MinQuantity": 3, "MaxQuantity": 4 }
+					]
+				},
+				"id_(o){{ModId}}.Morris": {
+					"RequiredTags": [ "id_(o){{ModId}}.Morris" ],
+					"SpawnTime": 3,
+					"PondAttitude": "rude",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Morris",
+							"Color": "90 90 127",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)336", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)72", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Olivia": {
+					"RequiredTags": [ "id_(o){{ModId}}.Olivia" ],
+					"SpawnTime": 3,
+					"PondAttitude": "default",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Olivia",
+							"Color": "231 53 68",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)348", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)348", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Goldenrod", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)348", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Fish_Dumpling", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Scarlett": {
+					"RequiredTags": [ "id_(o){{ModId}}.Scarlett" ],
+					"SpawnTime": 3,
+					"PondAttitude": "demanding",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Scarlett",
+							"Color": "76 168 144",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)234", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)234", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)638", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)234", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)724", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Sophia": {
+					"RequiredTags": [ "id_(o){{ModId}}.Sophia" ],
+					"SpawnTime": 3,
+					"PondAttitude": "stiff",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Sophia",
+							"Color": "254 199 212",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)595", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)595", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Vegan_Cone", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)595", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)577", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Susan": {
+					"RequiredTags": [ "id_(o){{ModId}}.Susan" ],
+					"SpawnTime": 3,
+					"PondAttitude": "carnivore",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Susan",
+							"Color": "148 40 77",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)223", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)223", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)60", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)223", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)233", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+				"id_(o){{ModId}}.Victor": {
+					"RequiredTags": [ "id_(o){{ModId}}.Victor" ],
+					"SpawnTime": 3,
+					"PondAttitude": "default",
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Victor",
+							"Color": "97 71 147",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)551", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "444", "MinQuantity": 1, "MaxQuantity": 3 }
+					]
+				}
+			}
+		}
+	]
+}
