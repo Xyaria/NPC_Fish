@@ -267,7 +267,7 @@
 {
 	"Action": "EditMap",
 	"Target": "Maps/Forest",
-			"Condition": "PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_Test.NPCFish.Marnie",
+			"Condition": "PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_{{modid}}.Marnie",
 	"MapTiles": [
 		{
 			"Position": {
