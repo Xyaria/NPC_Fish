@@ -5,9 +5,9 @@
 			"Target": "Data/Objects",
 			"Entries": {
 				"{{ModId}}.Andy": {
-					"Name": "Spandy",
-					"DisplayName": "Spandy",
-					"Description": "This sponge becomes a bit red when you keep poking at it.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Andy}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Andy}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Andy}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -20,9 +20,9 @@
 					]
 				},
 				"{{ModId}}.Apples": {
-					"Name": "Tadpples",
-					"DisplayName": "Tadpples",
-					"Description": "It can easily be mistaken with a cherry fallen into water.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Apples}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Apples}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Apples}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -35,9 +35,9 @@
 					]
 				},
 				"{{ModId}}.Claire": {
-					"Name": "Traire Trout",
-					"DisplayName": "Traire Trout",
-					"Description": "An elegant fish who likes to spin in water currents.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Claire}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Claire}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Claire}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -50,9 +50,9 @@
 					]
 				},
 				"{{ModId}}.Gunther": {
-					"Name": "Guntheel",
-					"DisplayName": "Guntheel",
-					"Description": "Its tendency to wrap around lost treasures makes it a perfect archaeologist friend.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Gunther}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Gunther}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Gunther}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -65,9 +65,9 @@
 					]
 				},
 				"{{ModId}}.Henchman": {
-					"Name": "Hencheel",
-					"DisplayName": "Hencheel",
-					"Description": "It ferociously defends the home against any intruders.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Henchman}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Henchman}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Henchman}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -80,9 +80,9 @@
 					]
 				},
 				"{{ModId}}.Lance": {
-					"Name": "Sealance",
-					"DisplayName": "Sealance",
-					"Description": "This proud seahorse parades around divers, defending them from other fauna.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Lance}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Lance}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Lance}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -95,9 +95,9 @@
 					]
 				},
 				"{{ModId}}.Marlon": {
-					"Name": "Marworm",
-					"DisplayName": "Marworm",
-					"Description": "It can be seen grabbing sharp rocks and corals in its jaws to defend itself.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Marlon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Marlon}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Marlon}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -110,9 +110,9 @@
 					]
 				},
 				"{{ModId}}.Martin": {
-					"Name": "Startin",
-					"DisplayName": "Startin",
-					"Description": "A shy starfish who often observes other fish swimming around.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Martin}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Martin}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Martin}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -125,9 +125,9 @@
 					]
 				},
 				"{{ModId}}.Morgan": {
-					"Name": "Baby Morgaloo",
-					"DisplayName": "Baby Morgaloo",
-					"Description": "It is often seen in very deep meditation.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Morgan}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Morgan}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Morgan}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -140,9 +140,9 @@
 					]
 				},
 				"{{ModId}}.Morris": {
-					"Name": "Sharris",
-					"DisplayName": "Sharris",
-					"Description": "This fish uses its big body to intimidate other fish into give it their shinies.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Morris}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Morris}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Morris}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -155,9 +155,9 @@
 					]
 				},
 				"{{ModId}}.Olivia": {
-					"Name": "Olivian Sunfish",
-					"DisplayName": "Olivian Sunfish",
-					"Description": "This big fish ostensibly shows off its pretty scales shining under the sun.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Olivia}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Olivia}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Olivia}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -170,9 +170,9 @@
 					]
 				},
 				"{{ModId}}.Scarlett": {
-					"Name": "Puplett",
-					"DisplayName": "Puplett",
-					"Description": "An energetic fish who likes to be petted.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Scarlett}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Scarlett}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Scarlett}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -185,9 +185,9 @@
 					]
 				},
 				"{{ModId}}.Sophia": {
-					"Name": "Pinkyfish",
-					"DisplayName": "Pinkyfish",
-					"Description": "A timid fish who hates to be touched.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Sophia}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Sophia}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Sophia}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -200,9 +200,9 @@
 					]
 				},
 				"{{ModId}}.Susan": {
-					"Name": "Goldsan",
-					"DisplayName": "Goldsan",
-					"Description": "This friendly little fish seems ready to help despite the size of its fins.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Susan}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Susan}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Susan}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -215,9 +215,9 @@
 					]
 				},
 				"{{ModId}}.Victor": {
-					"Name": "Butterfictor",
-					"DisplayName": "Butterfictor",
-					"Description": "It likes to fit into holes left by fallen bricks in bridges.",
+					"Name": "{{i18n:NPCFish.Name.SVE.Victor}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Victor}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Victor}}",
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
@@ -228,9 +228,248 @@
 						"fish_legendary",
 						"fish_has_roe"
 					]
+				},
+					"{{ModId}}.Alesia": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Alesia}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Alesia}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Alesia}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 15,
+					"ContextTags": [
+						"color_yellow",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Axel": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Axel}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Axel}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Axel}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 16,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Brooklyn": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Brooklyn}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Brooklyn}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Brooklyn}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 17,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Camilla": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Camilla}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Camilla}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Camilla}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 18,
+					"ContextTags": [
+						"color_purple",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Chloe": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Chloe}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Chloe}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Chloe}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 19,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Dusty": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Dusty}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Dusty}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Dusty}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 20,
+					"ContextTags": [
+						"color_brown",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Gil": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Gil}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Gil}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Gil}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 21,
+					"ContextTags": [
+						"color_brown",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.HighlandsDwarf": {
+					"Name": "{{i18n:NPCFish.Name.SVE.HighlandsDwarf}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.HighlandsDwarf}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.HighlandsDwarf}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 22,
+					"ContextTags": [
+						"color_black",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Isaac": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Isaac}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Isaac}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Isaac}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 23,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Jace": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Jace}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Jace}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Jace}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 24,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Jadu": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Jadu}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Jadu}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Jadu}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 25,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_saltwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Jolyne": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Jolyne}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Jolyne}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Jolyne}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 26,
+					"ContextTags": [
+						"color_yellow",
+						"fish_crab_pot",
+						"fish_saltwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Mermaid": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Mermaid}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Mermaid}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Mermaid}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 27,
+					"ContextTags": [
+						"color_light_blue",
+						"fish_crab_pot",
+						"fish_saltwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Peaches": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Peaches}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Peaches}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Peaches}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 28,
+					"ContextTags": [
+						"color_pink",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Zoey": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Zoey}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Zoey}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Zoey}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 29,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
 				}
 			}
-		},
-	
+		}
 	]
 }
