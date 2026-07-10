@@ -37,8 +37,39 @@
 				"{{ModId}}.Shane": "{{i18n:NPCFish.Name.Shane}}/60/mixed/20/50/600 2600/spring/rainy/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Vincent": "{{i18n:NPCFish.Name.Vincent}}/50/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Willy": "{{i18n:NPCFish.Name.Willy}}/70/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Wizard": "{{i18n:NPCFish.Name.Wizard}}/90/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0"
+				"{{ModId}}.Wizard": "{{i18n:NPCFish.Name.Wizard}}/90/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Bear": "{{i18n:NPCFish.Name.Bear}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Birdie": "{{i18n:NPCFish.Name.Birdie}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Bouncer": "{{i18n:NPCFish.Name.Bouncer}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Fizz": "{{i18n:NPCFish.Name.Fizz}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Gourmand": "{{i18n:NPCFish.Name.Gourmand}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Governor": "{{i18n:NPCFish.Name.Governor}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Grandpa": "{{i18n:NPCFish.Name.Grandpa}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.HatMouse": "{{i18n:NPCFish.Name.HatMouse}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Junimo": "{{i18n:NPCFish.Name.Junimo}}/trap/.03/680 .35/Freshwater/1/5/false",
+				"{{ModId}}.Marcello": "{{i18n:NPCFish.Name.Marcello}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Mariner": "{{i18n:NPCFish.Name.Mariner}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.MrQi": "{{i18n:NPCFish.Name.MrQi}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.MrsRaccoon": "{{i18n:NPCFish.Name.MrsRaccoon}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.ProfessorSnail": "{{i18n:NPCFish.Name.ProfessorSnail}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Raccoon": "{{i18n:NPCFish.Name.Raccoon}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.TrashBear": "{{i18n:NPCFish.Name.TrashBear}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.TravellingMerchant": "{{i18n:NPCFish.Name.TravellingMerchant}}/trap/.03/680 .35/freshwater/1/5/false"
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+				"When": {"Hasmod | contains=!FlashShifter.StardewValleyExpandedCP": false},
+			"Entries": {
+				"{{ModId}}.Gunther": "{{i18n:NPCFish.Name.Gunther}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Henchman": "{{i18n:NPCFish.Name.Henchman}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.Marlon}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Morris": "{{i18n:NPCFish.Name.Morris}}/trap/.03/680 .35/ocean/1/5/false"
+				
+				
+			}
+		},
+	
 	]
 }
