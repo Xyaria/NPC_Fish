@@ -18,7 +18,22 @@
 				"{{ModId}}.Scarlett": "{{i18n:NPCFish.Name.Scarlett}}/55/dart/20/50/600 2600/summer/Sunny/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Sophia": "{{i18n:NPCFish.Name.Sophia}}/65/smooth/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Susan": "{{i18n:NPCFish.Name.Susan}}/60/mixed/20/50/600 2600/fall/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Victor": "{{i18n:NPCFish.Name.Victor}}/65/smooth/20/50/600 2600/summer/Rainy/690 .4 685 .1/1/.50/.1/0"
+				"{{ModId}}.Victor": "{{i18n:NPCFish.Name.Victor}}/65/smooth/20/50/600 2600/summer/Rainy/690 .4 685 .1/1/.50/.1/0",
+				"{{ModId}}.Alesia": "{{i18n:NPCFish.Name.SVE.Alesia}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Axel": "{{i18n:NPCFish.Name.SVE.Axel}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Brooklyn": "{{i18n:NPCFish.Name.SVE.Brooklyn}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Camilla": "{{i18n:NPCFish.Name.SVE.Camilla}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Chloe": "{{i18n:NPCFish.Name.SVE.Chloe}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Dusty": "{{i18n:NPCFish.Name.SVE.Dusty}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Gil": "{{i18n:NPCFish.Name.SVE.Gil}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.HighlandsDwarf": "{{i18n:NPCFish.Name.SVE.HighlandsDwarf}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Isaac": "{{i18n:NPCFish.Name.SVE.Isaac}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Jace": "{{i18n:NPCFish.Name.SVE.Jace}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Jadu": "{{i18n:NPCFish.Name.SVE.Jadu}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Jolyne": "{{i18n:NPCFish.Name.SVE.Jolyne}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Mermaid": "{{i18n:NPCFish.Name.SVE.Mermaid}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Peaches": "{{i18n:NPCFish.Name.SVE.Peaches}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Zoey": "{{i18n:NPCFish.Name.SVE.Zoey}}/trap/.03/680 .35/freshwater/1/5/false"
 			}
 		}
 	]
