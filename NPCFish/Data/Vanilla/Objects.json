@@ -514,8 +514,357 @@
 						"color_prismatic",
 						"fish_has_roe"
 					]
-				}
-			}
+				},
+				"{{ModId}}.Bear": {
+					"Name": "{{i18n:NPCFish.Name.Bear}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Bear}}",
+					"Description": "{{i18n:NPCFish.Desc.Bear}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 34,
+					"ContextTags": [
+						"color_brown",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Birdie": {
+					"Name": "{{i18n:NPCFish.Name.Birdie}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Birdie}}",
+					"Description": "{{i18n:NPCFish.Desc.Birdie}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 35,
+					"ContextTags": [
+						"color_purple",
+						"fish_crab_pot",
+						"fish_ocean",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Bouncer": {
+					"Name": "{{i18n:NPCFish.Name.Bouncer}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Bouncer}}",
+					"Description": "{{i18n:NPCFish.Desc.Bouncer}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 36,
+					"ContextTags": [
+						"color_black",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Fizz": {
+					"Name": "{{i18n:NPCFish.Name.Fizz}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Fizz}}",
+					"Description": "{{i18n:NPCFish.Desc.Fizz}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 37,
+					"ContextTags": [
+						"color_green",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Gourmand": {
+					"Name": "{{i18n:NPCFish.Name.Gourmand}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Gourmand}}",
+					"Description": "{{i18n:NPCFish.Desc.Gourmand}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 38,
+					"ContextTags": [
+						"color_yellow",
+						"fish_crab_pot",
+						"fish_ocean",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Governor": {
+					"Name": "{{i18n:NPCFish.Name.Governor}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Governor}}",
+					"Description": "{{i18n:NPCFish.Desc.Governor}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 39,
+					"ContextTags": [
+						"color_red",
+						"fish_crab_pot",
+						"fish_ocean",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Grandpa": {
+					"Name": "{{i18n:NPCFish.Name.Grandpa}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Grandpa}}",
+					"Description": "{{i18n:NPCFish.Desc.Grandpa}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 40,
+					"ContextTags": [
+						"color_purple",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				
+				"{{ModId}}.HatMouse": {
+					"Name": "{{i18n:NPCFish.Name.HatMouse}}",
+					"DisplayName": "{{i18n:NPCFish.Name.HatMouse}}",
+					"Description": "{{i18n:NPCFish.Desc.HatMouse}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 42,
+					"ContextTags": [
+						"color_brown",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+			
+				"{{ModId}}.Junimo": {
+					"Name": "{{i18n:NPCFish.Name.Junimo}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Junimo}}",
+					"Description": "{{i18n:NPCFish.Desc.Junimo}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 44,
+					"ContextTags": [
+						"color_green",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Marcello": {
+					"Name": "{{i18n:NPCFish.Name.Marcello}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Marcello}}",
+					"Description": "{{i18n:NPCFish.Desc.Marcello}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 45,
+					"ContextTags": [
+						"color_red",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Mariner": {
+					"Name": "{{i18n:NPCFish.Name.Mariner}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Mariner}}",
+					"Description": "{{i18n:NPCFish.Desc.Mariner}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 46,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_saltwater",
+						"fish_has_roe"
+					]
+				},
+				
+				
+				"{{ModId}}.MrQi": {
+					"Name": "{{i18n:NPCFish.Name.MrQi}}",
+					"DisplayName": "{{i18n:NPCFish.Name.MrQi}}",
+					"Description": "{{i18n:NPCFish.Desc.MrQi}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 49,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.MrsRaccoon": {
+					"Name": "{{i18n:NPCFish.Name.MrsRaccoon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.MrsRaccoon}}",
+					"Description": "{{i18n:NPCFish.Desc.MrsRaccoon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 50,
+					"ContextTags": [
+						"color_brown",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.ProfessorSnail": {
+					"Name": "{{i18n:NPCFish.Name.ProfessorSnail}}",
+					"DisplayName": "{{i18n:NPCFish.Name.ProfessorSnail}}",
+					"Description": "{{i18n:NPCFish.Desc.ProfessorSnail}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 51,
+					"ContextTags": [
+						"color_pink",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Raccoon": {
+					"Name": "{{i18n:NPCFish.Name.Raccoon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Raccoon}}",
+					"Description": "{{i18n:NPCFish.Desc.Raccoon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 52,
+					"ContextTags": [
+						"color_brown",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.TrashBear": {
+					"Name": "{{i18n:NPCFish.Name.TrashBear}}",
+					"DisplayName": "{{i18n:NPCFish.Name.TrashBear}}",
+					"Description": "{{i18n:NPCFish.Desc.TrashBear}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 53,
+					"ContextTags": [
+						"color_brown",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.TravellingMerchant": {
+					"Name": "{{i18n:NPCFish.Name.TravellingMerchant}}",
+					"DisplayName": "{{i18n:NPCFish.Name.TravellingMerchant}}",
+					"Description": "{{i18n:NPCFish.Desc.TravellingMerchant}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 54,
+					"ContextTags": [
+						"color_purple",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+
+	
+},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+				"When": {"Hasmod":"!FlashShifter.StardewValleyExpandedCP"},
+			"Entries": {
+				"{{ModId}}.Gunther": {
+					"Name": "{{i18n:NPCFish.Name.Gunther}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Gunther}}",
+					"Description": "{{i18n:NPCFish.Desc.Gunther}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 41,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+					"{{ModId}}.Henchman": {
+					"Name": "{{i18n:NPCFish.Name.Henchman}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Henchman}}",
+					"Description": "{{i18n:NPCFish.Desc.Henchman}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 43,
+					"ContextTags": [
+						"color_green",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Marlon": {
+					"Name": "{{i18n:NPCFish.Name.Marlon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Marlon}}",
+					"Description": "{{i18n:NPCFish.Desc.Marlon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 47,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+					"{{ModId}}.Morris": {
+					"Name": "{{i18n:NPCFish.Name.Morris}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Morris}}",
+					"Description": "{{i18n:NPCFish.Desc.Morris}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 48,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+			},
 		},
 		
 		{
