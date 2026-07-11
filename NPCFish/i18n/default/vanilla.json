@@ -1,6 +1,6 @@
 {
 	// ---------- Fish Names ----------
-		// fish
+	// fish
 	"NPCFish.Name.Abigail": "Abigoby",
 	"NPCFish.Name.Alex": "Quartermon",
 	"NPCFish.Name.Caroline": "Daughter of Crimsonwitch",
@@ -35,8 +35,7 @@
 	"NPCFish.Name.Vincent": "Pink Snapper",
 	"NPCFish.Name.Willy": "Albilly",
 	"NPCFish.Name.Wizard": "Salmodius",
-	
-		// crabpot
+	// crabpot
 	"NPCFish.Name.Bear": "Blam",
 	"NPCFish.Name.Birdie": "Birdweed",
 	"NPCFish.Name.Bouncer": "Bouncing Starfish",
@@ -60,7 +59,7 @@
 	"NPCFish.Name.TravellingMerchant": "Bartering coral",
 	
 	// ---------- Fish Descriptions ----------
-		// fish
+	// fish
 	"NPCFish.Desc.Abigail": "This weird fish derives sustenance from mountain rocks and minerals.",
 	"NPCFish.Desc.Alex": "That is one big buff fish!",
 	"NPCFish.Desc.Caroline": "This fish nests in the middle of algae which it takes care and feeds off of.",
@@ -74,15 +73,15 @@
 	"NPCFish.Desc.Gus": "When it deflates, a curious smell of tomato sauce fills the air.",
 	"NPCFish.Desc.Haley": "A curious little crab who loves stealing coconuts.",
 	"NPCFish.Desc.Harvey": "Just holding it in your hands is enough to make you feel in better shape.",
-	"NPCFish.Desc.Jas": "When seen from behind, its fins looks like a beautiful butterfly.",
+	"NPCFish.Desc.Jas": "When seen from behind, its fins look like a beautiful butterfly.",
 	"NPCFish.Desc.Jodi": "This fish is obssessed with maintaining a clean nesting environnment.",
 	"NPCFish.Desc.Kent": "Its jaw is lined with hard scales, which it snaps in self-defence.",
 	"NPCFish.Desc.Krobus": "It's almost impossible to hold it with how intangible it is.",
 	"NPCFish.Desc.Leah": "The stains on its fins are from crushed corals, which it uses to paint its nest.",
 	"NPCFish.Desc.Leo": "A unique variant of the blue discus, believed to have been sole responsible of the sandiness of Ginger Island.",
 	"NPCFish.Desc.Lewis": "It is often found around other fish, enjoying their hard work for itself.",
-	"NPCFish.Desc.Linus": "Quite nomadic, this little snail shell holds a very comfortable and transportable nest.",
-	"NPCFish.Desc.Marnie": "A curious fish that can be seen herding around other fish.",
+	"NPCFish.Desc.Linus": "Quite nomadic, this little snail's shell holds a very comfortable and transportable nest.",
+	"NPCFish.Desc.Marnie": "A curious fish that can be seen herding around schools of other fish.",
 	"NPCFish.Desc.Maru": "Its tentacles can give electric shocks if you touch them.",
 	"NPCFish.Desc.Pam": "Once out of the water, it exudes a weird ale-like liquid reeking of alcohol.",
 	"NPCFish.Desc.Penny": "Its dorsal fin has a different, hardback texture.",
@@ -95,8 +94,7 @@
 	"NPCFish.Desc.Vincent": "An energetic little fish who is often found around snails.",
 	"NPCFish.Desc.Willy": "The fishiest fish to ever fish.",
 	"NPCFish.Desc.Wizard": "Water seemed disformed around this fish, as if something tried to manipulate it.",
-
-			// crabpot
+	// crabpot
 	"NPCFish.Desc.Bear": "A friend-shaped clam, but beware: it bites.",
 	"NPCFish.Desc.Birdie": "This curious seaweed seemed to have travelled around the world.",
 	"NPCFish.Desc.Bouncer": "It bounces, and bounces you back.",
@@ -105,9 +103,9 @@
 	"NPCFish.Desc.Governor": "This lobster oversees the region it declared its home.",
 	"NPCFish.Desc.Grandpa": "You feel a strange sense of pride when looking at it.",
 	"NPCFish.Desc.Gunther": "Strangely, it looks like it knows a lot of things.",
-	"NPCFish.Desc.HatMouse": "Who threw a perfectly good hat in the-! Oh wait, that's a living creature.",
+	"NPCFish.Desc.HatMouse": "Who threw away a perfectly good hat-! Oh wait, that's a living creature.",
 	"NPCFish.Desc.Henchman": "Its spikes become spikier when you approach its home.",
-	"NPCFish.Desc.Junimo": "A perlescent friendly creature who happily jumps around you.",
+	"NPCFish.Desc.Junimo": "A perlescent friendly creature jumping happily around you.",
 	"NPCFish.Desc.Marcello": "The creature inside the bottle is clutching a list of books to return.",
 	"NPCFish.Desc.Mariner": "Even out of the water, it stays wet.",
 	"NPCFish.Desc.Marlon": "The shell of this creature has dangerous looking, sharp edges.",
@@ -116,6 +114,6 @@
 	"NPCFish.Desc.MrsRaccoon": "It's missing its other half to form a heart.",
 	"NPCFish.Desc.SafariGuy": "You had to fight to remove all those snails from this clam.",
 	"NPCFish.Desc.Raccoon": "It's missing its other half to form a heart.",
-	"NPCFish.Desc.TrashBear": "These big pouches on its body are harmlessly filled with various piece of trash it collected.",
+	"NPCFish.Desc.TrashBear": "These big pouches on its body are harmlessly filled with various pieces of trash it collected.",
 	"NPCFish.Desc.TravellingMerchant": "Many produces from around the world are stuck on its branches.",
 }
