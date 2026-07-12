@@ -68,4 +68,16 @@
 	"NPCFish.Desc.SVE.Mermaid": "Cette diva possède une 'voix' portant bien plus loin qu'on pourrait le penser.",
 	"NPCFish.Desc.SVE.Peaches": "Il a été malencontreusement séparé de son ami Pomêtard.",
 	"NPCFish.Desc.SVE.Zoey": "Ce n'est pas simple d'en observer un seul, sans son consortium.",
+
+	// ---------- Hint ----------
+	"NPCFish.Hint.FishNote1": "Quelque chose rôde dans la rivière derrière chez moi. J'ai beaucoup de travail avec les fraises, je n'ai pas besoin qu'on me rajoute d'autres raisons de m'inquiéter !",
+	"NPCFish.Hint.FishNote2": "J'ai vu ce que je croyais être une cerise pas mûre dans le lac, dans la drôle de clairière au sud de la forêt Sève-Cendreuse, mais dès que le ciel s'est dégagé elle s'est mise à nager ! Sûrement un autre drôle de poisson.",
+	"NPCFish.Hint.FishNote3": "Avertissements à tous les employés : d'étranges nouvelles formes de vies ont été aperçue dans le petit étang en face du magasin, en été pendant la vague de chaleur et en automne. Il ne sont que deux pour l'instant, mais merci de faire part à vos supérieurs toute They are only two for now, but please warn your supperior if you notice any multiplication of these 'fish'.",
+	"NPCFish.Hint.FishNote4": "J'ai trouvé un nouvel artéfact perdu dans l'eau juste sous le pont - s'agenouiller dans la neige pour le récupérer n'était pas une expérience des plus plaisantes. Je l'ai remarqué uniquement car ce qui ressemblait à une curieuse anguille s'était enroulée autour.",
+	"NPCFish.Hint.FishNote5": "On voit des choses étranges dans les Hautes-Terres, mais jamais je n'aurais cru y voir un hippocampe ! Il était majestueux, se pavanant sous le soleil, entouré de pétals de fleurs... Et quelles nageoires flamboyates !",
+	"NPCFish.Hint.FishNote6": "Il semblerait qu'il y ait plus de créatures sensibles à la magie qu'à première vue. Deux d'entres elles causent des perturbations par temps de pluie, dans les marais et au fin fond de la forêt. Un dernier semble actif lorsque les eaux sont sur le point de geler, autour de la cascade de la guilde. Merci de me rapporter tout changements dans leurs comportements.",
+	"NPCFish.Hint.FishNote7": "C'est une note de Joja Plumbing Inc. : Nous devons être prudents avec cette intervention : c'est la maison d'un manager de magasin. C'est la même chose que les dernières fois : des gargouillis dans les tuyaux. Je te jure, plus jamais j'interviens dans cette ville !",
+	"NPCFish.Hint.FishNote8": "J'allais voir Victor, qui avait passé la mâtinée au pont alors qu'il pleuvait, et il m'a dit avoir vu un drôle de poisson sous le pont. Sur le chemin du retour, après que le ciel se soit dégagé, j'ai cru apercevoir des écailles scintillantes au niveau du vieux jardin communautaire, par delà la barrière. Peut-être un autre de ces curieux poissons.",
+	"NPCFish.Hint.FishNote9": "Je pense en avoir vu un à la maison alors que je me promenais pour mon anniversaire - il profitait du soleil ! Et la dernière fois, je suis allée voir Sophia, et j'en ai vu un autre qui lui ressemblait !",
+	"NPCFish.Hint.FishNote10": "Il y a un poisson dans mon bac d'expédition !",
 }
