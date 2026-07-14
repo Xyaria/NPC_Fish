@@ -57,7 +57,7 @@
 	"NPCFish.Name.Raccoon": "Shrimpcoon",
 	"NPCFish.Name.TrashBear": "Bag O' Bear",
 	"NPCFish.Name.TravellingMerchant": "Bartering coral",
-	
+
 	// ---------- Fish Descriptions ----------
 	// fish
 	"NPCFish.Desc.Abigail": "This weird fish derives sustenance from mountain rocks and minerals.",
@@ -148,33 +148,27 @@
 
 	// ---------- Quests, Dialogues, and Events ----------
 	// Introduction quest
+	"NPCFish.WillyQuest_title": "A weird fish?",
+	"NPCFish.WillyQuest_content": "Willy told you about a strange fish \"that looked like him\", which he saw at the beach by his house.\nYou should try to catch it - even just to see if it does exist.",
 
 	// Willy's event
+	"NPCFish.WillyEvent_line1": "Ahoy ${lad^lass^kid}$...",
+	"NPCFish.WillyEvent_question1": "He looks concerned.",
+	"NPCFish.WillyEvent_question1response1": "Are you ok?",
+	"NPCFish.WillyEvent_question1response2": "What's wrong?",
+	"NPCFish.WillyEvent_line2": "I'll ask you to trust me on this one.",
+	"NPCFish.WillyEvent_line3": "There is a... weird fish, that looks like me, over by the beach.",
+	"NPCFish.WillyEvent_line4": "It had a beret and a fishing rod!",
+	"NPCFish.WillyEvent_line5": "That's not a joke! And yes, I was as sober as one can be!",
+	"NPCFish.WillyEvent_line6": "Listen ${lad^lass^kid}$. That fish genuinely scares me.",
+	"NPCFish.WillyEvent_line7": "I came to ask you to catch it for me.",
+	"NPCFish.WillyEvent_line8": "You've become quite the good angler now!",
+	"NPCFish.WillyEvent_line9": "Anyway. If you do catch it... Honestly I don't care, I don't want to see it.",
+	"NPCFish.WillyEvent_fadeline1": "He looked really distraught.",
+	"NPCFish.WillyEvent_fadeline2": "A weird fish that looked like Willy? You're really curious to see it, if it exists!",
+
+	// Letter
+	"NPCFish.LewisLetter": "Greetings @.\n\nI concur Willy told you about the \"weird fish\" he spotted? He told everyone actually, even told us you caught it. Honestly, congrats.\n\nHe had setup a book in his house so we can all report sighting of this fish, but it ended up being filled with sightings of a lot of *different* weird fish.\nDon't bother going however: it mysteriously disappeared the other day. I think I heard Penny said she spotted one of the pages torn from it and floating in the wind... You might find them all around the valley.\n\nIf you want to go and try to catch them all, well... We'll all be quite happy. These strange fish are scaring everyone!\n\n- Lewis"
 
 	// Fish CT
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

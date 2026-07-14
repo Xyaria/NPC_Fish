@@ -146,4 +146,30 @@
 	"NPCFish.Hint.FishNote23": "Je suis allée rendre visite à Sandy pour son anniversaire, et j'ai vu un 'poisson bizarre' dans l'étang qui m'a fait penser à elle ! Il avait les mêmes couleurs roses, mais il s'est enfui avant qu'elle ne puisse le voir !",
 	"NPCFish.Hint.FishNote24": "Je buvais un soda sur le ponton de l'étang, et en me relevant j'ai vu une ombre dans l'eau. Je crois que c'était une pieuvre ? Je suis parti parce qu'il s'était mit à pleuvoir, du coup je n'ai vu que son jet d'encre.",
 	"NPCFish.Hint.FishNote25": "Je ressens une perturbation dans le tunnel sombre au nord de la voie ferrée. Je ne serai pas étonné si un de ces... 'poissons étranges' en était la cause. Les importantes chutes de neige seules ne peuvent pas expliquer ces changements.",
+
+	// ---------- Quests, Dialogues, and Events ----------
+	// Introduction quest
+	"NPCFish.WillyQuest_title": "Un poisson bizarre?",
+	"NPCFish.WillyQuest_content": "Willy vous a parlé d'un drôle de poisson \"qui lui ressemble\", qu'il a vu dans la mer à côté de chez lui.\nVous devriez essayer de l'attraper - ne serait-ce que pour savoir s'il existe vraiment.",
+
+	// Willy's event
+	"NPCFish.WillyEvent_line1": "Oh hé ${gamin^gamine^gamin}$...",
+	"NPCFish.WillyEvent_question1": "Il a l'air perturbé.",
+	"NPCFish.WillyEvent_question1response1": "Tout va bien ?",
+	"NPCFish.WillyEvent_question1response2": "Qu'est-ce qui ne va pas ?",
+	"NPCFish.WillyEvent_line2": "Je vais te demande de me croire sur parole.",
+	"NPCFish.WillyEvent_line3": "Il y a... un drôle de poisson, qui me ressemble, là-bas dans la mer.",
+	"NPCFish.WillyEvent_line4": "Il portait un béret et une canne à pêche !",
+	"NPCFish.WillyEvent_line5": "C'est pas une blague ! Et non, j'avais pas bu ce soir !",
+	"NPCFish.WillyEvent_line6": "Écoute ${gamin^gamine^gamin}$. Ce poisson me fait vraiment peur.",
+	"NPCFish.WillyEvent_line7": "Je suis venu te demander de l'attraper pour moi.",
+	"NPCFish.WillyEvent_line8": "Tu es devenu un sacrément bon pêcheur depuis le temps !",
+	"NPCFish.WillyEvent_line9": "Enfin. Si tu l'attrapes... Honnêtement, fais-en ce que tu veux, je n'veux pas le voir.",
+	"NPCFish.WillyEvent_fadeline1": "Il n'avait vraiment pas l'air dans son assiette.",
+	"NPCFish.WillyEvent_fadeline2": "Un drôle de poisson qui ressemble à Willy ? Vous êtes curieux de voir ça de plus près, si tant est qu'il existe !",
+
+	// Letter
+	"NPCFish.LewisLetter": "Bon matin @.\n\nJe suppose que Willy t'a parlé de cet \"étrange poisson\" qu'il a vu ? Il en a parlé à tout le monde, et maintenant commence à dire que tu l'as attrapé. Sincèrement, je te remercie.\n\nIl avait mis en place un livre chez lui, pour que nous puissions tous indiquer quand on le voyait. Mais on a finit par décrire des apparitions *d'autres* poissons étranges.\nNe t'embête pas à aller le lire : il a disparu la nuit dernière. Je crois avoir entendu Penny dire qu'elle a vu une des pages déchirée flotter dans le vent... Elles doivent être éparpillées partout.\n\nSi tu veux partir à leur recherchet et attraper tous ces poissons... Nous te serions reconnaissants. Ces poissons bizarres effraient tout le monde !\n\n- Lewis"
+
+	// Fish CT
 }

@@ -1,0 +1,63 @@
+# Mod introduction event
+
+Trigger condition: Lvl 2 fishing
+Location: Farm
+Actors: Farmer, Willy
+Script: 
+	Farmer leaves farmhouse
+	Willy stand in front of the door
+	Willy: ($2) Ahoy lad/lass/kid...
+	Farmer emote [?]
+	<Q: He looks concerned.
+		1- Are you ok?
+		2- What's wrong?
+	>
+	Pause
+	Willy turns down
+	Willy emote [drop]
+	Willy: ($0) I'll ask you to trust me on this one.
+	Willy: ($2) There is a... weird fish, that looks like me, over by the beach.
+	Willy: ($2) It had a beret and a fishing rod!
+	Pause
+	Farmer emote [!]
+	Farmer animation [laugh]
+	Willy turns right
+	Willy emote [grumble]
+	Willy: ($2) That's not a joke! And yes, I was as sober as one can be!
+	Pause
+	Willy turns up
+	Willy: ($0) Listen lad/lass/kid. That fish genuinely scares me.
+	Willy: ($0) I came to ask you to catch it for me.
+	Willy: ($1) You've become quite the good angler now!
+	Willy: ($2) Anyway. If you do catch it... Honestly I don't care, I don't want to see it.
+	Farmer emote [...]
+	Fade
+	<He looked really distraught.>
+	<A weird fish that looked like Willy? You're really curious to see it, if it exists!>
+
+---
+
+# Mod Introduction Quest
+
+Title: A weird fish?
+Reward: 1000g
+Content: 
+	Willy told you about a strange fish "that looked like him", which he saw at the beach by his house.
+	You should try to catch it - even just to see if it does exist.
+
+---
+
+# Mod Introduction Letter
+
+Trigger condition: Completed "A weird fish?" quest
+Content:
+	Greetings <farmer>.
+
+	I concur Willy told you about the "weird fish" he spotted? He told everyone actually, even told us you caught it. Honestly, congrats.
+
+	He had setup a book in his house so we can all report sighting of this fish, but it ended up being filled with sightings of a lot of *different* weird fish.
+	Don't bother going however: it mysteriously disappeared the other day. I think I heard Penny said she spotted one of the pages torn from it and floating in the wind... You might find them all around the valley.
+
+	If you want to go and try to catch them all, well... We'll all be quite happy. These strange fish are scaring everyone!
+
+	- Lewis
