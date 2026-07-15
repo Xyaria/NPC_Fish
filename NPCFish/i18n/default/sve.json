@@ -67,25 +67,29 @@
 	"NPCFish.Desc.SVE.Peaches": "It got separated from its Tadpples friend at some point.",
 	"NPCFish.Desc.SVE.Zoey": "It's not easy to catch it alone, without its cast.",
 
+
+    // ---------- Note Titles ----------
+	"NPCFish.title.SVEFishNote1": "Butts",
+	"NPCFish.title.SVEFishNote2": "Butts",
+	"NPCFish.title.SVEFishNote3": "Butts",
+	"NPCFish.title.SVEFishNote4": "Butts",
+	"NPCFish.title.SVEFishNote5": "Butts",
+	"NPCFish.title.SVEFishNote6": "Butts",
+	"NPCFish.title.SVEFishNote7": "Butts",
+	"NPCFish.title.SVEFishNote8": "Butts",
+	"NPCFish.title.SVEFishNote9": "Butts",
+	"NPCFish.title.SVEFishNote10": "Butts",
+
+	
 	// ---------- Hint ----------
-	"NPCFish.Hint.FishNote1": "Something's been lurking in the river behind my house. The strawberries are a lot of work already, I don't need another thing to be wary of!",
-	"NPCFish.Hint.FishNote2": "I saw what seemed to be an unripe cherry in the pond in this weird clearing south of Cindersap, but when sun shone down on it it began to swam around! Probably another 'weird fish'.",
-	"NPCFish.Hint.FishNote3": "Attention to all employees: curious new life forms have been spotted in the pond in front of the mart, in summer during the heatwave and in fall. They are only two for now, but please warn your supperior if you notice any multiplication of these 'fish'.",
-	"NPCFish.Hint.FishNote4": "I found a new artifact lost to the water just below the bridge  - kneeling in the snow to catch it was not the best experience. I only noticed it because what looked like a curious eel had wrapped around it.",
-	"NPCFish.Hint.FishNote5": "There are a lot of curious things in the highlands, but I never would have expected to see a seahorse! It was majestic, parading under the sun, flower petals all around... And what flamboyant fins!",
-	"NPCFish.Hint.FishNote6": "There seems to be more magic-sensible fish than first thought. Two of them causes disturbance during the rain, in the swamp and the deep forest. The last one seems to hunt when the water are freezing, around the waterfall next to the guild. Please report any change of behaviours.",
-	"NPCFish.Hint.FishNote7": "Note from Joja Plumbing Inc.: We really need to be careful with this next intervention; it's at one of the mart manager's house. It's the same thing as last time: weird gurgling sound in the pipes. I swear I'll ask to never be assigned to this town again.",
-	"NPCFish.Hint.FishNote8": "I went to check on Victor, who had spent the entire day under the rain at the bridge, and he told me he think he saw a fish in the waters there. It was clear once we went back home, and I think I saw sparkling scales when crossing the old comunity garden, just over the fence. Probably another curious fish.",
-	"NPCFish.Hint.FishNote9": "I think I saw one back at home when taking a walk for my birthday - just enjoying the sun! And last time, I came to visit Sophia, I spotted another one which looked very similar!",
-	"NPCFish.Hint.FishNote10": "There is a fish in my shipping bin!",
+	"NPCFish.Hint.SVEFishNote1": "Something's been lurking in the river behind my house. The strawberries are a lot of work already, I don't need another thing to be wary of!",
+	"NPCFish.Hint.SVEFishNote2": "I saw what seemed to be an unripe cherry in the pond in this weird clearing south of Cindersap, but when sun shone down on it it began to swam around! Probably another 'weird fish'.",
+	"NPCFish.Hint.SVEFishNote3": "Attention to all employees: curious new life forms have been spotted in the pond in front of the mart, in summer during the heatwave and in fall. They are only two for now, but please warn your supperior if you notice any multiplication of these 'fish'.",
+	"NPCFish.Hint.SVEFishNote4": "I found a new artifact lost to the water just below the bridge  - kneeling in the snow to catch it was not the best experience. I only noticed it because what looked like a curious eel had wrapped around it.",
+	"NPCFish.Hint.SVEFishNote5": "There are a lot of curious things in the highlands, but I never would have expected to see a seahorse! It was majestic, parading under the sun, flower petals all around... And what flamboyant fins!",
+	"NPCFish.Hint.SVEFishNote6": "There seems to be more magic-sensible fish than first thought. Two of them causes disturbance during the rain, in the swamp and the deep forest. The last one seems to hunt when the water are freezing, around the waterfall next to the guild. Please report any change of behaviours.",
+	"NPCFish.Hint.SVEFishNote7": "Note from Joja Plumbing Inc.: We really need to be careful with this next intervention; it's at one of the mart manager's house. It's the same thing as last time: weird gurgling sound in the pipes. I swear I'll ask to never be assigned to this town again.",
+	"NPCFish.Hint.SVEFishNote8": "I went to check on Victor, who had spent the entire day under the rain at the bridge, and he told me he think he saw a fish in the waters there. It was clear once we went back home, and I think I saw sparkling scales when crossing the old comunity garden, just over the fence. Probably another curious fish.",
+	"NPCFish.Hint.SVEFishNote9": "I think I saw one back at home when taking a walk for my birthday - just enjoying the sun! And last time, I came to visit Sophia, I spotted another one which looked very similar!",
+	"NPCFish.Hint.SVEFishNote10": "There is a fish in my shipping bin!",
 }
-
-
-
-
-
-
-
-
-
-
