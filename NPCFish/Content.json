@@ -14,15 +14,26 @@
 				"HasMod": "FlashShifter.StardewValleyExpandedCP"
 			}
 		},
+				{
+			"Target": "Mods/{{ModId}}/soggyNoteBG",
+			"Action": "Load",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Target": "Mods/{{ModId}}/soggyNote",
+			"Action": "Load",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+
 		
-				// Load Vanilla Fish
+				// Load Vanilla
 		{
 			"Action": "Include",
-			"FromFile": "Data/Vanilla/FishData.json"
+			"FromFile": "Data/Vanilla/AquariumFish.json"
 		},
 		{
 			"Action": "Include",
-			"FromFile": "Data/Vanilla/Objects.json"
+			"FromFile": "Data/Vanilla/FishData.json"
 		},
 		{
 			"Action": "Include",
@@ -32,10 +43,17 @@
 			"Action": "Include",
 			"FromFile": "Data/Vanilla/LocationEdits.json"
 		},
+
 		{
 			"Action": "Include",
-			"FromFile": "Data/Vanilla/AquariumFish.json"
+			"FromFile": "Data/Vanilla/Objects.json"
 		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/SecretNotes.json"
+		},
+
+
 		
 				// Load SVE Fish
 		{
@@ -72,6 +90,13 @@
 			"When": {
 				"HasMod": "FlashShifter.StardewValleyExpandedCP"
 			}
-		}
+		},
+				{
+			"Action": "Include",
+			"FromFile": "Data/SVE/SecretNotes.json",
+			"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
+		},
 	]
 }
