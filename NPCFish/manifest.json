@@ -2,7 +2,7 @@
    "Name": "NPC Fish",
    "Author": "Test",
    "Version": "1.0.0",
-   "Description": "",
+   "Description": "FEESH",
    "UniqueID": "Test.NPCFish",
    "MinimumApiVersion": "4.0.0",
    "UpdateKeys": [
@@ -12,6 +12,10 @@
       "UniqueID": "Pathoschild.ContentPatcher"
    },
    "Dependencies": [
+      {
+         "UniqueID": "ichortower.SecretNoteFramework",
+         "IsRequired": "True"
+      },
       {
          "UniqueID": "FlashShifter.StardewValleyExpandedCP",
          "IsRequired": "False"
