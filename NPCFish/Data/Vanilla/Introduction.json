@@ -1,0 +1,67 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+				"{{ModId}}.Intro_WillyEvent/Skill Fishing 2": "
+					continue/
+					-1000 -1000/
+					farmer 0 0 0 Willy 0 0 2/
+					skippable/
+					pause 1000/
+					speak Willy \"{{i18n:NPCFish.WillyEvent_line1}}$2#$e#\"/
+					emote farmer 8/
+					question null \"{{i18n:NPCFish.WillyEvent_question1}}#{{i18n:NPCFish.WillyEvent_question1response1}}#{{i18n:NPCFish.WillyEvent_question1response2}}\"/
+					faceDirection Willy 1/
+					emote Willy 28/
+					speak Willy \"{{i18n:NPCFish.WillyEvent_line2}}$0#$b#{{i18n:NPCFish.WillyEvent_line3}}$2#$b#{{i18n:NPCFish.WillyEvent_line4}}$2#$e#\"/
+					pause 1000/
+					emote farmer 16/
+					animate farmer false true 250 102 103/
+					faceDirection Willy 2/
+					emote Willy 12/
+					speak Willy \"{{i18n:NPCFish.WillyEvent_line5}}$2#$e#\"/
+					pause 500/
+					stopAnimation farmer/
+					pause 500/
+					faceDirection Willy 0/
+					speak Willy \"{{i18n:NPCFish.WillyEvent_line6}}$0#$b#{{i18n:NPCFish.WillyEvent_line7}}$0#$b#{{i18n:NPCFish.WillyEvent_line8}}$1#$b#{{i18n:NPCFish.WillyEvent_line9}}$2#$e#\"/
+					emote farmer 40/
+					fade/
+					message \"{{i18n:NPCFish.WillyEvent_fadeline1}}\"/
+					message \"{{i18n:NPCFish.WillyEvent_fadeline2}}\"/
+					addQuest {{ModId}}.Intro_WillyQuest/
+					end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"Entries": {
+				"{{ModId}}.Intro_WillyQuest": "ItemHarvest/{{i18n:NPCFish.WillyQuest_title}}/{{i18n:NPCFish.WillyQuest_description}}/{{i18n:NPCFish.WillyQuest_instruction}}/(O){{ModId}}.Willy 1/0/1000/"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"{{ModId}}.Intro_LewisMail": "{{i18n:NPCFish.LewisMail.content}}%% %action AddConversationTopic NPCFishIntroComplete%%[#]{{i18n:NPCFish.LewisMail.title}}",
+				}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_OnFinishQuest": {
+					"Id": "{{ModId}}_OnFinishQuest",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"Actions": [
+						"AddMail Current {{ModId}}.Intro_LewisMail"
+					]
+				}
+			}
+		}
+	]
+}
