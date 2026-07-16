@@ -201,7 +201,8 @@
 	"NPCFish.WillyEvent_fadeline2": "A weird fish that looked like Willy? You're really curious to see it, if it exists!",
 
 	// Letter
-	"NPCFish.LewisLetter": "Greetings @.\n\nI concur Willy told you about the \"weird fish\" he spotted? He told everyone actually, even told us you caught it. Honestly, congrats.\n\nHe had setup a book in his house so we can all report sighting of this fish, but it ended up being filled with sightings of a lot of *different* weird fish.\nDon't bother going however: it mysteriously disappeared the other day. I think I heard Penny said she spotted one of the pages torn from it and floating in the wind... You might find them all around the valley.\n\nIf you want to go and try to catch them all, well... We'll all be quite happy. These strange fish are scaring everyone!\n\n- Lewis"
-
+	"NPCFish.LewisMail_content": "Greetings @.^^I concur Willy told you about the \"weird fish\" he spotted? He told everyone actually, even told us you caught it. Honestly, congrats.^He had setup a book in his house so we can all report sighting of this fish, but it ended up being filled with sightings of a lot of *different* weird fish.^Don't bother going however: it mysteriously disappeared the other day. I think I heard Penny said she spotted one of the pages torn from it and floating in the wind... You might find them all around the valley.^^If you want to go and try to catch them all, well... We'll all be quite happy. These strange fish are scaring everyone!^^- Lewis",
+	"NPCFish.LewisMail_title": "Weird fish invasion"
+	
 	// Fish CT
 }
