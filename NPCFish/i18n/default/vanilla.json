@@ -182,8 +182,8 @@
 	// ---------- Quests, Dialogues, and Events ----------
 	// Introduction quest
 	"NPCFish.WillyQuest_title": "A weird fish?",
-	"NPCFish.WillyQuest_content": "Willy told you about a strange fish \"that looked like him\", which he saw at the beach by his house.\nYou should try to catch it - even just to see if it does exist.",
-	"NPCFish.WillyQuest_completionDialogue": "You caught it? Great, I don't want to hear about it anymore.",
+	"NPCFish.WillyQuest_description": "Willy told you about a strange fish \"that looked like him\", which he saw at the beach by his house.\nYou should try to catch it - even just to see if it does exist.",
+	"NPCFish.WillyQuest_instruction": "Catch the \"Willy Fish\"",
 
 	// Willy's event
 	"NPCFish.WillyEvent_line1": "Ahoy ${lad^lass^kid}$...",

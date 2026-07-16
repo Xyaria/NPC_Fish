@@ -3,10 +3,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Town",
-				"FishAreas"
-			],
+			"TargetField": ["Town", "FishAreas"],
 			"Entries": {
 				"River West of Blacksmith": {
 					"Position": {
@@ -24,7 +21,7 @@
 						"Height": 3
 					}
 				},
-					"Truck Bed": {
+				"Truck Bed": {
 					"Position": {
 						"X": 65,
 						"Y": 80,
@@ -39,16 +36,13 @@
 						"Width": 8,
 						"Height": 6
 					}
-				},
+				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"IslandSouthEast",
-				"FishAreas"
-			],
+			"TargetField": ["IslandSouthEast", "FishAreas"],
 			"Entries": {
 				"Tidepool": {
 					"Position": {
@@ -57,17 +51,13 @@
 						"Width": 5,
 						"Height": 6
 					}
-				},
-				
+				}
 			}
 		},
-{
+		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Mountain",
-				"FishAreas"
-			],
+			"TargetField": ["Mountain", "FishAreas"],
 			"Entries": {
 				"Mine Bridge": {
 					"Position": {
@@ -85,16 +75,12 @@
 						"Height": 4
 					}
 				}
-			
+			}
 		},
-},
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Railroad",
-				"FishAreas"
-			],
+			"TargetField": ["Railroad", "FishAreas"],
 			"Entries": {
 				"Bathhouse Fountain": {
 					"Position": {
@@ -106,13 +92,10 @@
 				}
 			}
 		},
-			{
+		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Forest",
-				"FishAreas"
-			],
+			"TargetField": ["Forest", "FishAreas"],
 			"Entries": {
 				"Southern Falls": {
 					"Position": {
@@ -121,18 +104,14 @@
 						"Width": 15,
 						"Height": 255
 					}
-				},
-			
+				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
 			"Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_Test.NPCFish.Marnie, season Fall",
-			"TargetField": [
-				"Forest",
-				"FishAreas"
-			],
+			"TargetField": ["Forest", "FishAreas"],
 			"Entries": {
 				"Marnie's Animal Trough": {
 					"Position": {
@@ -148,10 +127,7 @@
 			"Action": "EditData",
 			"Target": "Data/Locations",
 			"Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_Test.NPCFish.Marnie, season Fall",
-			"TargetField": [
-				"Forest",
-				"FishAreas"
-			],
+			"TargetField": ["Forest", "FishAreas"],
 			"Entries": {
 				"Marnie's Animal Trough": {
 					"Position": {
@@ -163,13 +139,10 @@
 				}
 			}
 		},
-					{
+		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Beach",
-				"FishAreas"
-			],
+			"TargetField": ["Beach", "FishAreas"],
 			"Entries": {
 				"North of Tidepool Bridge": {
 					"Position": {
@@ -218,106 +191,103 @@
 			]
 		},
 		{
-	"Action": "EditMap",
-	"Target": "Maps/Forest",
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
 			"Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_Test.NPCFish.Marnie, season Fall",
-	"MapTiles": [
-		{
-			"Position": {
-				"X": 94,
-				"Y": 16
-			},
-			"Layer": "Buildings",
-			"Remove": true
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 94,
+						"Y": 16
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 94,
+						"Y": 16
+					},
+					"Layer": "Back",
+					"SetIndex": 218,
+					"SetProperties": {
+						"Water": "I",
+						"Passable": "F"
+					}
+				},
+				{
+					"Position": {
+						"X": 95,
+						"Y": 16
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 95,
+						"Y": 16
+					},
+					"Layer": "Back",
+					"SetIndex": 219,
+					"SetProperties": {
+						"Water": "I",
+						"Passable": "F"
+					}
+				}
+			]
 		},
 		{
-			"Position": {
-				"X": 94,
-				"Y": 16
-			},
-			"Layer": "Back",
-			"SetIndex": 218,
-			"SetProperties": {
-				"Water": "I",
-				"Passable": "F"
-			}
-		},
-		{
-			"Position": {
-				"X": 95,
-				"Y": 16
-			},
-			"Layer": "Buildings",
-			"Remove": true
-		},
-		{
-			"Position": {
-				"X": 95,
-				"Y": 16
-			},
-			"Layer": "Back",
-			"SetIndex": 219,
-			"SetProperties": {
-				"Water": "I",
-				"Passable": "F"
-			}
-		}
-	]
-},
-{
-	"Action": "EditMap",
-	"Target": "Maps/Forest",
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
 			"Condition": "PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_{{modid}}.Marnie",
-	"MapTiles": [
-		{
-			"Position": {
-				"X": 94,
-				"Y": 16
-			},
-			"Layer": "Buildings",
-			"SetTilesheet":"outdoors", 
-			"SetIndex": 218,
-			"SetProperties": {
-				"Water": "N",
-				"Passable": "F"
-			}
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 94,
+						"Y": 16
+					},
+					"Layer": "Buildings",
+					"SetTilesheet": "outdoors",
+					"SetIndex": 218,
+					"SetProperties": {
+						"Water": "N",
+						"Passable": "F"
+					}
+				},
+				{
+					"Position": {
+						"X": 95,
+						"Y": 16
+					},
+					"Layer": "Buildings",
+					"SetTilesheet": "outdoors",
+					"SetIndex": 219
+				},
+				{
+					"Position": {
+						"X": 94,
+						"Y": 16
+					},
+					"Layer": "Back",
+					"SetTilesheet": "outdoors",
+					"SetIndex": 200
+				},
+				{
+					"Position": {
+						"X": 95,
+						"Y": 16
+					},
+					"Layer": "Back",
+					"SetTilesheet": "outdoors",
+					"SetIndex": 202
+				}
+			]
 		},
 		{
-			"Position": {
-				"X": 95,
-				"Y": 16
-			},
-			"Layer": "Buildings",
-			"SetTilesheet":"outdoors",
-			"SetIndex": 219,
-		
-		},
-			{
-			"Position": {
-				"X": 94,
-				"Y": 16
-			},
-			"Layer": "Back",
-			"SetTilesheet":"outdoors",
-			"SetIndex": 200,
-		
-		},
-		{
-			"Position": {
-				"X": 95,
-				"Y": 16
-			},
-			"Layer": "Back",
-			"SetTilesheet":"outdoors",
-			"SetIndex": 202,
-		
-		}
-	]
-},
-{
 			"Action": "EditMap",
 			"Target": "Maps/Town",
-			"When": "!PLAYER_HAS_CAUGHT_FISH current {{ModId}}.Lewis, LOCATION_SEASON Here spring" ,
+			"When": "!PLAYER_HAS_CAUGHT_FISH current {{ModId}}.Lewis, LOCATION_SEASON Here spring",
 			"MapTiles": [
 				{
 					"Position": {
@@ -333,14 +303,14 @@
 						"Y": 80
 					},
 					"Layer": "Back",
-			"SetTilesheet": "Town",
-			"SetIndex": 1080,
+					"SetTilesheet": "Town",
+					"SetIndex": 1080,
 					"SetProperties": {
 						"Water": "I",
 						"Passable": "F"
 					}
 				},
-								{
+				{
 					"Position": {
 						"X": 67,
 						"Y": 80
@@ -354,8 +324,8 @@
 						"Y": 80
 					},
 					"Layer": "Back",
-			"SetTilesheet": "Town",
-			"SetIndex": 1081,
+					"SetTilesheet": "Town",
+					"SetIndex": 1081,
 					"SetProperties": {
 						"Water": "I",
 						"Passable": "F"
@@ -375,8 +345,8 @@
 						"Y": 81
 					},
 					"Layer": "Back",
-			"SetTilesheet": "Town",
-			"SetIndex": 1112,
+					"SetTilesheet": "Town",
+					"SetIndex": 1112,
 					"SetProperties": {
 						"Water": "I"
 					}
@@ -395,13 +365,12 @@
 						"Y": 81
 					},
 					"Layer": "Back",
-			"SetTilesheet": "Town",
-			"SetIndex": 1113,
+					"SetTilesheet": "Town",
+					"SetIndex": 1113,
 					"SetProperties": {
 						"Water": "I"
 					}
-				},
-				
+				}
 			]
 		},
 		{
@@ -435,10 +404,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Mountain",
-				"Fish"
-			],
+			"TargetField": ["Mountain", "Fish"],
 			"Entries": {
 				"{{ModId}}.AbigailFish": {
 					"Chance": 1.0,
@@ -448,9 +414,7 @@
 					"IsBossFish": "True",
 					"Condition": "PLAYER_HAS_Mail current carolinesNecklace, LOCATION_SEASON Here Fall",
 					"FishAreaId": "Mine Bridge",
-					"ContextTags": [
-						"fish_legendary",
-					]
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.LinusFish": {
 					"Chance": 1.0,
@@ -466,10 +430,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Railroad",
-				"Fish"
-			],
+			"TargetField": ["Railroad", "Fish"],
 			"Entries": {
 				"{{ModId}}.AlexFish": {
 					"Chance": 1.0,
@@ -483,14 +444,11 @@
 				}
 			}
 		},
-		
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Sunroom",
-				"Fish"
-			],
+			"TargetField": ["Sunroom", "Fish"],
 			"Entries": {
 				"{{ModId}}.CarolineFish": {
 					"Chance": 1.0,
@@ -505,10 +463,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Town",
-				"Fish"
-			],
+			"TargetField": ["Town", "Fish"],
 			"Entries": {
 				"{{ModId}}.ClintFish": {
 					"Chance": 1.0,
@@ -553,9 +508,7 @@
 					"Condition": "LOCATION_SEASON Here spring",
 					"FishAreaId": "Fountain",
 					"Precedence": -10,
-					"ContextTags": [
-						"fish_legendary"
-					]
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.PennyFish": {
 					"Chance": 1.0,
@@ -574,19 +527,15 @@
 					"Precedence": 250,
 					"IsBossFish": "True",
 					"FishAreaId": "Truck Bed",
-										"Condition": "LOCATION_SEASON Here spring"
+					"Condition": "LOCATION_SEASON Here spring"
 				}
-			
 			}
 		},
-		
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Forest",
-				"Fish"
-			],
+			"TargetField": ["Forest", "Fish"],
 			"Entries": {
 				"{{ModId}}.DemetriusFish": {
 					"Chance": 1.0,
@@ -648,10 +597,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"UndergroundMine",
-				"Fish"
-			],
+			"TargetField": ["UndergroundMine", "Fish"],
 			"Entries": {
 				"{{ModId}}.DwarfFish": {
 					"Chance": 1.0,
@@ -674,10 +620,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Beach",
-				"Fish"
-			],
+			"TargetField": ["Beach", "Fish"],
 			"Entries": {
 				"{{ModId}}.ElliottFish": {
 					"Chance": 1.0,
@@ -710,10 +653,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Woods",
-				"Fish"
-			],
+			"TargetField": ["Woods", "Fish"],
 			"Entries": {
 				"{{ModId}}.EmilyFish": {
 					"Chance": 1.0,
@@ -736,10 +676,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"IslandSouth",
-				"Fish"
-			],
+			"TargetField": ["IslandSouth", "Fish"],
 			"Entries": {
 				"{{ModId}}.GusFish": {
 					"Chance": 1.0,
@@ -754,10 +691,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"IslandWest",
-				"Fish"
-			],
+			"TargetField": ["IslandWest", "Fish"],
 			"Entries": {
 				"{{ModId}}.KentFish": {
 					"Chance": 1.0,
@@ -766,16 +700,13 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"Condition": "PLAYER_HAS_Mail Current birdieQuestFinished"
-				},
+				}
 			}
 		},
-				{
+		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"IslandSouthEast",
-				"Fish"
-			],
+			"TargetField": ["IslandSouthEast", "Fish"],
 			"Entries": {
 				"{{ModId}}.LeoFish": {
 					"Chance": 1.0,
@@ -783,54 +714,43 @@
 					"ItemId": "{{ModId}}.Leo",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "Tidepool",
-
+					"FishAreaId": "Tidepool"
 				}
 			}
 		},
-		
-		
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"IslandSouthEastCave",
-				"Fish"
-			],
+			"TargetField": ["IslandSouthEastCave", "Fish"],
 			"Entries": {
 				"{{ModId}}.PamFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.PamFish",
 					"ItemId": "{{ModId}}.Pam",
 					"CatchLimit": 1,
-					"IsBossFish": "True",
+					"IsBossFish": "True"
 				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"BugLand",
-				"Fish"
-			],
+			"TargetField": ["BugLand", "Fish"],
 			"Entries": {
 				"{{ModId}}.PierreFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.PierreFish",
 					"ItemId": "{{ModId}}.Pierre",
 					"CatchLimit": 1,
-					"IsBossFish": "True",
+					"IsBossFish": "True"
 				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Desert",
-				"Fish"
-			],
+			"TargetField": ["Desert", "Fish"],
 			"Entries": {
 				"{{ModId}}.SandyFish": {
 					"Chance": 1.0,
@@ -845,10 +765,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Sewer",
-				"Fish"
-			],
+			"TargetField": ["Sewer", "Fish"],
 			"Entries": {
 				"{{ModId}}.KrobusFish": {
 					"Chance": 1.0,
@@ -863,10 +780,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"BoatTunnel",
-				"Fish"
-			],
+			"TargetField": ["Beach", "Fish"],
 			"Entries": {
 				"{{ModId}}.WillyFish": {
 					"Chance": 1.0,
@@ -874,17 +788,13 @@
 					"ItemId": "{{ModId}}.Willy",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here summer"
 				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"WitchSwamp",
-				"Fish"
-			],
+			"TargetField": ["WitchSwamp", "Fish"],
 			"Entries": {
 				"{{ModId}}.WizardFish": {
 					"Chance": 1.0,
@@ -896,14 +806,11 @@
 				}
 			}
 		},
-		
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"SamHouse",
-				"Fish"
-			],
+			"TargetField": ["SamHouse", "Fish"],
 			"Entries": {
 				"{{ModId}}.JodiFish": {
 					"Chance": 1.0,

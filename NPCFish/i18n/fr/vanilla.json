@@ -182,8 +182,8 @@
 	// ---------- Quests, Dialogues, and Events ----------
 	// Introduction quest
 	"NPCFish.WillyQuest_title": "Un poisson bizarre?",
-	"NPCFish.WillyQuest_content": "Willy vous a parlé d'un drôle de poisson \"qui lui ressemble\", qu'il a vu dans la mer à côté de chez lui.\nVous devriez essayer de l'attraper - ne serait-ce que pour savoir s'il existe vraiment.",
-	"NPCFish.WillyQuest_completionDialogue": "Tu l'as attrapé ? Super. Je ne veux plus en entendre parler.",
+	"NPCFish.WillyQuest_description": "Willy vous a parlé d'un drôle de poisson \"qui lui ressemble\", qu'il a vu dans la mer à côté de chez lui.\nVous devriez essayer de l'attraper - ne serait-ce que pour savoir s'il existe vraiment.",
+	"NPCFish.WillyQuest_instruction": "Attraper le \"Poisson Willy\"",
 
 	// Willy's event
 	"NPCFish.WillyEvent_line1": "Oh hé ${gamin^gamine^gamin}$...",
