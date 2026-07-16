@@ -1,6 +1,6 @@
 {
 	// ---------- Fish Names ----------
-		// fish
+	// fish
 	"NPCFish.Name.Abigail": "Abigobie",
 	"NPCFish.Name.Alex": "Quartermon",
 	"NPCFish.Name.Caroline": "Fille de sorcière écarlate",
@@ -35,8 +35,7 @@
 	"NPCFish.Name.Vincent": "Vivaneau rose",
 	"NPCFish.Name.Willy": "Albilly",
 	"NPCFish.Name.Wizard": "Saumodius",
-
-		// crabpot
+	// crabpot
 	"NPCFish.Name.Bear": "Palours",
 	"NPCFish.Name.Birdie": "Birdalgue",
 	"NPCFish.Name.Bouncer": "Étoile videuse",
@@ -58,9 +57,9 @@
 	"NPCFish.Name.Raccoon": "Crevaton",
 	"NPCFish.Name.TrashBear": "Sac-à-Ours",
 	"NPCFish.Name.TravellingMerchant": "Corail négociant",
-	
+
 	// ---------- Fish Descriptions ----------
-		// fish
+	// fish
 	"NPCFish.Desc.Abigail": "Ce poisson étrange se nourrit de roches et minéraux de montagne.",
 	"NPCFish.Desc.Alex": "Ça, c'est un bon gros poisson bien musclé !",
 	"NPCFish.Desc.Caroline": "Ce poisson niche dans des bouquets d'algues qu'il entretient et dont il se nourrit.",
@@ -95,7 +94,7 @@
 	"NPCFish.Desc.Vincent": "Un petit poisson très énergique qui aime jouer avec les escargots.",
 	"NPCFish.Desc.Willy": "Un poisson pêcheur pêchant à tout-va.",
 	"NPCFish.Desc.Wizard": "L'eau autour de ce poisson est comme déformée, comme si quelque chose la troublait sans cesse.",
-		// crabpot
+	// crabpot
 	"NPCFish.Desc.Bear": "Une palourde à la forme amicale. Mais attention : elle mord.",
 	"NPCFish.Desc.Birdie": "Cette algue étrange a l'air d'avoir voyagé autour du monde.",
 	"NPCFish.Desc.Bouncer": "Elle sonne creux, mais a la force de vous repousser.",
@@ -117,6 +116,39 @@
 	"NPCFish.Desc.Raccoon": "Avec sa compagne, ils forment un joli cœur.",
 	"NPCFish.Desc.TrashBear": "Ces grosses poches sur son corps sont remplies de déchets qu'il a ramassé pour nettoyer la rivière.",
 	"NPCFish.Desc.TravellingMerchant": "De nombreux produits du monde entiers sont accrochés à ses branches.",
+
+	// ---------- Note Info ----------
+	"NPCFish.Soggynote.Name": "Note détrempée",
+	"NPCFish.Soggynote.Desc": "Cette page humide et déchirée semble avoir appartenue à un livre quelconque.",
+
+	// ---------- Note Titles ----------
+	"NPCFish.title.GenericNote": "Observation des poissons curieux",
+	"NPCFish.title.CrabpotNote": "Trappeurs, prenez garde !",
+	"NPCFish.title.FishNote1": "Un... poisson améthyste",
+	"NPCFish.title.FishNote2": "Poisson de véranda",
+	"NPCFish.title.FishNote3": "Observations en ville",
+	"NPCFish.title.FishNote4": "Étude sous la pluie verte",
+	"NPCFish.title.FishNote5": "En pleine session de minage",
+	"NPCFish.title.FishNote6": "Charmante entrevue",
+	"NPCFish.title.FishNote7": "L'arc-en-ciel des bois",
+	"NPCFish.title.FishNote8": "Délicieuse odeur",
+	"NPCFish.title.FishNote9": "Grosse tête aux cascades",
+	"NPCFish.title.FishNote10": "Des jeunes dans la rivière",
+	"NPCFish.title.FishNote11": "Note de Joja Plumbing Inc.",
+	"NPCFish.title.FishNote12": "Tilapia agressif",
+	"NPCFish.title.FishNote13": "Un autre monstre des égoûts",
+	"NPCFish.title.FishNote14": "Discus très coloré",
+	"NPCFish.title.FishNote15": "Poisson dans le coffre",
+	"NPCFish.title.FishNote16": "Brave petit escargot",
+	"NPCFish.title.FishNote17": "Gardien des jeunes",
+	"NPCFish.title.FishNote18": "Rencontre électrisante",
+	"NPCFish.title.FishNote19": "Grotte puante",
+	"NPCFish.title.FishNote20": "Un poisson mutant ?",
+	"NPCFish.title.FishNote21": "Un constructeur dans les bois",
+	"NPCFish.title.FishNote22": "Poisson scorpion tempéré",
+	"NPCFish.title.FishNote23": "Fleur des sables",
+	"NPCFish.title.FishNote24": "Pieuvre et cola",
+	"NPCFish.title.FishNote25": "Curieuse énergie",
 
 	// ---------- Hint ----------
 	"NPCFish.Hint.GenericNote": "J'aurai besoin de plus de données pour confirmer cette hypothèse, mais il semblerait que tous ces 'poissons étranges' observés à travers la vallée possèdent des caractéristiques communes avec ses habitants ; entre autres, il semblerait que leurs périodes d'activités soient étroitement liées à nos anniversaires. Je crains qu'il n'y ait plus rien de scientifique dans ces phénomènes.",
@@ -151,6 +183,7 @@
 	// Introduction quest
 	"NPCFish.WillyQuest_title": "Un poisson bizarre?",
 	"NPCFish.WillyQuest_content": "Willy vous a parlé d'un drôle de poisson \"qui lui ressemble\", qu'il a vu dans la mer à côté de chez lui.\nVous devriez essayer de l'attraper - ne serait-ce que pour savoir s'il existe vraiment.",
+	"NPCFish.WillyQuest_completionDialogue": "Tu l'as attrapé ? Super. Je ne veux plus en entendre parler.",
 
 	// Willy's event
 	"NPCFish.WillyEvent_line1": "Oh hé ${gamin^gamine^gamin}$...",
@@ -169,7 +202,8 @@
 	"NPCFish.WillyEvent_fadeline2": "Un drôle de poisson qui ressemble à Willy ? Vous êtes curieux de voir ça de plus près, si tant est qu'il existe !",
 
 	// Letter
-	"NPCFish.LewisLetter": "Bon matin @.\n\nJe suppose que Willy t'a parlé de cet \"étrange poisson\" qu'il a vu ? Il en a parlé à tout le monde, et maintenant commence à dire que tu l'as attrapé. Sincèrement, je te remercie.\n\nIl avait mis en place un livre chez lui, pour que nous puissions tous indiquer quand on le voyait. Mais on a finit par décrire des apparitions *d'autres* poissons étranges.\nNe t'embête pas à aller le lire : il a disparu la nuit dernière. Je crois avoir entendu Penny dire qu'elle a vu une des pages déchirée flotter dans le vent... Elles doivent être éparpillées partout.\n\nSi tu veux partir à leur recherchet et attraper tous ces poissons... Nous te serions reconnaissants. Ces poissons bizarres effraient tout le monde !\n\n- Lewis"
+	"NPCFish.LewisMail_content": "Bon matin @.^^Je suppose que Willy t'a parlé de cet \"étrange poisson\" qu'il a vu ? Il en a parlé à tout le monde, et maintenant commence à dire que tu l'as attrapé. Sincèrement, je te remercie.^Il avait mis en place un livre chez lui, pour que nous puissions tous indiquer quand on le voyait. Mais on a fini par décrire des apparitions *d'autres* poissons étranges.^Ne t'embête pas à aller le lire : il a disparu la nuit dernière. Je crois avoir entendu Penny dire qu'elle a vu une des pages déchirée flotter dans le vent... Elles doivent être éparpillées partout.^^Si tu veux partir à leur recherche et attraper tous ces poissons... Nous te serions reconnaissants. Ces poissons bizarres effraient tout le monde !^^- Lewis",
+	"NPCFish.LewisMail_title": "Invasion de poissons bizarres"
 
 	// Fish CT
 }

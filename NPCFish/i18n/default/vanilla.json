@@ -117,11 +117,11 @@
 	"NPCFish.Desc.TrashBear": "These big pouches on its body are harmlessly filled with various pieces of trash it collected.",
 	"NPCFish.Desc.TravellingMerchant": "Many produces from around the world are stuck on its branches.",
 
-    // ---------- Note Info ----------
+	// ---------- Note Info ----------
 	"NPCFish.Soggynote.Name": "Soggy Note",
 	"NPCFish.Soggynote.Desc": "This torn and wet page looks like it used to belong to some kind of book.",
 
-    // ---------- Note Titles ----------
+	// ---------- Note Titles ----------
 	"NPCFish.title.GenericNote": "Curious fish observation",
 	"NPCFish.title.CrabpotNote": "Trappers beware!",
 	"NPCFish.title.FishNote1": "An amethyst... fish",
@@ -151,7 +151,7 @@
 	"NPCFish.title.FishNote25": "Curious energy",
 
 	// ---------- Hint ----------
-	"NPCFish.Hint.GenericNote": "I would need more data to acertain this hypothesis, but it seems all those 'weird fish' spotted around the valley share common characteristics with its inhabitants, up to sharing activity periods with our birthdays. This is starting to leave the realm of science I fear.",
+	"NPCFish.Hint.GenericNote": "I would need more data to ascertain this hypothesis, but it seems all those 'weird fish' spotted around the valley share common characteristics with its inhabitants, up to sharing activity periods with our birthdays. This is starting to leave the realm of science I fear.",
 	"NPCFish.Hint.CrabpotNote": "I haven't only seen strange fish these days: other aquatic creatures are not exampted! Beware of the content of your crab pots and traps, you may have some surprises.",
 	"NPCFish.Hint.FishNote1": "I thought I saw an amethyst in the water on my way to the mines, but when I tried to catch it, it swam away! And with all those leaves fallen into the lake, I couldn't see what it was. Guess it was one of those \"weird fish\"...",
 	"NPCFish.Hint.FishNote2": "There is a weird gurgling sound in my greenhouse. I can't seem to pinpoint its exact location, but I wouldn't be surprised if one of those 'weird fish' had found a way into the pipes.\n- Caroline",
@@ -183,7 +183,7 @@
 	// Introduction quest
 	"NPCFish.WillyQuest_title": "A weird fish?",
 	"NPCFish.WillyQuest_content": "Willy told you about a strange fish \"that looked like him\", which he saw at the beach by his house.\nYou should try to catch it - even just to see if it does exist.",
-	"NPCFish.WillyQuest_completionDialogue": "You caught it? Great, i don't want to hear about it anymore.",
+	"NPCFish.WillyQuest_completionDialogue": "You caught it? Great, I don't want to hear about it anymore.",
 
 	// Willy's event
 	"NPCFish.WillyEvent_line1": "Ahoy ${lad^lass^kid}$...",
@@ -204,6 +204,6 @@
 	// Letter
 	"NPCFish.LewisMail_content": "Greetings @.^^I concur Willy told you about the \"weird fish\" he spotted? He told everyone actually, even told us you caught it. Honestly, congrats.^He had setup a book in his house so we can all report sighting of this fish, but it ended up being filled with sightings of a lot of *different* weird fish.^Don't bother going however: it mysteriously disappeared the other day. I think I heard Penny said she spotted one of the pages torn from it and floating in the wind... You might find them all around the valley.^^If you want to go and try to catch them all, well... We'll all be quite happy. These strange fish are scaring everyone!^^- Lewis",
 	"NPCFish.LewisMail_title": "Weird fish invasion"
-	
+
 	// Fish CT
 }

@@ -1,6 +1,6 @@
 {
 	// ---------- Fish Names ----------
-    		// SVE - fish
+	// SVE - fish
 	"NPCFish.Name.SVE.Andy": "Andyponge",
 	"NPCFish.Name.SVE.Apples": "Pomêtard",
 	"NPCFish.Name.SVE.Claire": "Truite Traire",
@@ -16,8 +16,7 @@
 	"NPCFish.Name.SVE.Sophia": "Poisson Sophton",
 	"NPCFish.Name.SVE.Susan": "Poisson Susouge",
 	"NPCFish.Name.SVE.Victor": "Vict-o-beurre",
-
-		// SVE - crabpot
+	// SVE - crabpot
 	"NPCFish.Name.SVE.Alesia": "Lesia Colada",
 	"NPCFish.Name.SVE.Axel": "Consortium Joja #1",
 	"NPCFish.Name.SVE.Brooklyn": "Consortium Joja #2",
@@ -35,7 +34,7 @@
 	"NPCFish.Name.SVE.Zoey": "Consortium Joja #5",
 
 	// ---------- Fish Descriptions ----------
-    		// SVE - fish
+	// SVE - fish
 	"NPCFish.Desc.SVE.Andy": "Cette éponge devient vite rouge quand on la tapote.",
 	"NPCFish.Desc.SVE.Apples": "On peut facilement le confondre avec une cerise pas mûre.",
 	"NPCFish.Desc.SVE.Claire": "Un poisson élégant qui aime tourbillonner dans les courants marins.",
@@ -51,8 +50,7 @@
 	"NPCFish.Desc.SVE.Sophia": "Un poisson timide qui déteste être touché.",
 	"NPCFish.Desc.SVE.Susan": "Ce petit poisson amical semble prêt à vous aider malgré sa petite taille.",
 	"NPCFish.Desc.SVE.Victor": "Il niche dans les trous laissés par des briques délogées des ponts.",
-
-		// SVE - crabpot
+	// SVE - crabpot
 	"NPCFish.Desc.SVE.Alesia": "Oooh une boisson-! Ah non, c'est une créature marine.",
 	"NPCFish.Desc.SVE.Axel": "Ce n'est pas simple d'en observer un seul, sans son consortium.",
 	"NPCFish.Desc.SVE.Brooklyn": "Ce n'est pas simple d'en observer un seul, sans son consortium.",
@@ -69,6 +67,18 @@
 	"NPCFish.Desc.SVE.Peaches": "Il a été malencontreusement séparé de son ami Pomêtard.",
 	"NPCFish.Desc.SVE.Zoey": "Ce n'est pas simple d'en observer un seul, sans son consortium.",
 
+	// ---------- Note Titles ----------
+	"NPCFish.title.SVEFishNote1": "Rôdeur dans la rivière",
+	"NPCFish.title.SVEFishNote2": "Un poisson cerise ?",
+	"NPCFish.title.SVEFishNote3": "Note du magasin Joja",
+	"NPCFish.title.SVEFishNote4": "Anguille déceleuse de trésors",
+	"NPCFish.title.SVEFishNote5": "Hippocampe de forêt",
+	"NPCFish.title.SVEFishNote6": "D'autres poissons magique",
+	"NPCFish.title.SVEFishNote7": "Note de Joja Plumbing Inc. 2",
+	"NPCFish.title.SVEFishNote8": "Promenade vers le pont",
+	"NPCFish.title.SVEFishNote9": "Deux poissons amicaux",
+	"NPCFish.title.SVEFishNote10": "Mon bac !",
+
 	// ---------- Hint ----------
 	"NPCFish.Hint.FishNote1": "Quelque chose rôde dans la rivière derrière chez moi. J'ai beaucoup de travail avec les fraises, je n'ai pas besoin qu'on me rajoute d'autres raisons de m'inquiéter !",
 	"NPCFish.Hint.FishNote2": "J'ai vu ce que je croyais être une cerise pas mûre dans le lac, dans la drôle de clairière au sud de la forêt Sève-Cendreuse, mais dès que le ciel s'est dégagé elle s'est mise à nager ! Sûrement un autre drôle de poisson.",
@@ -79,5 +89,5 @@
 	"NPCFish.Hint.FishNote7": "C'est une note de Joja Plumbing Inc. : Nous devons être prudents avec cette intervention : c'est la maison d'un manager de magasin. C'est la même chose que les dernières fois : des gargouillis dans les tuyaux. Je te jure, plus jamais j'interviens dans cette ville !",
 	"NPCFish.Hint.FishNote8": "J'allais voir Victor, qui avait passé la mâtinée au pont alors qu'il pleuvait, et il m'a dit avoir vu un drôle de poisson sous le pont. Sur le chemin du retour, après que le ciel se soit dégagé, j'ai cru apercevoir des écailles scintillantes au niveau du vieux jardin communautaire, par delà la barrière. Peut-être un autre de ces curieux poissons.",
 	"NPCFish.Hint.FishNote9": "Je pense en avoir vu un à la maison alors que je me promenais pour mon anniversaire - il profitait du soleil ! Et la dernière fois, je suis allée voir Sophia, et j'en ai vu un autre qui lui ressemblait !",
-	"NPCFish.Hint.FishNote10": "Il y a un poisson dans mon bac d'expédition !",
+	"NPCFish.Hint.FishNote10": "Il y a un poisson dans mon bac d'expédition !"
 }
