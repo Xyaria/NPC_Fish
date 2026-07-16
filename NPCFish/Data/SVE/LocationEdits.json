@@ -75,7 +75,7 @@
 					"IsBossFish": "True",
 					"FishAreaId": "North of Andy's House",
 					"ItemId": "{{ModId}}.Andy",
-					"Condition": "LOCATION_SEASON Here spring"
+					"Condition": "LOCATION_SEASON Here spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
@@ -113,7 +113,7 @@
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Claire",
 					"FishAreaId": "Joja Pond",
-					"Condition": "LOCATION_SEASON Here fall"
+					"Condition": "LOCATION_SEASON Here fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				},
 				"{{ModId}}.GuntherFish": {
 					"Chance": 1.0,
@@ -122,7 +122,7 @@
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Gunther",
 					"FishAreaId": "South of Bridge",
-					"Condition": "LOCATION_SEASON Here winter"
+					"Condition": "LOCATION_SEASON Here winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				},
 				"{{ModId}}.MartinFish": {
 					"Chance": 1.0,
@@ -131,7 +131,7 @@
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Martin",
 					"FishAreaId": "Joja Pond",
-					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Sunny"
+					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Sunny,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				},
 			}
 		},
@@ -151,7 +151,7 @@
 					"IsBossFish": "True",
 										"Precedence": 20,
 					"ItemId": "{{ModId}}.Olivia",
-					"Condition": "LOCATION_SEASON Here spring, WEATHER Here Sunny"
+					"Condition": "LOCATION_SEASON Here spring, WEATHER Here Sunny,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
@@ -230,7 +230,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Lance",
-					"Condition": "LOCATION_SEASON Here spring, WEATHER Here Sunny"
+					"Condition": "LOCATION_SEASON Here spring, WEATHER Here Sunny,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 			}
 			}
 		},
@@ -248,7 +248,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Marlon",
-					"Condition": "LOCATION_SEASON Here winter"
+					"Condition": "LOCATION_SEASON Here winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
@@ -266,7 +266,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Morgan",
-					"Condition": "LOCATION_SEASON Here fall, WEATHER Here Rain, Year 3"
+					"Condition": "LOCATION_SEASON Here fall, WEATHER Here Rain, Year 3,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
@@ -285,7 +285,7 @@
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Morris",
 					"When": {"HasFlag": "vineyardUnlocked"},
-					"Condition": "LOCATION_SEASON Here Spring"
+					"Condition": "LOCATION_SEASON Here Spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
@@ -303,7 +303,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Scarlett",
-					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Sunny"
+					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Sunny,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
@@ -321,7 +321,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Sophia",
-					"Condition": "LOCATION_SEASON Here winter"
+					"Condition": "LOCATION_SEASON Here winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
@@ -340,7 +340,7 @@
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Susan",
 					"FishAreaId": "Susan's Shipping bin",
-					"Condition": "LOCATION_SEASON Here fall"
+					"Condition": "LOCATION_SEASON Here fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
@@ -358,7 +358,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Victor",
-					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Rain"
+					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Rain,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		}
