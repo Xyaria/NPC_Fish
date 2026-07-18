@@ -60,16 +60,15 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Fish",
-				"When": {"Hasmod | contains=!FlashShifter.StardewValleyExpandedCP": false},
+			"When": {
+				"Hasmod | contains=!FlashShifter.StardewValleyExpandedCP": false
+			},
 			"Entries": {
 				"{{ModId}}.Gunther": "{{i18n:NPCFish.Name.Gunther}}/trap/.03/680 .35/ocean/1/5/false",
 				"{{ModId}}.Henchman": "{{i18n:NPCFish.Name.Henchman}}/trap/.03/680 .35/ocean/1/5/false",
 				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.Marlon}}/trap/.03/680 .35/ocean/1/5/false",
 				"{{ModId}}.Morris": "{{i18n:NPCFish.Name.Morris}}/trap/.03/680 .35/ocean/1/5/false"
-				
-				
 			}
-		},
-	
+		}
 	]
 }

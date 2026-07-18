@@ -4,10 +4,11 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Farm",
 			"Entries": {
-				"{{ModId}}.Intro_WillyEvent/Skill Fishing 2": "
+				"{{ModId}}.Intro_WillyEvent/Skill Fishing 2/GameStateQuery PLAYER_HAS_MAIL Current HasMagnifyingGlass": "
 					continue/
 					-1000 -1000/
 					farmer 0 0 0 Willy 0 0 2/
+					setSkipActions addQuest {{ModId}}.Intro_WillyQuest mailReceived {{ModId}}.NPCFishIntroStart/
 					skippable/
 					pause 1000/
 					speak Willy \"{{i18n:NPCFish.WillyEvent_line1}}$2#$e#\"/
@@ -29,9 +30,11 @@
 					speak Willy \"{{i18n:NPCFish.WillyEvent_line6}}$0#$b#{{i18n:NPCFish.WillyEvent_line7}}$0#$b#{{i18n:NPCFish.WillyEvent_line8}}$1#$b#{{i18n:NPCFish.WillyEvent_line9}}$2#$e#\"/
 					emote farmer 40/
 					fade/
+					pause 100/
 					message \"{{i18n:NPCFish.WillyEvent_fadeline1}}\"/
 					message \"{{i18n:NPCFish.WillyEvent_fadeline2}}\"/
 					addQuest {{ModId}}.Intro_WillyQuest/
+					mailReceived {{ModId}}.NPCFishIntroStart/
 					end"
 			}
 		},
@@ -46,8 +49,8 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"{{ModId}}.Intro_LewisMail": "{{i18n:NPCFish.LewisMail.content}}%% %action AddConversationTopic NPCFishIntroComplete%%[#]{{i18n:NPCFish.LewisMail.title}}",
-				}
+				"{{ModId}}.Intro_LewisMail": "{{i18n:NPCFish.LewisMail.content}} %action AddConversationTopic {{ModId}}.NPCFishIntroComplete%%[#]{{i18n:NPCFish.LewisMail.title}}",
+			}
 		},
 		{
 			"Action": "EditData",

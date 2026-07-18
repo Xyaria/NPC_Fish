@@ -229,7 +229,7 @@
 						"fish_has_roe"
 					]
 				},
-					"{{ModId}}.Alesia": {
+				"{{ModId}}.Alesia": {
 					"Name": "{{i18n:NPCFish.Name.SVE.Alesia}}",
 					"DisplayName": "{{i18n:NPCFish.Name.SVE.Alesia}}",
 					"Description": "{{i18n:NPCFish.Desc.SVE.Alesia}}",

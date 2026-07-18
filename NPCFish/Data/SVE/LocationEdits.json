@@ -1,13 +1,9 @@
 {
 	"Changes": [
-	
-	{
+		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Forest",
-				"FishAreas"
-			],
+			"TargetField": ["Forest", "FishAreas"],
 			"Entries": {
 				"North of Andy's House": {
 					"Position": {
@@ -16,18 +12,14 @@
 						"Width": 30,
 						"Height": 18
 					}
-				},
-			
+				}
 			}
 		},
-		
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Town",
-				"FishAreas"
-			],
+			"TargetField": ["Town", "FishAreas"],
 			"Entries": {
 				"Joja Pond": {
 					"Position": {
@@ -36,18 +28,13 @@
 						"Width": 7,
 						"Height": 7
 					}
-				},
-			
+				}
 			}
 		},
-		
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Railroad",
-				"FishAreas"
-			],
+			"TargetField": ["Railroad", "FishAreas"],
 			"Entries": {
 				"Susan's Shipping bin": {
 					"Position": {
@@ -56,17 +43,55 @@
 						"Width": 2,
 						"Height": 2
 					}
-				},
-			
+				}
 			}
 		},
-			{
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Railroad",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 46,
+						"Y": 49
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "I"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Garden",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 44,
+						"Y": 31
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+
+				{
+					"Position": {
+						"X": 44,
+						"Y": 31
+					},
+					"Layer": "Buildings2",
+					"SetTilesheet": "outdoors",
+					"SetIndex": 1182
+				}
+			]
+		},
+
+		// ---------- Fish setup ----------
+		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Forest",
-				"Fish"
-			],
+			"TargetField": ["Forest", "Fish"],
 			"Entries": {
 				"{{ModId}}.AndyFish": {
 					"Chance": 1.0,
@@ -82,10 +107,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Custom_JunimoWoods",
-				"Fish"
-			],
+			"TargetField": ["Custom_JunimoWoods", "Fish"],
 			"Entries": {
 				"{{ModId}}.ApplesFish": {
 					"Chance": 1.0,
@@ -93,18 +115,15 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Apples",
-					    "When": {"HasFlag": "vineyardUnlocked"},
-					
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"When": { "HasFlag": "vineyardUnlocked" }
 				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Town",
-				"Fish"
-			],
+			"TargetField": ["Town", "Fish"],
 			"Entries": {
 				"{{ModId}}.ClaireFish": {
 					"Chance": 1.0,
@@ -132,53 +151,30 @@
 					"ItemId": "{{ModId}}.Martin",
 					"FishAreaId": "Joja Pond",
 					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Sunny,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
-				},
+				}
 			}
 		},
-		
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Custom_Garden",
-				"Fish"
-			],
+			"TargetField": ["Custom_Garden", "Fish"],
 			"Entries": {
 				"{{ModId}}.OliviaFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.OliviaFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-										"Precedence": 20,
+					"Precedence": 20,
 					"ItemId": "{{ModId}}.Olivia",
 					"Condition": "LOCATION_SEASON Here spring, WEATHER Here Sunny,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
 		{
-			"Action": "EditMap",
-			"Target": "Maps/Railroad",
-						"MapTiles": [
-
-				{
-					"Position": {
-						"X": 46,
-						"Y": 49
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "I"
-					}
-				}
-			]
-		},
-		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"WitchSwamp",
-				"Fish"
-			],
+			"TargetField": ["WitchSwamp", "Fish"],
 			"Entries": {
 				"{{ModId}}.HenchmanFish": {
 					"Chance": 1.0,
@@ -186,43 +182,15 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Henchman",
-					"When": {"WEATHER": "Rain"}
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"When": { "WEATHER": "Rain" }
 				}
 			}
-		},
-		
-		{
-			"Action": "EditMap",
-			"Target": "Maps/Custom_Garden",
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 44,
-						"Y": 31
-					},
-					"Layer": "Buildings",
-					"Remove": true
-				},
-
-				{
-			"Position": {
-				"X": 44,
-				"Y": 31
-			},
-			"Layer": "Buildings2",
-			"SetTilesheet":"outdoors",
-			"SetIndex": 1182,
-		
-		},
-			]
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Custom_Highlands",
-				"Fish"
-			],
+			"TargetField": ["Custom_Highlands", "Fish"],
 			"Entries": {
 				"{{ModId}}.LanceFish": {
 					"Chance": 1.0,
@@ -231,16 +199,13 @@
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Lance",
 					"Condition": "LOCATION_SEASON Here spring, WEATHER Here Sunny,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
-			}
+				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Custom_AdventurerSummit",
-				"Fish"
-			],
+			"TargetField": ["Custom_AdventurerSummit", "Fish"],
 			"Entries": {
 				"{{ModId}}.MarlonFish": {
 					"Chance": 1.0,
@@ -255,10 +220,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Custom_ForestWest",
-				"Fish"
-			],
+			"TargetField": ["Custom_ForestWest", "Fish"],
 			"Entries": {
 				"{{ModId}}.MorganFish": {
 					"Chance": 1.0,
@@ -273,10 +235,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Custom_MorrisProperty",
-				"Fish"
-			],
+			"TargetField": ["Custom_MorrisProperty", "Fish"],
 			"Entries": {
 				"{{ModId}}.MorrisFish": {
 					"Chance": 1.0,
@@ -284,7 +243,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Morris",
-					"When": {"HasFlag": "vineyardUnlocked"},
+					"When": { "HasFlag": "vineyardUnlocked" },
 					"Condition": "LOCATION_SEASON Here Spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
@@ -292,10 +251,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Custom_GrampletonSuburbs",
-				"Fish"
-			],
+			"TargetField": ["Custom_GrampletonSuburbs", "Fish"],
 			"Entries": {
 				"{{ModId}}.ScarlettFish": {
 					"Chance": 1.0,
@@ -310,10 +266,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Custom_BlueMoonVineyard",
-				"Fish"
-			],
+			"TargetField": ["Custom_BlueMoonVineyard", "Fish"],
 			"Entries": {
 				"{{ModId}}.SophiaFish": {
 					"Chance": 1.0,
@@ -328,10 +281,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Railroad",
-				"Fish"
-			],
+			"TargetField": ["Railroad", "Fish"],
 			"Entries": {
 				"{{ModId}}.SusanFish": {
 					"Chance": 1.0,
@@ -347,10 +297,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [
-				"Custom_ShearwaterBridge",
-				"Fish"
-			],
+			"TargetField": ["Custom_ShearwaterBridge", "Fish"],
 			"Entries": {
 				"{{ModId}}.VictorFish": {
 					"Chance": 1.0,
