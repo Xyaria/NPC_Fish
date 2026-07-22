@@ -46,7 +46,7 @@
 				"{{ModId}}.Governor": "{{i18n:NPCFish.Name.Governor}}/trap/.03/680 .35/ocean/1/5/false",
 				"{{ModId}}.Grandpa": "{{i18n:NPCFish.Name.Grandpa}}/trap/.03/680 .35/freshwater/1/5/false",
 				"{{ModId}}.HatMouse": "{{i18n:NPCFish.Name.HatMouse}}/trap/.03/680 .35/freshwater/1/5/false",
-				"{{ModId}}.Junimo": "{{i18n:NPCFish.Name.Junimo}}/trap/.03/680 .35/Freshwater/1/5/false",
+				"{{ModId}}.Junimo": "{{i18n:NPCFish.Name.Junimo}}/trap/.03/680 .35/freshwater/1/5/false",
 				"{{ModId}}.Marcello": "{{i18n:NPCFish.Name.Marcello}}/trap/.03/680 .35/freshwater/1/5/false",
 				"{{ModId}}.Mariner": "{{i18n:NPCFish.Name.Mariner}}/trap/.03/680 .35/ocean/1/5/false",
 				"{{ModId}}.MrQi": "{{i18n:NPCFish.Name.MrQi}}/trap/.03/680 .35/freshwater/1/5/false",

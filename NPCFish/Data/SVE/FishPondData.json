@@ -363,7 +363,187 @@
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
 						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "444", "MinQuantity": 1, "MaxQuantity": 3 }
 					]
-				}
+				},
+				"id_(o){{ModId}}.Alesia": {
+					"RequiredTags": [ "id_(o){{ModId}}.Alesia" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Alesia",
+							"Color": "181 169 153",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Axel": {
+					"RequiredTags": [ "id_(o){{ModId}}.Axel" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Axel",
+							"Color": "153 62 0",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Brooklyn": {
+					"RequiredTags": [ "id_(o){{ModId}}.Brooklyn" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Brooklyn",
+							"Color": "196 88 0",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Camilla": {
+					"RequiredTags": [ "id_(o){{ModId}}.Camilla" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Camilla",
+							"Color": "255 199 79",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Chloe": {
+					"RequiredTags": [ "id_(o){{ModId}}.Chloe" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Chloe",
+							"Color": "122 98 167",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Dusty": {
+					"RequiredTags": [ "id_(o){{ModId}}.Dusty" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Dusty",
+							"Color": "226 135 58",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Gil": {
+					"RequiredTags": [ "id_(o){{ModId}}.Gil" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Gil",
+							"Color": "131 18 51",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.HighlandsDwarf": {
+					"RequiredTags": [ "id_(o){{ModId}}.HighlandsDwarf" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.HighlandsDwarf",
+							"Color": "255 157 0",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Isaac": {
+					"RequiredTags": [ "id_(o){{ModId}}.Isaac" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Isaac",
+							"Color": "89",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Jace": {
+					"RequiredTags": [ "id_(o){{ModId}}.Jace" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Jace",
+							"Color": "72 53 110",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Jadu": {
+					"RequiredTags": [ "id_(o){{ModId}}.Jadu" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Jadu",
+							"Color": "167 62 232",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Jolyne": {
+					"RequiredTags": [ "id_(o){{ModId}}.Jolyne" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Jolyne",
+							"Color": "36 107 117",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Mermaid": {
+					"RequiredTags": [ "id_(o){{ModId}}.Mermaid" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Mermaid",
+							"Color": "79 201 255",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Peaches": {
+					"RequiredTags": [ "id_(o){{ModId}}.Peaches" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Peaches",
+							"Color": "244 185 219",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
+				"id_(o){{ModId}}.Zoey": {
+					"RequiredTags": [ "id_(o){{ModId}}.Zoey" ],
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}.Zoey",
+							"Color": "249 105 108",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+				},
 			}
 		}
 	]

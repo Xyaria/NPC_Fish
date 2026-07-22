@@ -44,12 +44,12 @@
 			"Target": "Data/Locations",
 			"TargetField": ["IslandSouthEast", "FishAreas"],
 			"Entries": {
-				"Tidepool": {
+				"Grotto Exit": {
 					"Position": {
-						"X": 17,
-						"Y": 19,
+						"X": 31,
+						"Y": 27,
 						"Width": 5,
-						"Height": 6
+						"Height": 5
 					}
 				}
 			}
@@ -59,20 +59,45 @@
 			"Target": "Data/Locations",
 			"TargetField": ["Mountain", "FishAreas"],
 			"Entries": {
+				"Lake Bridge": {
+					"Position": {
+						"X": 59,
+						"Y": 18,
+						"Width": 9,
+						"Height": 9
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Mountain", "FishAreas"],
+			"When": { "Hasmod": "FlashShifter.StardewValleyExpandedCP" },
+			"Entries": {
+				"Mine Bridge": {
+					"Position": {
+						"X": 43,
+						"Y": 13,
+						"Width": 8,
+						"Height": 5
+					}
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Mountain", "FishAreas"],
+			"When": { "Hasmod": "!FlashShifter.StardewValleyExpandedCP" },
+			"Entries": {
 				"Mine Bridge": {
 					"Position": {
 						"X": 45,
 						"Y": 5,
 						"Width": 5,
 						"Height": 6
-					}
-				},
-				"Lake Bridge": {
-					"Position": {
-						"X": 59,
-						"Y": 21,
-						"Width": 9,
-						"Height": 4
 					}
 				}
 			}
@@ -116,25 +141,9 @@
 				"Marnie's Animal Trough": {
 					"Position": {
 						"X": 94,
-						"Y": 16,
+						"Y": 15,
 						"Width": 2,
-						"Height": 1
-					}
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_{{ModId}}.Marnie, season Fall",
-			"TargetField": ["Forest", "FishAreas"],
-			"Entries": {
-				"Marnie's Animal Trough": {
-					"Position": {
-						"X": 0,
-						"Y": 0,
-						"Width": 1,
-						"Height": 1
+						"Height": 2
 					}
 				}
 			}
@@ -287,7 +296,7 @@
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Town",
-			"When": "!PLAYER_HAS_CAUGHT_FISH current {{ModId}}.Lewis, LOCATION_SEASON Here spring",
+			"When": "!PLAYER_HAS_CAUGHT_FISH current {{ModId}}.Lewis, SEASON spring",
 			"MapTiles": [
 				{
 					"Position": {
@@ -414,7 +423,7 @@
 					"ItemId": "{{ModId}}.Abigail",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "PLAYER_HAS_Mail current carolinesNecklace, LOCATION_SEASON Here Fall",
+					"Condition": "PLAYER_HAS_Mail current carolinesNecklace, SEASON Fall",
 					"FishAreaId": "Mine Bridge",
 					"ContextTags": ["fish_legendary"]
 				},
@@ -425,7 +434,8 @@
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Linus",
 					"FishAreaId": "Lake Bridge",
-					"Condition": "LOCATION_SEASON Here winter, WEATHER Here Sunny"
+					"Condition": "SEASON winter, WEATHER Here Sun",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -442,7 +452,8 @@
 					"IsBossFish": "True",
 					"FishAreaId": "Bathhouse Fountain",
 					"Precedence": -10,
-					"Condition": "LOCATION_SEASON Here summer, WEATHER Here Rain Storm"
+					"Condition": "SEASON summer, WEATHER Here Rain Storm",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -458,7 +469,8 @@
 					"ItemId": "{{ModId}}.Caroline",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here winter,PLAYER_SPECIAL_ORDER_COMPLETE current Caroline"
+					"Condition": "SEASON winter,PLAYER_SPECIAL_ORDER_COMPLETE current Caroline",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -473,8 +485,9 @@
 					"ItemId": "{{ModId}}.Clint",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here winter",
-					"FishAreaId": "River West of Blacksmith"
+					"Condition": "SEASON winter",
+					"FishAreaId": "River West of Blacksmith",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.EvelynFish": {
 					"Chance": 1.0,
@@ -482,7 +495,8 @@
 					"ItemId": "{{ModId}}.Evelyn",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here winter, PLAYER_HAS_Mail current ccPantry"
+					"Condition": "SEASON winter, PLAYER_HAS_Mail current ccPantry",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.GeorgeFish": {
 					"Chance": 1.0,
@@ -490,7 +504,8 @@
 					"ItemId": "{{ModId}}.George",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here fall, PLAYER_HAS_SEEN_EVENT current 5837189"
+					"Condition": "SEASON fall, PLAYER_HAS_SEEN_EVENT current 5837189",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.HarveyFish": {
 					"Chance": 1.0,
@@ -498,8 +513,9 @@
 					"ItemId": "{{ModId}}.Harvey",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here winter",
-					"FishAreaId": "Pelican Town Waterfall"
+					"Condition": "SEASON winter",
+					"FishAreaId": "Pelican Town Waterfall",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.HaleyFish": {
 					"Chance": 1.0,
@@ -507,7 +523,7 @@
 					"ItemId": "{{ModId}}.Haley",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here spring",
+					"Condition": "SEASON spring, WEATHER Here Sun",
 					"FishAreaId": "Fountain",
 					"Precedence": -10,
 					"ContextTags": ["fish_legendary"]
@@ -519,7 +535,8 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"FishAreaId": "South of Bridge",
-					"Condition": "LOCATION_SEASON Here fall"
+					"Condition": "SEASON fall",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.LewisFish": {
 					"Chance": 1.0,
@@ -529,7 +546,8 @@
 					"Precedence": 250,
 					"IsBossFish": "True",
 					"FishAreaId": "Truck Bed",
-					"Condition": "LOCATION_SEASON Here spring"
+					"Condition": "SEASON spring",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -546,7 +564,8 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"FishAreaId": "Southern Falls",
-					"Condition": "LOCATION_SEASON Here summer, WEATHER Here GreenRain,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON summer, WEATHER Here GreenRain,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.JasFish": {
 					"Chance": 1.0,
@@ -554,8 +573,9 @@
 					"ItemId": "{{ModId}}.Jas",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
-					"FishAreaId": "River"
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"FishAreaId": "River",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.LeahFish": {
 					"Chance": 1.0,
@@ -563,8 +583,9 @@
 					"ItemId": "{{ModId}}.Leah",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
-					"FishAreaId": "River"
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"FishAreaId": "River",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.MarnieFish": {
 					"Chance": 1.0,
@@ -572,9 +593,10 @@
 					"ItemId": "{{ModId}}.Marnie",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"Precedence": 250,
-					"FishAreaId": "Marnie's Animal Trough"
+					"FishAreaId": "Marnie's Animal Trough",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.ShaneFish": {
 					"Chance": 1.0,
@@ -582,8 +604,9 @@
 					"ItemId": "{{ModId}}.Shane",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
-					"FishAreaId": "Lake"
+					"Condition": "SEASON spring,WEATHER Here Rain Storm,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"FishAreaId": "Lake",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.VincentFish": {
 					"Chance": 1.0,
@@ -591,8 +614,9 @@
 					"ItemId": "{{ModId}}.Vincent",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
-					"FishAreaId": "River"
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"FishAreaId": "River",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -607,7 +631,8 @@
 					"ItemId": "{{ModId}}.Dwarf",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here summer, Location_Name Here UndergroundMine20,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON summer, Location_Name Here UndergroundMine20,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.SebastianFish": {
 					"Chance": 1.0,
@@ -615,7 +640,8 @@
 					"ItemId": "{{ModId}}.Sebastian",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here winter, Location_Name Here UndergroundMine60,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON winter,WEATHER Here Rain Storm, Location_Name Here UndergroundMine60,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -631,7 +657,8 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"FishAreaId": "North of Tidepool Bridge",
-					"Condition": "LOCATION_SEASON Here fall, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON fall, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.MaruFish": {
 					"Chance": 1.0,
@@ -640,7 +667,8 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"FishAreaId": "Around the Rock",
-					"Condition": "LOCATION_SEASON Here summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.SamFish": {
 					"Chance": 1.0,
@@ -648,7 +676,8 @@
 					"ItemId": "{{ModId}}.Sam",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -663,7 +692,8 @@
 					"ItemId": "{{ModId}}.Emily",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.RobinFish": {
 					"Chance": 1.0,
@@ -671,7 +701,8 @@
 					"ItemId": "{{ModId}}.Robin",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -686,7 +717,8 @@
 					"ItemId": "{{ModId}}.Gus",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -701,7 +733,8 @@
 					"ItemId": "{{ModId}}.Kent",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "PLAYER_HAS_Mail Current birdieQuestFinished,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON spring,WEATHER Here Rain Storm,PLAYER_HAS_Mail Current birdieQuestFinished,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -716,8 +749,9 @@
 					"ItemId": "{{ModId}}.Leo",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "Tidepool",
-					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"FishAreaId": "Grotto Exit",
+					"Condition": "SEASON summer,WEATHER Here Sun,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -733,7 +767,8 @@
 					"ItemId": "{{ModId}}.Pam",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -748,7 +783,8 @@
 					"ItemId": "{{ModId}}.Pierre",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -763,7 +799,8 @@
 					"ItemId": "{{ModId}}.Sandy",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -778,7 +815,8 @@
 					"ItemId": "{{ModId}}.Krobus",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -793,7 +831,8 @@
 					"ItemId": "{{ModId}}.Willy",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "PLAYER_HAS_MAIL Current {{ModId}}.NPCFishIntroStart"
+					"Condition": "PLAYER_HAS_MAIL Current {{ModId}}.NPCFishIntroStart",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -808,7 +847,8 @@
 					"ItemId": "{{ModId}}.Wizard",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here winter,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard2,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON winter,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard2,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		},
@@ -824,7 +864,8 @@
 					"ItemId": "{{ModId}}.Jodi",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "LOCATION_SEASON Here fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
 			}
 		}
