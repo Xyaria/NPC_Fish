@@ -733,7 +733,7 @@
 					"Category": -4,
 					"Price": "200",
 					"Texture": "Mods/{{ModId}}/vanilla_sprites",
-					"SpriteIndex": 51,
+					"SpriteIndex": 52,
 					"ContextTags": [
 						"color_pink",
 						"fish_crab_pot",
@@ -749,7 +749,7 @@
 					"Category": -4,
 					"Price": "200",
 					"Texture": "Mods/{{ModId}}/vanilla_sprites",
-					"SpriteIndex": 52,
+					"SpriteIndex": 51,
 					"ContextTags": [
 						"color_brown",
 						"fish_crab_pot",
