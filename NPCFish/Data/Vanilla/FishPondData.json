@@ -794,260 +794,27 @@
 				},
 
 				// ---------- Crabpots ----------
-				"id_(o){{ModId}}.Bear": {
-					"RequiredTags": [ "id_(o){{ModId}}.Bear" ],
+				"id_fish_crab_pot_NPCFish_Vanilla": {
+					"RequiredTags": ["fish_crab_pot_NPCFish_Vanilla"],
 					"WaterColor": [
 						{
-							"Id": "{{ModId}}.Bear",
-							"Color": "188 117 54",
+							"Id": "{{ModId}}_VanillaNPCFISH_Crabpot",
+							"Color": "LawnGreen",
 							"MinPopulation": 3,
 							"MinUnlockedPopulationGate": 0,
 							"Condition": null
 						}
 					],
-				},
-				"id_(o){{ModId}}.Birdie": {
-					"RequiredTags": [ "id_(o){{ModId}}.Birdie" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Birdie",
-							"Color": "248 205 96",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				
-				"id_(o){{ModId}}.Bouncer": {
-					"RequiredTags": [ "id_(o){{ModId}}.Bouncer" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Bouncer",
-							"Color": "150 150 150",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Fizz": {
-					"RequiredTags": [ "id_(o){{ModId}}.Fizz" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Fizz",
-							"Color": "96 141 255",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Gourmand": {
-					"RequiredTags": [ "id_(o){{ModId}}.Gourmand" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Gourmand",
-							"Color": "195 183 58",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Governor": {
-					"RequiredTags": [ "id_(o){{ModId}}.Governor" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Governor",
-							"Color": "178 105 229",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Grandpa": {
-					"RequiredTags": [ "id_(o){{ModId}}.Grandpa" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Grandpa",
-							"Color": "7 253 219",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				
-				"id_(o){{ModId}}.Gunther": {
-					"RequiredTags": [ "id_(o){{ModId}}.Gunther" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Gunther",
-							"Color": "27 163 229",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.HatMouse": {
-					"RequiredTags": [ "id_(o){{ModId}}.HatMouse" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.HatMouse",
-							"Color": "211 211 211",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				
-				"id_(o){{ModId}}.Henchman": {
-					"RequiredTags": [ "id_(o){{ModId}}.Henchman" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Henchman",
-							"Color": "178 239 172",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Junimo": {
-					"RequiredTags": [ "id_(o){{ModId}}.Junimo" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Junimo",
-							"Color": "216 164 165",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Marcello": {
-					"RequiredTags": [ "id_(o){{ModId}}.Marcello" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Marcello",
-							"Color": "255 115 191",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Mariner": {
-					"RequiredTags": [ "id_(o){{ModId}}.Mariner" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Mariner",
-							"Color": "138 170 234",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Marlon": {
-					"RequiredTags": [ "id_(o){{ModId}}.Marlon" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Marlon",
-							"Color": "84 152 126",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Morris": {
-					"RequiredTags": [ "id_(o){{ModId}}.Morris" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Morris",
-							"Color": "61 61 104",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.MrQi": {
-					"RequiredTags": [ "id_(o){{ModId}}.MrQi" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.MrQi",
-							"Color": "124 214 249",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.MrsRaccoon": {
-					"RequiredTags": [ "id_(o){{ModId}}.MrsRaccoon" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.MrsRaccoon",
-							"Color": "164 150 162",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.ProfessorSnail": {
-					"RequiredTags": [ "id_(o){{ModId}}.ProfessorSnail" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.ProfessorSnail",
-							"Color": "190 183 78",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.Raccoon": {
-					"RequiredTags": [ "id_(o){{ModId}}.Raccoon" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.Raccoon",
-							"Color": "164 152 150",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.TrashBear": {
-					"RequiredTags": [ "id_(o){{ModId}}.TrashBear" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.TrashBear",
-							"Color": "196 159 90",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-				},
-				"id_(o){{ModId}}.TravellingMerchant": {
-					"RequiredTags": [ "id_(o){{ModId}}.TravellingMerchant" ],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}.TravellingMerchant",
-							"Color": "85 219 155",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)240", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)Raisins", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)Raisins", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)243", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)241", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)241", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)241", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)242", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
 				},
 			}
 		},
