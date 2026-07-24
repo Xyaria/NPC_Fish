@@ -119,8 +119,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Apples",
-					"Condition": "WEATHER Here Sun,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
-					"When": { "HasFlag": "vineyardUnlocked" }
+					"Condition": "WEATHER Here Sun,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},
@@ -251,7 +250,6 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Morris",
-					"When": { "HasFlag": "vineyardUnlocked" },
 					"Condition": "SEASON Spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
