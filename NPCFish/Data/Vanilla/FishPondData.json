@@ -792,32 +792,7 @@
 						{ "RequiredPopulation": 9, "Chance": 0.05, "ItemID": "(O)Book_Mystery", "MinQuantity": 1, "MaxQuantity": 1 }
 					]
 				},
-
-				// ---------- Crabpots ----------
-				"id_fish_crab_pot_NPCFish_Vanilla": {
-					"RequiredTags": ["fish_crab_pot_NPCFish_Vanilla"],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}_VanillaNPCFISH_Crabpot",
-							"Color": "LawnGreen",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-					"ProducedItems": [
-						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)240", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)Raisins", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)Raisins", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)243", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)241", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)241", "MinQuantity": 2, "MaxQuantity": 3 },
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)241", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)242", "MinQuantity": 1, "MaxQuantity": 1 }
-					]
-				},
 			}
 		},
-
 	]
 }

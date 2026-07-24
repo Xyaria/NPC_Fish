@@ -364,29 +364,6 @@
 						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "444", "MinQuantity": 1, "MaxQuantity": 3 }
 					]
 				},
-				"id_fish_crab_pot_NPCFish_SVE": {
-					"RequiredTags": ["fish_crab_pot_NPCFish_SVE"],
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}_SVENPCFISH_Crabpot",
-							"Color": "LavenderBlush",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-					"ProducedItems": [
-						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)Raisins", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)Raisins", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)689", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)268", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)690", "MinQuantity": 2, "MaxQuantity": 3 },
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)690", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)688", "MinQuantity": 1, "MaxQuantity": 1 }
-					]
-				},
-				
 			}
 		}
 	]
