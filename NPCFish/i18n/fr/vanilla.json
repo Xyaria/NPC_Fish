@@ -202,8 +202,8 @@
 	"NPCFish.WillyEvent_fadeline2": "Un drôle de poisson qui ressemble à Willy ? Vous êtes curieux de voir ça de plus près, si tant est qu'il existe !",
 
 	// Letter
-	"NPCFish.LewisMail_content": "Bon matin @.^^Je suppose que Willy t'a parlé de cet \"étrange poisson\" qu'il a vu ? Il en a parlé à tout le monde, et maintenant commence à dire que tu l'as attrapé. Sincèrement, je te remercie.^Il avait mis en place un livre chez lui, pour que nous puissions tous indiquer quand on le voyait. Mais on a fini par décrire des apparitions *d'autres* poissons étranges.^Ne t'embête pas à aller le lire : il a disparu la nuit dernière. Je crois avoir entendu Penny dire qu'elle a vu une des pages déchirée flotter dans le vent... Elles doivent être éparpillées partout.^^Si tu veux partir à leur recherche et attraper tous ces poissons... Nous te serions reconnaissants. Ces poissons bizarres effraient tout le monde !^^- Lewis",
-	"NPCFish.LewisMail_title": "Invasion de poissons bizarres"
+	"NPCFish.LewisMail.content": "Bon matin @.^^Je suppose que Willy t'a parlé de cet \"étrange poisson\" qu'il a vu ? Il en a parlé à tout le monde, et maintenant commence à dire que tu l'as attrapé. Sincèrement, je te remercie.^Il avait mis en place un livre chez lui, pour que nous puissions tous indiquer quand on le voyait. Mais on a fini par décrire des apparitions *d'autres* poissons étranges.^Ne t'embête pas à aller le lire : il a disparu la nuit dernière. Je crois avoir entendu Penny dire qu'elle a vu une des pages déchirée flotter dans le vent... Elles doivent être éparpillées partout.^^Si tu veux partir à leur recherche et attraper tous ces poissons... Nous te serions reconnaissants. Ces poissons bizarres effraient tout le monde !^^- Lewis",
+	"NPCFish.LewisMail.title": "Invasion de poissons bizarres"
 
 	// Fish CT
 }

@@ -831,7 +831,7 @@
 					"ItemId": "{{ModId}}.Willy",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "PLAYER_HAS_MAIL Current {{ModId}}.NPCFishIntroStart",
+					"Condition": "PLAYER_HAS_SEEN_EVENT current {{ModId}}.Intro_WillyEvent",
 					"ContextTags": ["fish_legendary"]
 				}
 			}

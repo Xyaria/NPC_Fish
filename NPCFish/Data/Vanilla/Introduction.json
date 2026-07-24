@@ -8,7 +8,7 @@
 					continue/
 					-1000 -1000/
 					farmer 0 0 0 Willy 0 0 2/
-					setSkipActions addQuest {{ModId}}.Intro_WillyQuest mailReceived {{ModId}}.NPCFishIntroStart/
+					setSkipActions addQuest {{ModId}}.Intro_WillyQuest/
 					skippable/
 					pause 1000/
 					speak Willy \"{{i18n:NPCFish.WillyEvent_line1}}$2#$e#\"/
@@ -34,7 +34,6 @@
 					message \"{{i18n:NPCFish.WillyEvent_fadeline1}}\"/
 					message \"{{i18n:NPCFish.WillyEvent_fadeline2}}\"/
 					addQuest {{ModId}}.Intro_WillyQuest/
-					mailReceived {{ModId}}.NPCFishIntroStart/
 					end"
 			}
 		},
