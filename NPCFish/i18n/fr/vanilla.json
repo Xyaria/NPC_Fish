@@ -179,6 +179,11 @@
 	"NPCFish.Hint.Content.SoggyNote24": "Je buvais un soda sur le ponton de l'étang, et en me relevant j'ai vu une ombre dans l'eau. Je crois que c'était une pieuvre ? Je suis parti parce qu'il s'était mit à pleuvoir, du coup je n'ai vu que son jet d'encre.",
 	"NPCFish.Hint.Content.SoggyNote25": "Je ressens une perturbation dans le tunnel sombre au nord de la voie ferrée. Je ne serai pas étonné si un de ces... 'poissons étranges' en était la cause. Les importantes chutes de neige seules ne peuvent pas expliquer ces changements.",
 
+	// ---------- Trophy ----------
+	"NPCFish.Trophy.Name": "Trophée de la collection complète",
+	"NPCFish.Trophy.Mail.Content": "Félicitations.^Tu as attrapé chaque poisson ressemblant les habitants de cette vallée. Tu as fait un travail remarquable.^Cette lettre est un risque prit, mais je souhaite te récompenser dignement pour cet exploit. Prend ce trophée, et sois-en ${fier^fière}$.^^...Oh.^Et si tu souhaites plus de défis, je peux te dire qu'il y a d'autres poissons-PNJ à attraper... si tu attires plus de monde dans la région.^^-Un ami.",
+	"NPCFish.Trophy.Mail.Title": "Collection de poissons-PNJ complétée",
+	
 	// ---------- Quests, Dialogues, and Events ----------
 	// Introduction quest
 	"NPCFish.WillyQuest_title": "Un poisson bizarre?",

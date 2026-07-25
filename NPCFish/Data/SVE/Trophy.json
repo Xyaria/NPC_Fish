@@ -1,0 +1,32 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"{{ModId}}_NPCFishSVETrophy": "{{ModId}}_NPCFishSVETrophy/decor/1 2/1 1/1/0/2/{{i18n:NPCFish.SVE.Trophy.Name}}/1/Mods\\{{ModId}}\\trophies//"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"{{ModId}}_NPCFishSVETrophyMail": "{{i18n:NPCFish.SVE.Trophy.Mail.Content}} %item id (F){{ModId}}_NPCFishSVETrophy%%[letterbg 2][#]{{i18n:NPCFish.SVE.Trophy.Mail.Title}}",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_OnCompleteSVECollection": {
+					"Id": "{{ModId}}_OnCompleteSVECollection",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Alesia, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Andy, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Axel, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Brooklyn, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Camilla, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Chloe, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Claire, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Dusty, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Gil, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Gunther, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Henchman, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.HighlandsDwarf, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Isaac, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jace, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jadu, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jolyne, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Lance, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Marlon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Martin, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Mermaid, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Morgan, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Olivia, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Peaches, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Scarlett, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Sophia, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Susan, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Victor, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Zoey, ANY \"PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Apples\" \"PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Morris\"",
+					"Actions": [
+						"AddMail Current {{ModId}}_NPCFishSVETrophyMail"
+					]
+				}
+			}
+		},
+	]
+}

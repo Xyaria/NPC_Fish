@@ -1,0 +1,52 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"{{ModId}}_NPCFishTrophy": "{{ModId}}_NPCFishTrophy/decor/1 2/1 1/1/0/2/{{i18n:NPCFish.Trophy.Name}}/0/Mods\\{{ModId}}\\trophies//"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"{{ModId}}_NPCFishTrophyMail": "{{i18n:NPCFish.Trophy.Mail.Content}} %item id (F){{ModId}}_NPCFishTrophy%%[letterbg 2][#]{{i18n:NPCFish.Trophy.Mail.Title}}",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"Hasmod | contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			"Entries": {
+				"{{ModId}}_OnCompleteCollection": {
+					"Id": "{{ModId}}_OnCompleteCollection",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Abigail, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Alex, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Bear, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Birdie, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Bouncer, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Caroline, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Clint, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Demetrius, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Dwarf, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Elliott, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Emily, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Evelyn, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Fizz, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.George, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Gourmand, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Governor,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Grandpa, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Gunther, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Gus, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Haley, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Harvey, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.HatMouse, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Henchman, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jas, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jodi, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Junimo, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Kent, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Krobus, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Leah, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Leo, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Lewis, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Linus, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Marcello, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Mariner, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Marlon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Marnie, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Maru, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Morris, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.MrQi, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.MrsRaccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Pam, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Penny, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Pierre, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.ProfessorSnail, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Robin, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Sam,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Sandy, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Sebastian, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Shane, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.TrashBear, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.TravellingMerchant, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Vincent, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Wizard",
+					"Actions": [
+						"AddMail Current {{ModId}}_NPCFishTrophyMail"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"Hasmod | contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Entries": {
+				"{{ModId}}_OnCompleteCollection": {
+					"Id": "{{ModId}}_OnCompleteCollection",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Abigail,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Alex,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Caroline,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Clint,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Demetrius,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Dwarf,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Elliott,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Emily,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Evelyn,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.George,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Gus,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Harvey,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Haley,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jas,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jodi,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Kent,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Krobus,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Leah,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Leo,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Lewis,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Linus,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Marnie,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Maru,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Pam,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Penny,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Pierre,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Robin,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Sam,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Sandy,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Sebastian,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Shane,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Vincent,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Wizard,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Bear,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Birdie,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Bouncer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Fizz,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Gourmand,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Governor,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Grandpa,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.HatMouse,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Junimo,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Marcello,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Mariner,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.MrQi,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.MrsRaccoon,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.ProfessorSnail,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccoon,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.TrashBear,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.TravellingMerchant",
+					"Actions": [
+						"AddMail Current {{ModId}}_NPCFishTrophyMail"
+					]
+				}
+			}
+		}
+	]
+}

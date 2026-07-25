@@ -25,6 +25,11 @@
 			"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
+			"Target": "Mods/{{ModId}}/trophies",
+			"Action": "Load",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
 			"Action": "Include",
 			"FromFile": "Data/Vanilla/Introduction.json"
 		},
@@ -54,6 +59,10 @@
 		{
 			"Action": "Include",
 			"FromFile": "Data/Vanilla/SecretNotes.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Trophy.json"
 		},
 
 		// Load SVE Fish
@@ -95,6 +104,13 @@
 		{
 			"Action": "Include",
 			"FromFile": "Data/SVE/SecretNotes.json",
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/SVE/Trophy.json",
 			"When": {
 				"HasMod": "FlashShifter.StardewValleyExpandedCP"
 			}

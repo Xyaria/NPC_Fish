@@ -89,5 +89,10 @@
 	"NPCFish.Hint.SVESoggyNote7": "C'est une note de Joja Plumbing Inc. : Nous devons être prudents avec cette intervention : c'est la maison d'un manager de magasin. C'est la même chose que les dernières fois : des gargouillis dans les tuyaux. Je te jure, plus jamais j'interviens dans cette ville !",
 	"NPCFish.Hint.SVESoggyNote8": "J'allais voir Victor, qui avait passé la mâtinée au pont alors qu'il pleuvait, et il m'a dit avoir vu un drôle de poisson sous le pont. Sur le chemin du retour, après que le ciel se soit dégagé, j'ai cru apercevoir des écailles scintillantes au niveau du vieux jardin communautaire, par delà la barrière. Peut-être un autre de ces curieux poissons.",
 	"NPCFish.Hint.SVESoggyNote9": "Je pense en avoir vu un à la maison alors que je me promenais pour mon anniversaire - il profitait du soleil ! Et la dernière fois, je suis allée voir Sophia, et j'en ai vu un autre qui lui ressemblait !",
-	"NPCFish.Hint.SVESoggyNote10": "Il y a un poisson dans mon bac d'expédition !"
+	"NPCFish.Hint.SVESoggyNote10": "Il y a un poisson dans mon bac d'expédition !",
+
+	// ---------- Trophy ----------
+	"NPCFish.SVE.Trophy.Name": "Trophée de la collection 'Expanded'",
+	"NPCFish.SVE.Trophy.Mail.Content": "Alors tu as vraiment complété la collection 'Expanded', hum? Bon travail, très bon même. Tu pourras peut-être remplir une pièce de trophées si tu continues.^^J'entend tes questions. Non, je ne suis pas ce mystérieux 'M. Qi'. Non, je ne suis pas responsable de la présence de ces poissons - même si je ne suis pas non plus innocent.^Non, je ne donnerai pas d'autres informations.^^...Pour le moment.^^-Toujours un ami.",
+	"NPCFish.SVE.Trophy.Mail.Title": "Collection de poissons-PNJ 'Expanded' complétée"
 }

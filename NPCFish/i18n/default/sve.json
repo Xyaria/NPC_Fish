@@ -89,5 +89,10 @@
 	"NPCFish.Hint.SVESoggyNote7": "Note from Joja Plumbing Inc.: We really need to be careful with this next intervention; it's at one of the mart manager's house. It's the same thing as last time: weird gurgling sound in the pipes. I swear I'll ask to never be assigned to this town again.",
 	"NPCFish.Hint.SVESoggyNote8": "I went to check on Victor, who had spent the entire day under the rain at the bridge, and he told me he think he saw a fish in the waters there. It was clear once we went back home, and I think I saw sparkling scales when crossing the old community garden, just over the fence. Probably another curious fish.",
 	"NPCFish.Hint.SVESoggyNote9": "I think I saw one back at home when taking a walk for my birthday - just enjoying the sun! And last time, I came to visit Sophia, I spotted another one which looked very similar!",
-	"NPCFish.Hint.SVESoggyNote10": "There is a fish in my shipping bin!"
+	"NPCFish.Hint.SVESoggyNote10": "There is a fish in my shipping bin!",
+
+	// ---------- Trophy ----------
+	"NPCFish.SVE.Trophy.Name": "Expanded collection Trophy",
+	"NPCFish.SVE.Trophy.Mail.Content": "So you went and completed the expanded fish collection, hm? Good job, very good job. With more people, you will soon have a room full of trophies to parade around.^^I can hear your questions. No, I am not that fabled Mr. Qi. No, I am not the one who created these fish - although I am not completely unrelated.^No, I will not give you more information^^...For now.^^-Still a friend.",
+	"NPCFish.SVE.Trophy.Mail.Title": "NPC Fish Expanded collection complete"
 }

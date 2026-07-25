@@ -179,6 +179,11 @@
 	"NPCFish.Hint.Content.SoggyNote24": "I was drinking on the deck by the pond, when I saw a shadow in the water. I think it was a squid or something? I left because it was raining, and it blew ink as soon as I moved.",
 	"NPCFish.Hint.Content.SoggyNote25": "I sensed a disturbance in the dark tunnel north of the railroad. I wouldn't be surprised if those… 'weird fish' were the cause of it. Snowfalls wouldn't be enough of a reason.",
 
+	// ---------- Trophy ----------
+	"NPCFish.Trophy.Name": "Full collection Trophy",
+	"NPCFish.Trophy.Mail.Content": "Congratulation.^You caught every fish ressembling this valley inhabitants. You did a commendable job.^Sending this letter is a risk I take, but I do want to reward you for this achievement. Take this trophy, and be proud of it.^^...Oh.^And if you're up for more challenge, I can tell you there are even more NPC Fish for you to find... if you add more people to this region.^^-A friend.",
+	"NPCFish.Trophy.Mail.Title": "NPC Fish collection complete",
+	
 	// ---------- Quests, Dialogues, and Events ----------
 	// Introduction quest
 	"NPCFish.WillyQuest_title": "A weird fish?",

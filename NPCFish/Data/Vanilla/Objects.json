@@ -811,7 +811,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"When": { "Hasmod": "!FlashShifter.StardewValleyExpandedCP" },
+			"When": { "Hasmod | contains=FlashShifter.StardewValleyExpandedCP": false },
 			"Entries": {
 				"{{ModId}}.Gunther": {
 					"Name": "{{i18n:NPCFish.Name.Gunther}}",
