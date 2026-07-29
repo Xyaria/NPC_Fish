@@ -1,24 +1,24 @@
 {
-   "Name": "NPC Fish",
-   "Author": "Xyaria",
-   "Version": "1.0.0",
-   "Description": "Add new fish that look like the valley inhabitants",
-   "UniqueID": "xyaria.NPCFish",
-   "MinimumApiVersion": "4.0.0",
-   "UpdateKeys": [
-      "Nexus:49346"
-   ],
-   "ContentPackFor": {
-      "UniqueID": "Pathoschild.ContentPatcher"
-   },
-   "Dependencies": [
-      {
-         "UniqueID": "ichortower.SecretNoteFramework",
-         "IsRequired": "True"
-      },
-      {
-         "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-         "IsRequired": "False"
-      }
-   ]
+	"Name": "NPC Fish",
+	"Author": "Xyaria",
+	"Version": "1.0.1",
+	"Description": "Add new fish that look like the valley inhabitants",
+	"UniqueID": "xyaria.NPCFish",
+	"MinimumApiVersion": "4.0.0",
+	"UpdateKeys": [
+		"Nexus:49346"
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "ichortower.SecretNoteFramework",
+			"IsRequired": "True"
+		},
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": "False"
+		}
+	]
 }
