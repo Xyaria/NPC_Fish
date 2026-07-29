@@ -423,7 +423,7 @@
 					"ItemId": "{{ModId}}.Abigail",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "PLAYER_HAS_Mail current carolinesNecklace, SEASON Fall,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "PLAYER_HAS_Mail current carolinesNecklace, SEASON Fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"FishAreaId": "Mine Bridge",
 					"ContextTags": ["fish_legendary"]
 				},
@@ -434,7 +434,7 @@
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Linus",
 					"FishAreaId": "Lake Bridge",
-					"Condition": "SEASON winter, WEATHER Here Sun,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "SEASON winter, WEATHER Here Sun,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
 				}
 			}
@@ -452,7 +452,7 @@
 					"IsBossFish": "True",
 					"FishAreaId": "Bathhouse Fountain",
 					"Precedence": -10,
-					"Condition": "SEASON summer, WEATHER Here Rain Storm,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "SEASON summer, WEATHER Here Rain Storm,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
 				}
 			}
@@ -469,7 +469,7 @@
 					"ItemId": "{{ModId}}.Caroline",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "SEASON winter,PLAYER_SPECIAL_ORDER_COMPLETE current Caroline,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "SEASON winter,PLAYER_SPECIAL_ORDER_COMPLETE current Caroline,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
 				}
 			}
@@ -486,7 +486,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"Condition": "SEASON winter",
-					"FishAreaId": "River West of Blacksmith,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"FishAreaId": "River West of Blacksmith,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.EvelynFish": {
@@ -495,7 +495,7 @@
 					"ItemId": "{{ModId}}.Evelyn",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "SEASON winter, PLAYER_HAS_Mail current ccPantry,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "SEASON winter, PLAYER_HAS_Mail current ccPantry,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.GeorgeFish": {
@@ -504,7 +504,7 @@
 					"ItemId": "{{ModId}}.George",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "SEASON fall, PLAYER_HAS_SEEN_EVENT current 5837189,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "SEASON fall, PLAYER_HAS_SEEN_EVENT current 5837189,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.HarveyFish": {
@@ -513,7 +513,7 @@
 					"ItemId": "{{ModId}}.Harvey",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"FishAreaId": "Pelican Town Waterfall",
 					"ContextTags": ["fish_legendary"]
 				},
@@ -523,7 +523,7 @@
 					"ItemId": "{{ModId}}.Haley",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"Condition": "SEASON spring, WEATHER Here Sun,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "SEASON spring, WEATHER Here Sun,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"FishAreaId": "Fountain",
 					"Precedence": -10,
 					"ContextTags": ["fish_legendary"]
@@ -535,7 +535,7 @@
 					"CatchLimit": 1,
 					"IsBossFish": "True",
 					"FishAreaId": "South of Bridge",
-					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
 				},
 				"{{ModId}}.LewisFish": {
@@ -546,7 +546,7 @@
 					"Precedence": 250,
 					"IsBossFish": "True",
 					"FishAreaId": "Truck Bed",
-					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (0){{ModId}}.Willy",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
 				}
 			}
