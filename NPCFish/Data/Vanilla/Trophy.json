@@ -4,7 +4,7 @@
 			"Action": "EditData",
 			"Target": "Data/Furniture",
 			"Entries": {
-				"{{ModId}}_NPCFishTrophy": "{{ModId}}_NPCFishTrophy/decor/1 2/1 1/1/0/2/{{i18n:NPCFish.Trophy.Name}}/0/Mods\\{{ModId}}\\trophies//"
+				"{{ModId}}_NPCFishTrophy": "{{ModId}}_NPCFishTrophy/decor/1 2/1 1/1/0/2/{{i18n:NPCFish.Trophy.Name}}/0/Mods\\{{ModId}}\\trophies/True/"
 			}
 		},
 		{
