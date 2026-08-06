@@ -840,6 +840,9 @@
 			"Action": "EditData",
 			"Target": "Data/Locations",
 			"TargetField": ["WitchSwamp", "Fish"],
+			"When": {
+				"HasMod|contains=Nom0ri.RomRas": false
+			},
 			"Entries": {
 				"{{ModId}}.WizardFish": {
 					"Chance": 1.0,
@@ -852,7 +855,6 @@
 				}
 			}
 		},
-
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",

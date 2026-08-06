@@ -1,0 +1,14 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=Nom0ri.RomRas": true
+			},
+			"Entries": {
+				"{{ModId}}.Rasmodia": "{{i18n:NPCFish.Name.Standalones.Rasmodia}}/DART_CHANCE/PATTERN/20/50/600 2600/SEASON/WEATHER/690 .4 685 .1/1/.50/.1/0", //! TODO DATA
+			}
+		}
+	]
+}

@@ -37,7 +37,6 @@
 				"{{ModId}}.Shane": "{{i18n:NPCFish.Name.Shane}}/60/mixed/20/50/600 2600/spring/rainy/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Vincent": "{{i18n:NPCFish.Name.Vincent}}/50/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Willy": "{{i18n:NPCFish.Name.Willy}}/70/mixed/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Wizard": "{{i18n:NPCFish.Name.Wizard}}/90/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Bear": "{{i18n:NPCFish.Name.Bear}}/trap/.03/680 .35/freshwater/1/5/false",
 				"{{ModId}}.Birdie": "{{i18n:NPCFish.Name.Birdie}}/trap/.03/680 .35/ocean/1/5/false",
 				"{{ModId}}.Bouncer": "{{i18n:NPCFish.Name.Bouncer}}/trap/.03/680 .35/freshwater/1/5/false",
@@ -68,6 +67,16 @@
 				"{{ModId}}.Henchman": "{{i18n:NPCFish.Name.Henchman}}/trap/.03/680 .35/ocean/1/5/false",
 				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.Marlon}}/trap/.03/680 .35/ocean/1/5/false",
 				"{{ModId}}.Morris": "{{i18n:NPCFish.Name.Morris}}/trap/.03/680 .35/ocean/1/5/false"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"HasMod|contains=Nom0ri.RomRas": false
+			},
+			"Entries": {
+				"{{ModId}}.Wizard": "{{i18n:NPCFish.Name.Wizard}}/90/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
 			}
 		}
 	]

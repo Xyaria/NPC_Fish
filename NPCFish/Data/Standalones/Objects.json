@@ -1,0 +1,46 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod|contains=Nom0ri.RomRas": true
+			},
+			"Entries": {
+				"{{ModId}}.Rasmodia": {
+					"Name": "{{i18n:NPCFish.Name.Standalones.Rasmodia}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Standalones.Rasmodia}}",
+					"Description": "{{i18n:NPCFish.Desc.Standalones.Rasmodia}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"color_prismatic",
+						"fish_talk_stiff",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				// "{{ModId}}.CRABFEESH": {
+				// 	"Name": "{{i18n:NPCFish.Name.Standalones.CRABFEESH}}",
+				// 	"DisplayName": "{{i18n:NPCFish.Name.Standalones.CRABFEESH}}",
+				// 	"Description": "{{i18n:NPCFish.Desc.Standalones.CRABFEESH}}",
+				// 	"Type": "Fish",
+				// 	"Category": -4,
+				// 	"Price": "200",
+				// 	"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+				// 	"SpriteIndex": 29, //! INDEX
+				// 	"ContextTags": [
+				// 		//! "color_blue",
+				// 		"fish_crab_pot",
+				// 		"fish_crab_pot_NPCFish_Standalones",
+				// 		"fish_freshwater",
+				// 		"fish_has_roe"
+				// 	]
+				// }
+			}
+		}
+	]
+}

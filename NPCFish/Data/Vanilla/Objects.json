@@ -521,22 +521,6 @@
 						"fish_has_roe"
 					]
 				},
-				"{{ModId}}.Wizard": {
-					"Name": "{{i18n:NPCFish.Name.Wizard}}",
-					"DisplayName": "{{i18n:NPCFish.Name.Wizard}}",
-					"Description": "{{i18n:NPCFish.Desc.Wizard}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods/{{ModId}}/vanilla_sprites",
-					"SpriteIndex": 33,
-					"ContextTags": [
-						"fish_legendary",
-						"fish_talk_stiff",
-						"color_prismatic",
-						"fish_has_roe"
-					]
-				},
 				"{{ModId}}.Bear": {
 					"Name": "{{i18n:NPCFish.Name.Bear}}",
 					"DisplayName": "{{i18n:NPCFish.Name.Bear}}",
@@ -829,6 +813,29 @@
 						"fish_has_roe"
 					]
 				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": { "Hasmod | contains=Nom0ri.RomRas": false },
+			"Entries": {
+				"{{ModId}}.Wizard": {
+					"Name": "{{i18n:NPCFish.Name.Wizard}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Wizard}}",
+					"Description": "{{i18n:NPCFish.Desc.Wizard}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 33,
+					"ContextTags": [
+						"fish_legendary",
+						"fish_talk_stiff",
+						"color_prismatic",
+						"fish_has_roe"
+					]
+				},
 			}
 		},
 		{

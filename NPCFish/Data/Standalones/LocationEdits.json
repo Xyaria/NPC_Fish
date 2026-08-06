@@ -1,0 +1,39 @@
+{
+	"Changes": [
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Locations",
+		// 	"TargetField": ["MAPNAME", "FishAreas"],
+		// 	"Entries": {
+		// 		"FISHAREAID": {
+		// 			"Position": {
+		// 				"X": 0,
+		// 				"Y": 0,
+		// 				"Width": 0,
+		// 				"Height": 0
+		// 			}
+		// 		}
+		// 	}
+		// },
+
+		// ---------- Fish setup ----------
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["WitchSwamp", "Fish"],
+			"When": {
+				"Hasmod|contains=Nom0ri.RomRas": true
+			},
+			"Entries": {
+				"{{ModId}}.RasmodiaFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.RasmodiaFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Rasmodia",
+					"Condition": "SEASON winter,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard2,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+				}
+			}
+		},
+	]
+}

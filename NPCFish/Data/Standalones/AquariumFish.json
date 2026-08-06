@@ -1,0 +1,14 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod|contains=Nom0ri.RomRas": true
+			},
+			"Entries": {
+				"{{ModId}}.Rasmodia": "0/static/////Mods\\{{ModId}}\\standalones_aquarium",
+			}
+		}
+	]
+}
