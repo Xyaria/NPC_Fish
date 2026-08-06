@@ -15,6 +15,7 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"color_cyan",
+						"fish_talk_rude",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -30,6 +31,7 @@
 					"SpriteIndex": 1,
 					"ContextTags": [
 						"color_green",
+						"fish_talk_demanding",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -45,6 +47,7 @@
 					"SpriteIndex": 2,
 					"ContextTags": [
 						"color_orange",
+						"fish_talk_stiff",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -75,6 +78,7 @@
 					"SpriteIndex": 4,
 					"ContextTags": [
 						"color_green",
+						"fish_talk_rude",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -90,6 +94,7 @@
 					"SpriteIndex": 5,
 					"ContextTags": [
 						"color_red",
+						"fish_talk_carnivore",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -120,6 +125,7 @@
 					"SpriteIndex": 7,
 					"ContextTags": [
 						"color_brown",
+						"fish_talk_demanding",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -135,6 +141,7 @@
 					"SpriteIndex": 8,
 					"ContextTags": [
 						"color_purple",
+						"fish_talk_stiff",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -150,6 +157,7 @@
 					"SpriteIndex": 9,
 					"ContextTags": [
 						"color_dark_gray",
+						"fish_talk_rude",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -180,6 +188,7 @@
 					"SpriteIndex": 11,
 					"ContextTags": [
 						"color_teal",
+						"fish_talk_demanding",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -195,6 +204,7 @@
 					"SpriteIndex": 12,
 					"ContextTags": [
 						"color_pink",
+						"fish_talk_stiff",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -210,6 +220,7 @@
 					"SpriteIndex": 13,
 					"ContextTags": [
 						"color_dark_red",
+						"fish_talk_carnivore",
 						"fish_legendary",
 						"fish_has_roe"
 					]

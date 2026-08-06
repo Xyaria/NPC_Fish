@@ -7,7 +7,6 @@
 				"id_(o){{ModId}}.Andy": {
 					"RequiredTags": [ "id_(o){{ModId}}.Andy" ],
 					"SpawnTime": 3,
-					"PondAttitude": "rude",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Andy",
@@ -31,7 +30,6 @@
 				"id_(o){{ModId}}.Apples": {
 					"RequiredTags": [ "id_(o){{ModId}}.Apples" ],
 					"SpawnTime": 3,
-					"PondAttitude": "demanding",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Apples",
@@ -55,7 +53,6 @@
 				"id_(o){{ModId}}.Claire": {
 					"RequiredTags": [ "id_(o){{ModId}}.Claire" ],
 					"SpawnTime": 3,
-					"PondAttitude": "stiff",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Claire",
@@ -79,7 +76,6 @@
 				"id_(o){{ModId}}.Gunther": {
 					"RequiredTags": [ "id_(o){{ModId}}.Gunther" ],
 					"SpawnTime": 3,
-					"PondAttitude": "default",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Gunther",
@@ -103,7 +99,6 @@
 				"id_(o){{ModId}}.Henchman": {
 					"RequiredTags": [ "id_(o){{ModId}}.Henchman" ],
 					"SpawnTime": 3,
-					"PondAttitude": "rude",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Henchman",
@@ -127,7 +122,6 @@
 				"id_(o){{ModId}}.Lance": {
 					"RequiredTags": [ "id_(o){{ModId}}.Lance" ],
 					"SpawnTime": 3,
-					"PondAttitude": "carnivore",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Lance",
@@ -151,7 +145,6 @@
 				"id_(o){{ModId}}.Marlon": {
 					"RequiredTags": [ "id_(o){{ModId}}.Marlon" ],
 					"SpawnTime": 3,
-					"PondAttitude": "default",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Marlon",
@@ -175,7 +168,6 @@
 				"id_(o){{ModId}}.Martin": {
 					"RequiredTags": [ "id_(o){{ModId}}.Martin" ],
 					"SpawnTime": 3,
-					"PondAttitude": "demanding",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Martin",
@@ -199,7 +191,6 @@
 				"id_(o){{ModId}}.Morgan": {
 					"RequiredTags": [ "id_(o){{ModId}}.Morgan" ],
 					"SpawnTime": 3,
-					"PondAttitude": "stiff",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Morgan",
@@ -223,7 +214,6 @@
 				"id_(o){{ModId}}.Morris": {
 					"RequiredTags": [ "id_(o){{ModId}}.Morris" ],
 					"SpawnTime": 3,
-					"PondAttitude": "rude",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Morris",
@@ -247,7 +237,6 @@
 				"id_(o){{ModId}}.Olivia": {
 					"RequiredTags": [ "id_(o){{ModId}}.Olivia" ],
 					"SpawnTime": 3,
-					"PondAttitude": "default",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Olivia",
@@ -271,7 +260,6 @@
 				"id_(o){{ModId}}.Scarlett": {
 					"RequiredTags": [ "id_(o){{ModId}}.Scarlett" ],
 					"SpawnTime": 3,
-					"PondAttitude": "demanding",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Scarlett",
@@ -295,7 +283,6 @@
 				"id_(o){{ModId}}.Sophia": {
 					"RequiredTags": [ "id_(o){{ModId}}.Sophia" ],
 					"SpawnTime": 3,
-					"PondAttitude": "stiff",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Sophia",
@@ -319,7 +306,6 @@
 				"id_(o){{ModId}}.Susan": {
 					"RequiredTags": [ "id_(o){{ModId}}.Susan" ],
 					"SpawnTime": 3,
-					"PondAttitude": "carnivore",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Susan",
@@ -343,7 +329,6 @@
 				"id_(o){{ModId}}.Victor": {
 					"RequiredTags": [ "id_(o){{ModId}}.Victor" ],
 					"SpawnTime": 3,
-					"PondAttitude": "default",
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Victor",
