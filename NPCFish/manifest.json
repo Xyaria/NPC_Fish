@@ -19,6 +19,10 @@
 		{
 			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
 			"IsRequired": "False"
+		},
+		{
+			"UniqueID": "Nom0ri.RomRas",
+			"IsRequired": "False"
 		}
 	]
 }

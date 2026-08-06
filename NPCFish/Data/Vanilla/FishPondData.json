@@ -769,6 +769,15 @@
 						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)459", "MinQuantity": 1, "MaxQuantity": 1 }
 					]
 				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"HasMod|contains=Nom0ri.RomRas": false
+			},
+			"Entries": {
 				"id_(o){{ModId}}.Wizard": {
 					"RequiredTags": [ "id_(o){{ModId}}.Wizard" ],
 					"SpawnTime": 3,
@@ -793,6 +802,6 @@
 					]
 				},
 			}
-		},
+		}
 	]
 }

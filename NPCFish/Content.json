@@ -8,10 +8,15 @@
 		},
 		{
 			"Action": "Load",
+			"Target": "Mods/{{ModId}}/standalones_sprites,Mods/{{ModId}}/standalones_aquarium",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "Load",
 			"Target": "Mods/{{ModId}}/sve_sprites,Mods/{{ModId}}/sve_aquarium ",
 			"FromFile": "assets/{{TargetWithoutPath}}.png",
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
@@ -70,50 +75,77 @@
 			"Action": "Include",
 			"FromFile": "Data/SVE/FishData.json",
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
 			"Action": "Include",
 			"FromFile": "Data/SVE/Objects.json",
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
 			"Action": "Include",
 			"FromFile": "Data/SVE/FishPondData.json",
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
 			"Action": "Include",
 			"FromFile": "Data/SVE/LocationEdits.json",
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
 			"Action": "Include",
 			"FromFile": "Data/SVE/AquariumFish.json",
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
 			"Action": "Include",
 			"FromFile": "Data/SVE/SecretNotes.json",
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
 			"Action": "Include",
 			"FromFile": "Data/SVE/Trophy.json",
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
-		}
+		},
+
+
+		// Load Standalones Fish
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/FishData.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/Objects.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/FishPondData.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/LocationEdits.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/AquariumFish.json",
+		},
+		// {
+		// 	"Action": "Include",
+		// 	"FromFile": "Data/Standalones/SecretNotes.json",
+		// },
 	]
 }

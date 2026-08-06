@@ -38,6 +38,15 @@
 				"{{ModId}}.Shane": "37/cephalopod/37/37 38/39 39 40 40/40 41/Mods\\{{ModId}}\\vanilla_aquarium",
 				"{{ModId}}.Vincent": "42/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
 				"{{ModId}}.Willy": "43/fish/////Mods\\{{ModId}}\\vanilla_aquarium",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"HasMod|contains=Nom0ri.RomRas": false
+			},
+			"Entries": {
 				"{{ModId}}.Wizard": "44/fish/////Mods\\{{ModId}}\\vanilla_aquarium"
 			}
 		}
