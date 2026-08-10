@@ -16,11 +16,17 @@
 			"UniqueID": "ichortower.SecretNoteFramework",
 			"IsRequired": "True"
 		},
-		{
+
+		// ----- EXPANSIONS SUPPORT -----
+
+		{ // Stardew Valley Expanded
 			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
 			"IsRequired": "False"
 		},
-		{
+
+		// ----- STANDALONES SUPPORT -----
+
+		{ // Romanceable Rasmodia
 			"UniqueID": "Nom0ri.RomRas",
 			"IsRequired": "False"
 		}

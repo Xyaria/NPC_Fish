@@ -1,20 +1,237 @@
 {
 	"Changes": [
-		// {
-		// 	"Action": "EditData",
-		// 	"Target": "Data/Locations",
-		// 	"TargetField": ["MAPNAME", "FishAreas"],
-		// 	"Entries": {
-		// 		"FISHAREAID": {
-		// 			"Position": {
-		// 				"X": 0,
-		// 				"Y": 0,
-		// 				"Width": 0,
-		// 				"Height": 0
-		// 			}
-		// 		}
-		// 	}
-		// },
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["ArchaeologyHouse", "FishAreas"],
+			"Entries": {
+				"Top bookshelf": {
+					"Position": {
+						"X": 9,
+						"Y": 1,
+						"Width": 5,
+						"Height": 2
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Mountain", "FishAreas"],
+			"Entries": {
+				"Next to Guild": {
+					"Position": {
+						"X": 84,
+						"Y": 7,
+						"Width": 4,
+						"Height": 2
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ArchaeologyHouse",
+			"When": {
+				"Hasmod|contains=Wem.Bundle": true
+			},
+			"MapProperties": {
+				"IndoorWater": "T"
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 9,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 9,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 1426,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 9,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 9,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 10,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 10,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 1426,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 10,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 10,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 11,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 11,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 640,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 11,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 11,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 12,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 12,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 1426,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 12,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 12,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 13,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 13,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 1426,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 13,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 13,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				}
+			]
+		},
 
 		// ---------- Fish setup ----------
 		{
@@ -33,6 +250,103 @@
 					"ItemId": "{{ModId}}.Rasmodia",
 					"Condition": "SEASON winter,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard2,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["ArchaeologyHouse", "Fish"],
+			"When": {
+				"Hasmod|contains=Wem.Bundle": true
+			},
+			"Entries": {
+				"{{ModId}}.TillyFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.TillyFish",
+					"CatchLimit": 1,
+					"FishAreaId": "Top bookshelf",
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Tilly",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Custom_AdventurerSummit", "Fish"],
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=Wolf.Marlon": false
+			},
+			"Entries": {
+				"{{ModId}}.MarlonFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MarlonFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Marlon",
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Mountain", "Fish"],
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Marlon": true
+			},
+			"Entries": {
+				"{{ModId}}.MarlonFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MarlonFish",
+					"CatchLimit": 1,
+					"FishAreaId": "Next to Guild",
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Marlon",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Town", "Fish"],
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
+			},
+			"Entries": {
+				"{{ModId}}.GuntherFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.GuntherFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Gunther",
+					"FishAreaId": "South of Bridge",
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Mountain", "Fish"],
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Gil": true
+			},
+			"Entries": {
+				"{{ModId}}.GilFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.GilFish",
+					"CatchLimit": 1,
+					"FishAreaId": "Next to Guild",
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Gil",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
 			}
 		},
 	]

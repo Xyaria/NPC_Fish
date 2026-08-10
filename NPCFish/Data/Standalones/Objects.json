@@ -23,24 +23,132 @@
 						"fish_has_roe"
 					]
 				},
-				// "{{ModId}}.CRABFEESH": {
-				// 	"Name": "{{i18n:NPCFish.Name.Standalones.CRABFEESH}}",
-				// 	"DisplayName": "{{i18n:NPCFish.Name.Standalones.CRABFEESH}}",
-				// 	"Description": "{{i18n:NPCFish.Desc.Standalones.CRABFEESH}}",
-				// 	"Type": "Fish",
-				// 	"Category": -4,
-				// 	"Price": "200",
-				// 	"Texture": "Mods\\{{ModId}}\\standalones_sprites",
-				// 	"SpriteIndex": 29, //! INDEX
-				// 	"ContextTags": [
-				// 		//! "color_blue",
-				// 		"fish_crab_pot",
-				// 		"fish_crab_pot_NPCFish_Standalones",
-				// 		"fish_freshwater",
-				// 		"fish_has_roe"
-				// 	]
-				// }
 			}
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod|contains=Wem.Bundle": true
+			},
+			"Entries": {
+				"{{ModId}}.Tilly": {
+					"Name": "{{i18n:NPCFish.Name.Standalones.Tilly}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Standalones.Tilly}}",
+					"Description": "{{i18n:NPCFish.Desc.Standalones.Tilly}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+					"SpriteIndex": 1,
+					"ContextTags": [
+						"color_white",
+						"fish_talk_stiff",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
+			},
+			"Entries": {
+				"{{ModId}}.Gunther": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Gunther}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Gunther}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Gunther}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"color_light_blue",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Marlon"
+			},
+			"Entries": {
+				"{{ModId}}.Marlon": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Marlon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Marlon}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Marlon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+					"SpriteIndex": 6,
+					"ContextTags": [
+						"color_gray",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Gil": true
+			},
+			"Entries": {
+				"{{ModId}}.Gil": {
+					"Name": "{{i18n:NPCFish.Name.Standalones.Gil}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Standalones.Gil}}",
+					"Description": "{{i18n:NPCFish.Desc.Standalones.Gil}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"color_brown",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=Wolf.Gil": false
+			},
+			"Entries": {
+				"{{ModId}}.Gil": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Gil}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Gil}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Gil}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 21,
+					"ContextTags": [
+						"color_brown",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_SVE",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
 	]
 }

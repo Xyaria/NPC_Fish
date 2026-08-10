@@ -137,15 +137,6 @@
 					"FishAreaId": "Joja Pond",
 					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				},
-				"{{ModId}}.GuntherFish": {
-					"Chance": 1.0,
-					"Id": "{{ModId}}.GuntherFish",
-					"CatchLimit": 1,
-					"IsBossFish": "True",
-					"ItemId": "{{ModId}}.Gunther",
-					"FishAreaId": "South of Bridge",
-					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
-				},
 				"{{ModId}}.MartinFish": {
 					"Chance": 1.0,
 					"Id": "{{ModId}}.MartinFish",
@@ -202,21 +193,6 @@
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.Lance",
 					"Condition": "SEASON spring, WEATHER Here Sun,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["Custom_AdventurerSummit", "Fish"],
-			"Entries": {
-				"{{ModId}}.MarlonFish": {
-					"Chance": 1.0,
-					"Id": "{{ModId}}.MarlonFish",
-					"CatchLimit": 1,
-					"IsBossFish": "True",
-					"ItemId": "{{ModId}}.Marlon",
-					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
 			}
 		},

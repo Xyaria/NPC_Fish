@@ -52,21 +52,6 @@
 						"fish_has_roe"
 					]
 				},
-				"{{ModId}}.Gunther": {
-					"Name": "{{i18n:NPCFish.Name.SVE.Gunther}}",
-					"DisplayName": "{{i18n:NPCFish.Name.SVE.Gunther}}",
-					"Description": "{{i18n:NPCFish.Desc.SVE.Gunther}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
-					"SpriteIndex": 3,
-					"ContextTags": [
-						"color_light_blue",
-						"fish_legendary",
-						"fish_has_roe"
-					]
-				},
 				"{{ModId}}.Henchman": {
 					"Name": "{{i18n:NPCFish.Name.SVE.Henchman}}",
 					"DisplayName": "{{i18n:NPCFish.Name.SVE.Henchman}}",
@@ -95,21 +80,6 @@
 					"ContextTags": [
 						"color_red",
 						"fish_talk_carnivore",
-						"fish_legendary",
-						"fish_has_roe"
-					]
-				},
-				"{{ModId}}.Marlon": {
-					"Name": "{{i18n:NPCFish.Name.SVE.Marlon}}",
-					"DisplayName": "{{i18n:NPCFish.Name.SVE.Marlon}}",
-					"Description": "{{i18n:NPCFish.Desc.SVE.Marlon}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
-					"SpriteIndex": 6,
-					"ContextTags": [
-						"color_gray",
 						"fish_legendary",
 						"fish_has_roe"
 					]
@@ -334,23 +304,6 @@
 					"Price": "200",
 					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
 					"SpriteIndex": 20,
-					"ContextTags": [
-						"color_brown",
-						"fish_crab_pot",
-						"fish_crab_pot_NPCFish_SVE",
-						"fish_freshwater",
-						"fish_has_roe"
-					]
-				},
-				"{{ModId}}.Gil": {
-					"Name": "{{i18n:NPCFish.Name.SVE.Gil}}",
-					"DisplayName": "{{i18n:NPCFish.Name.SVE.Gil}}",
-					"Description": "{{i18n:NPCFish.Desc.SVE.Gil}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
-					"SpriteIndex": 21,
 					"ContextTags": [
 						"color_brown",
 						"fish_crab_pot",

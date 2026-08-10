@@ -7,8 +7,51 @@
 				"Hasmod|contains=Nom0ri.RomRas": true
 			},
 			"Entries": {
-				"{{ModId}}.Rasmodia": "0/static/////Mods\\{{ModId}}\\standalones_aquarium",
+				"{{ModId}}.Rasmodia": "0/fish/////Mods\\{{ModId}}\\standalones_aquarium",
 			}
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod|contains=Wem.Bundle": true
+			},
+			"Entries": {
+				"{{ModId}}.Tilly": "1/float/////Mods\\{{ModId}}\\standalones_aquarium",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
+			},
+			"Entries": {
+				"{{ModId}}.Gunther": "3/eel/////Mods\\{{ModId}}\\SVE_aquarium",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Marlon"
+			},
+			"Entries": {
+				"{{ModId}}.Marlon": "6/fish/////Mods\\{{ModId}}\\SVE_aquarium"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod": "Wolf.Gil",
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			"Entries": {
+				"{{ModId}}.Gil": "3/fish/////Mods\\{{ModId}}\\SVE_aquarium"
+			}
+		},
 	]
 }
+
+

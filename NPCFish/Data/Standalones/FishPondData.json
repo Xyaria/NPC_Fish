@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{
+		{ // Rasmodia
 			"Action": "EditData",
 			"Target": "Data/FishPondData",
 			"When": {
@@ -20,17 +20,215 @@
 						}
 					],
 					"ProducedItems": [
-					{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-					{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)768", "MinQuantity": 1, "MaxQuantity": 1 },
-					{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)768", "MinQuantity": 1, "MaxQuantity": 2 },
-					{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-					{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)422", "MinQuantity": 1, "MaxQuantity": 2 },
-					{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)768", "MinQuantity": 2, "MaxQuantity": 3 },
-					{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-					{ "RequiredPopulation": 9, "Chance": 0.05, "ItemID": "(O)Book_Mystery", "MinQuantity": 1, "MaxQuantity": 1 }
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)768", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)768", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)422", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)768", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 9, "Chance": 0.05, "ItemID": "(O)Book_Mystery", "MinQuantity": 1, "MaxQuantity": 1 }
 					]
 				},
 			}
-		}
+		},
+
+		{ // Tilly
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=Wem.Bundle": true
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Tilly": {
+					"RequiredTags": [ "id_(o){{ModId}}.Tilly" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{Modid}}Tilly",
+							"Color": "236 230 230",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)340", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)340", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)459", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)Wem.Bundle.Tilly_TeaCake", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 9, "Chance": 0.05, "ItemID": "(O)Book_Crabbing", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+
+		{ // Marlon
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=Wolf.Marlon": false
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Marlon": {
+					"RequiredTags": [ "id_(o){{ModId}}.Marlon" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Marlon",
+							"Color": "193 173 173",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Monster_Fruit", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+		{ // Marlon
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Marlon": true
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Marlon": {
+					"RequiredTags": [ "id_(o){{ModId}}.Marlon" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Marlon",
+							"Color": "193 173 173",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 1, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.3, "ItemID": "(O)244", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.7, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)441", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.4, "ItemID": "(O)441", "MinQuantity": 1, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)386", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+
+		{ // Gunther
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=Wolf.Gun": false
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Gunther": {
+					"RequiredTags": [ "id_(o){{ModId}}.Gunther" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Gunther",
+							"Color": "11 180 230",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)538", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)103", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)538", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)103", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Baked_Potato", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+		{ // Gunther
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Gun": true
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Gunther": {
+					"RequiredTags": [ "id_(o){{ModId}}.Gunther" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Gunther",
+							"Color": "11 180 230",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 1, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)579", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)109", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)579", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)614", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+		
+		{ // Gil
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=Wolf.Gil": true
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Gil": {
+					"RequiredTags": [ "id_(o){{ModId}}.Gil" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Gil",
+							"Color": "11 180 230", //! TODO
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)260", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)260", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)260", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)772", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)459", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
 	]
 }

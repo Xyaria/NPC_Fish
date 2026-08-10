@@ -7,8 +7,60 @@
 				"Hasmod|contains=Nom0ri.RomRas": true
 			},
 			"Entries": {
-				"{{ModId}}.Rasmodia": "{{i18n:NPCFish.Name.Standalones.Rasmodia}}/DART_CHANCE/PATTERN/20/50/600 2600/SEASON/WEATHER/690 .4 685 .1/1/.50/.1/0", //! TODO DATA
+				"{{ModId}}.Rasmodia": "{{i18n:NPCFish.Name.Standalones.Rasmodia}}/90/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
 			}
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=Wem.Bundle": true
+			},
+			"Entries": {
+				"{{ModId}}.Tilly": "{{i18n:NPCFish.Name.Standalones.Tilly}}/88/floater/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=Wolf.Gil": false
+			},
+			"Entries": { // Crabpot Gil
+				"{{ModId}}.Gil": "{{i18n:NPCFish.Name.SVE.Gil}}/trap/.03/680 .35/freshwater/1/5/false",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": { //o Fish gil
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Gil": true
+			},
+			"Entries": {
+				"{{ModId}}.Gil": "{{i18n:NPCFish.Name.Standalones.Gil}}/77/Smooth/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
+			},
+			"Entries": {
+				"{{ModId}}.Gunther": "{{i18n:NPCFish.Name.SVE.Gunther}}/80/Mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Marlon"
+			},
+			"Entries": {
+				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.SVE.Marlon}}/90/mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+			}
+		},
 	]
 }

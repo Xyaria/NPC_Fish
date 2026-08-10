@@ -143,9 +143,5 @@
 			"Action": "Include",
 			"FromFile": "Data/Standalones/AquariumFish.json",
 		},
-		// {
-		// 	"Action": "Include",
-		// 	"FromFile": "Data/Standalones/SecretNotes.json",
-		// },
 	]
 }
