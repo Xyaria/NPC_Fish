@@ -34,32 +34,12 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Fish",
-			"When": { //o Fish gil
+			"When": { // Fish gil
 				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
 				"Hasmod|contains=Wolf.Gil": true
 			},
 			"Entries": {
 				"{{ModId}}.Gil": "{{i18n:NPCFish.Name.Standalones.Gil}}/77/Smooth/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Fish",
-			"When": {
-				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
-			},
-			"Entries": {
-				"{{ModId}}.Gunther": "{{i18n:NPCFish.Name.SVE.Gunther}}/80/Mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Fish",
-			"When": {
-				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Marlon"
-			},
-			"Entries": {
-				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.SVE.Marlon}}/90/mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
 			}
 		},
 	]

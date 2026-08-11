@@ -843,23 +843,6 @@
 			"Target": "Data/Objects",
 			"When": { "Hasmod | contains=FlashShifter.StardewValleyExpandedCP": false },
 			"Entries": {
-				"{{ModId}}.Gunther": {
-					"Name": "{{i18n:NPCFish.Name.Gunther}}",
-					"DisplayName": "{{i18n:NPCFish.Name.Gunther}}",
-					"Description": "{{i18n:NPCFish.Desc.Gunther}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods/{{ModId}}/vanilla_sprites",
-					"SpriteIndex": 41,
-					"ContextTags": [
-						"color_blue",
-						"fish_crab_pot",
-						"fish_crab_pot_NPCFish_Vanilla",
-						"fish_freshwater",
-						"fish_has_roe"
-					]
-				},
 				"{{ModId}}.Henchman": {
 					"Name": "{{i18n:NPCFish.Name.Henchman}}",
 					"DisplayName": "{{i18n:NPCFish.Name.Henchman}}",
@@ -871,23 +854,6 @@
 					"SpriteIndex": 43,
 					"ContextTags": [
 						"color_green",
-						"fish_crab_pot",
-						"fish_crab_pot_NPCFish_Vanilla",
-						"fish_freshwater",
-						"fish_has_roe"
-					]
-				},
-				"{{ModId}}.Marlon": {
-					"Name": "{{i18n:NPCFish.Name.Marlon}}",
-					"DisplayName": "{{i18n:NPCFish.Name.Marlon}}",
-					"Description": "{{i18n:NPCFish.Desc.Marlon}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods/{{ModId}}/vanilla_sprites",
-					"SpriteIndex": 47,
-					"ContextTags": [
-						"color_gray",
 						"fish_crab_pot",
 						"fish_crab_pot_NPCFish_Vanilla",
 						"fish_freshwater",

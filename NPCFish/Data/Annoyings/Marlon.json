@@ -1,0 +1,203 @@
+{
+	"Changes": [
+		// ----- Object Data
+		{ // Vanilla – non-social crabpot version
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Marlon": false
+			},
+			"Entries": {
+				"{{ModId}}.Marlon": {
+					"Name": "{{i18n:NPCFish.Name.Marlon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Marlon}}",
+					"Description": "{{i18n:NPCFish.Desc.Marlon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 47,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_Vanilla",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+		{ // Modded – social fish version
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Marlon"
+			},
+			"Entries": {
+				"{{ModId}}.Marlon": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Marlon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Marlon}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Marlon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+					"SpriteIndex": 6,
+					"ContextTags": [
+						"color_gray",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+
+
+		// ----- Aquarium Data
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Marlon"
+			},
+			"Entries": {
+				"{{ModId}}.Marlon": "6/fish/////Mods\\{{ModId}}\\SVE_aquarium"
+			}
+		},
+
+
+		// ----- Fish Data
+		{ // Vanilla – non-social crabpot version
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Marlon": false
+			},
+			"Entries": {
+				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.Marlon}}/trap/.03/680 .35/ocean/1/5/false",
+			}
+		},
+		{ // Modded – social fish version
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Marlon"
+			},
+			"Entries": {
+				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.SVE.Marlon}}/90/mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
+			}
+		},
+
+
+		// ----- Fish Pond Data
+		{ // SVE gift tastes
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=Wolf.Marlon": false
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Marlon": {
+					"RequiredTags": [ "id_(o){{ModId}}.Marlon" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Marlon",
+							"Color": "193 173 173",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Monster_Fruit", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+		{ // Make Marlon Real gift tastes
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Marlon": true
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Marlon": {
+					"RequiredTags": [ "id_(o){{ModId}}.Marlon" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Marlon",
+							"Color": "193 173 173",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 1, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.3, "ItemID": "(O)244", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.7, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)441", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.4, "ItemID": "(O)441", "MinQuantity": 1, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)386", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+
+
+		// ----- Location Edit
+		{ // SVE location exist
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Custom_AdventurerSummit", "Fish"],
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=Wolf.Marlon": false
+			},
+			"Entries": {
+				"{{ModId}}.MarlonFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MarlonFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Marlon",
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				}
+			}
+		},
+		{ // SVE location doesn't exist
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Mountain", "Fish"],
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Marlon": true
+			},
+			"Entries": {
+				"{{ModId}}.MarlonFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MarlonFish",
+					"CatchLimit": 1,
+					"FishAreaId": "Next to Guild",
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Marlon",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				}
+			}
+		},
+	]
+}

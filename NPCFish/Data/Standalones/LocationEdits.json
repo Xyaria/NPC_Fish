@@ -4,6 +4,9 @@
 			"Action": "EditData",
 			"Target": "Data/Locations",
 			"TargetField": ["ArchaeologyHouse", "FishAreas"],
+			"When": {
+				"Hasmod|contains=Wem.Bundle": true
+			},
 			"Entries": {
 				"Top bookshelf": {
 					"Position": {
@@ -269,64 +272,6 @@
 					"ItemId": "{{ModId}}.Tilly",
 					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["Custom_AdventurerSummit", "Fish"],
-			"When": {
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"Hasmod|contains=Wolf.Marlon": false
-			},
-			"Entries": {
-				"{{ModId}}.MarlonFish": {
-					"Chance": 1.0,
-					"Id": "{{ModId}}.MarlonFish",
-					"CatchLimit": 1,
-					"IsBossFish": "True",
-					"ItemId": "{{ModId}}.Marlon",
-					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["Mountain", "Fish"],
-			"When": {
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
-				"Hasmod|contains=Wolf.Marlon": true
-			},
-			"Entries": {
-				"{{ModId}}.MarlonFish": {
-					"Chance": 1.0,
-					"Id": "{{ModId}}.MarlonFish",
-					"CatchLimit": 1,
-					"FishAreaId": "Next to Guild",
-					"IsBossFish": "True",
-					"ItemId": "{{ModId}}.Marlon",
-					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["Town", "Fish"],
-			"When": {
-				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
-			},
-			"Entries": {
-				"{{ModId}}.GuntherFish": {
-					"Chance": 1.0,
-					"Id": "{{ModId}}.GuntherFish",
-					"CatchLimit": 1,
-					"IsBossFish": "True",
-					"ItemId": "{{ModId}}.Gunther",
-					"FishAreaId": "South of Bridge",
-					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
-				},
 			}
 		},
 		{

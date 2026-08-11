@@ -1,0 +1,183 @@
+{
+	"Changes": [
+		// ----- Object Data
+		{ // Vanilla – non-social crabpot version
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": { 
+				"Hasmod | contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod | contains=FlashShifter.Wolf.Gun": false,
+			},
+			"Entries": {
+				"{{ModId}}.Gunther": {
+					"Name": "{{i18n:NPCFish.Name.Gunther}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Gunther}}",
+					"Description": "{{i18n:NPCFish.Desc.Gunther}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 41,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_Vanilla",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+		{ // Modded – social fish version
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
+			},
+			"Entries": {
+				"{{ModId}}.Gunther": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Gunther}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Gunther}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Gunther}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"color_light_blue",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+
+
+		// ----- Aquarium Data
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
+			},
+			"Entries": {
+				"{{ModId}}.Gunther": "3/eel/////Mods\\{{ModId}}\\SVE_aquarium",
+			}
+		},
+
+
+		// ----- Fish Data
+		{ // Vanilla – non-social crabpot version
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Marlon": false
+			},
+			"Entries": {
+				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.Marlon}}/trap/.03/680 .35/ocean/1/5/false",
+			}
+		},
+		{ // Modded – social fish version
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
+			},
+			"Entries": {
+				"{{ModId}}.Gunther": "{{i18n:NPCFish.Name.Gunther}}/trap/.03/680 .35/ocean/1/5/false",
+			}
+		},
+
+
+		// ----- Fish Pond Data
+		{ // SVE gift tastes
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=Wolf.Gun": false
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Gunther": {
+					"RequiredTags": [ "id_(o){{ModId}}.Gunther" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Gunther",
+							"Color": "11 180 230",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)538", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)103", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)538", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)103", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Baked_Potato", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+		{ // Make Gunther Real gift tastes
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=Wolf.Gun": true
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Gunther": {
+					"RequiredTags": [ "id_(o){{ModId}}.Gunther" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Gunther",
+							"Color": "11 180 230",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 1, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)579", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)109", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)579", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)614", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+
+
+		// ----- Location Edit
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Town", "Fish"],
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
+			},
+			"Entries": {
+				"{{ModId}}.GuntherFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.GuntherFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Gunther",
+					"FishAreaId": "South of Bridge",
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
+	]
+}

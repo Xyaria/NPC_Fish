@@ -15,9 +15,6 @@
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/sve_sprites,Mods/{{ModId}}/sve_aquarium ",
 			"FromFile": "assets/{{TargetWithoutPath}}.png",
-			"When": {
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
 		},
 		{
 			"Target": "Mods/{{ModId}}/soggyNoteBG",
@@ -143,5 +140,11 @@
 			"Action": "Include",
 			"FromFile": "Data/Standalones/AquariumFish.json",
 		},
+
+		// Load annoying Fish (too much mods touch them, they are banished in their own files)
+		{
+			"Action": "Include",
+			"FromFile": "Data/Annoyings/GlobalImport.json"
+		}
 	]
 }
