@@ -1,7 +1,7 @@
 {
 	"Name": "NPC Fish",
 	"Author": "Xyaria",
-	"Version": "1.0.2",
+	"Version": "1.1.0",
 	"Description": "Add new fish that look like the valley inhabitants",
 	"UniqueID": "xyaria.NPCFish",
 	"MinimumApiVersion": "4.0.0",
@@ -29,6 +29,26 @@
 		{ // Romanceable Rasmodia
 			"UniqueID": "Nom0ri.RomRas",
 			"IsRequired": "False"
-		}
+		},
+		{ // Tilly the Tea Loving Librarian
+			"UniqueID": "Wem.Bundle",
+			"IsRequired": "False"
+		},
+		{ // Make Marlon Real
+			"UniqueID": "Wolf.Marlon",
+			"IsRequired": "False"
+		},
+		{ // Make Gunther Real
+			"UniqueID": "Wolf.Gun",
+			"IsRequired": "False"
+		},
+		{ // Make Gil Real
+			"UniqueID": "Wolf.Gil",
+			"IsRequired": "False"
+		},
+		{ // Morris Reedeemed
+			"UniqueID": "SiTheGreat.MorrisRedeemed",
+			"IsRequired": "False"
+		},
 	]
 }
