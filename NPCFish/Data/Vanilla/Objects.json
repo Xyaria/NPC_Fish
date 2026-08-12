@@ -11,7 +11,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\vanilla_sprites",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"color_dark_purple",

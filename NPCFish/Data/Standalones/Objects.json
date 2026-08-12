@@ -14,7 +14,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+					"Texture": "Mods/{{ModId}}/standalones_sprites",
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"color_prismatic",
@@ -39,7 +39,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+					"Texture": "Mods/{{ModId}}/standalones_sprites",
 					"SpriteIndex": 1,
 					"ContextTags": [
 						"color_white",
@@ -65,7 +65,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+					"Texture": "Mods/{{ModId}}/standalones_sprites",
 					"SpriteIndex": 3,
 					"ContextTags": [
 						"color_brown",
@@ -90,7 +90,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 21,
 					"ContextTags": [
 						"color_brown",

@@ -42,7 +42,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 3,
 					"ContextTags": [
 						"color_light_blue",
@@ -73,10 +73,10 @@
 			"Target": "Data/Fish",
 			"When": {
 				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
-				"Hasmod|contains=Wolf.Marlon": false
+				"Hasmod|contains=Wolf.Gun": false
 			},
 			"Entries": {
-				"{{ModId}}.Marlon": "{{i18n:NPCFish.Name.Marlon}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Gunther": "{{i18n:NPCFish.Name.Gunther}}/trap/.03/680 .35/ocean/1/5/false",
 			}
 		},
 		{ // Modded – social fish version
@@ -86,7 +86,7 @@
 				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
 			},
 			"Entries": {
-				"{{ModId}}.Gunther": "{{i18n:NPCFish.Name.Gunther}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Gunther": "{{i18n:NPCFish.Name.SVE.Gunther}}/80/Mixed/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",
 			}
 		},
 

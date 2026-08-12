@@ -11,7 +11,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"color_cyan",
@@ -27,7 +27,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 1,
 					"ContextTags": [
 						"color_green",
@@ -43,7 +43,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 2,
 					"ContextTags": [
 						"color_orange",
@@ -59,7 +59,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 4,
 					"ContextTags": [
 						"color_green",
@@ -75,7 +75,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 5,
 					"ContextTags": [
 						"color_red",
@@ -91,7 +91,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 7,
 					"ContextTags": [
 						"color_brown",
@@ -107,7 +107,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 8,
 					"ContextTags": [
 						"color_purple",
@@ -123,7 +123,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 9,
 					"ContextTags": [
 						"color_dark_gray",
@@ -139,7 +139,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 10,
 					"ContextTags": [
 						"color_red",
@@ -154,7 +154,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 11,
 					"ContextTags": [
 						"color_teal",
@@ -170,7 +170,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 12,
 					"ContextTags": [
 						"color_pink",
@@ -186,7 +186,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 13,
 					"ContextTags": [
 						"color_dark_red",
@@ -202,7 +202,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 14,
 					"ContextTags": [
 						"color_purple",
@@ -217,7 +217,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 15,
 					"ContextTags": [
 						"color_yellow",
@@ -234,7 +234,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 16,
 					"ContextTags": [
 						"color_blue",
@@ -251,7 +251,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 17,
 					"ContextTags": [
 						"color_blue",
@@ -268,7 +268,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 18,
 					"ContextTags": [
 						"color_purple",
@@ -285,7 +285,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 19,
 					"ContextTags": [
 						"color_blue",
@@ -302,7 +302,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 20,
 					"ContextTags": [
 						"color_brown",
@@ -319,7 +319,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 22,
 					"ContextTags": [
 						"color_black",
@@ -336,7 +336,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 23,
 					"ContextTags": [
 						"color_gray",
@@ -353,7 +353,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 24,
 					"ContextTags": [
 						"color_blue",
@@ -370,7 +370,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 25,
 					"ContextTags": [
 						"color_gray",
@@ -387,7 +387,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 26,
 					"ContextTags": [
 						"color_yellow",
@@ -404,7 +404,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 27,
 					"ContextTags": [
 						"color_light_blue",
@@ -421,7 +421,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 28,
 					"ContextTags": [
 						"color_pink",
@@ -438,7 +438,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\SVE_sprites",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
 					"SpriteIndex": 29,
 					"ContextTags": [
 						"color_blue",

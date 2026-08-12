@@ -141,7 +141,7 @@
 			"FromFile": "Data/Standalones/AquariumFish.json",
 		},
 
-		// Load annoying Fish (too much mods touch them, they are banished in their own files)
+		// Load annoying Fish (too many mods touch them, they are banished in their own files)
 		{
 			"Action": "Include",
 			"FromFile": "Data/Annoyings/GlobalImport.json"

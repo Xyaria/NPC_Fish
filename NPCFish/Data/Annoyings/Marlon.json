@@ -42,7 +42,7 @@
 					"Type": "Fish",
 					"Category": -4,
 					"Price": "200",
-					"Texture": "Mods\\{{ModId}}\\standalones_sprites",
+					"Texture": "Mods/{{ModId}}/standalones_sprites",
 					"SpriteIndex": 6,
 					"ContextTags": [
 						"color_gray",

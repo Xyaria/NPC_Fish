@@ -1,17 +1,133 @@
 {
 	"Changes": [
 		// ----- Object Data
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": { 
+				"Hasmod|contains=/*!MODID*/": true/false, //o Several of them for an AND
+				"Hasmod": "/*!MODID*/" //o Several inside for an OR
+			},
+			"Entries": {
+				"{{ModId}}.NAME": {
+					"Name": "{{i18n:NPCFish.Name.MOD.NAME}}",
+					"DisplayName": "{{i18n:NPCFish.Name.MOD.NAME}}",
+					"Description": "{{i18n:NPCFish.Desc.MOD.NAME}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/SPRITESHEETNAME",
+					"SpriteIndex": /*!INDEX*/,
+					"ContextTags": [
+						"color_COLOR",
+						"fish_has_roe",
+						// CRABPOT ONLY
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_MOD",
+						"fish_freshwater/ocean",
+						// FISH ONLY
+						"fish_legendary",
+						"fish_talk_default/other"
+					]
+				},
+			}
+		},
 
 
 		// ----- Aquarium Data
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod|contains=/*!MODID*/": true/false, //o Several of them for an AND
+				"Hasmod": "/*!MODID*/" //o Several inside for an OR
+			},
+			"Entries": {
+				"{{ModId}}.NAME": "INDEX/SWIMSTYLE/////Mods\\{{ModId}}\\SPRITESHEETNAME",
+			}
+		},
 
 
 		// ----- Fish Data
+		{ //  crabpot version
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=/*!MODID*/": true/false, //o Several of them for an AND
+				"Hasmod": "/*!MODID*/" //o Several inside for an OR
+			},
+			"Entries": {
+				"{{ModId}}.NAME": "{{i18n:NPCFish.Name.MOD.NAME}}/trap/.03/680 .35/oceanORfreshwater/1/5/false",
+			}
+		},
+		{ // fish version
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=/*!MODID*/": true/false, //o Several of them for an AND
+				"Hasmod": "/*!MODID*/" //o Several inside for an OR
+			},
+			"Entries": {
+				"{{ModId}}.NAME": "{{i18n:NPCFish.Name.MOD.NAME}}/DARTCHANCE/PATTERN/20/50/600 2600/SEASON/both/690 .4 685 .1/1/.50/.1/0",
+			}
+		},
 
 
 		// ----- Fish Pond Data
+		{
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=/*!MODID*/": true/false, //o Several of them for an AND
+				"Hasmod": "/*!MODID*/" //o Several inside for an OR
+			},
+			"Entries": {
+				"id_(o){{ModId}}.NAME": {
+					"RequiredTags": [ "id_(o){{ModId}}.NAME" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_NAME",
+							"Color": "/*!COLOR*/",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 1, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "/*!GIFT1*/", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "/*!GIFT2*/", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "/*!GIFT3*/", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "/*!GIFT4*/", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
 
 
 		// ----- Location Edit
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["/*!LOCATION*/", "Fish"],
+			"When": {
+				"Hasmod|contains=/*!MODID*/": true/false, //o Several of them for an AND
+				"Hasmod": "/*!MODID*/" //o Several inside for an OR
+			},
+			"Entries": {
+				"{{ModId}}.NAMEFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.NAMEFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.NAME",
+					"FishAreaId": "", // optional
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
 	]
 }
