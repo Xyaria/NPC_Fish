@@ -64,7 +64,6 @@
 			},
 			"Entries": {
 				"{{ModId}}.Henchman": "{{i18n:NPCFish.Name.Henchman}}/trap/.03/680 .35/ocean/1/5/false",
-				"{{ModId}}.Morris": "{{i18n:NPCFish.Name.Morris}}/trap/.03/680 .35/ocean/1/5/false"
 			}
 		},
 		{

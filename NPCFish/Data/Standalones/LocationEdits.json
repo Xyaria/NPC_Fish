@@ -7,6 +7,7 @@
 			"When": {
 				"Hasmod|contains=Wem.Bundle": true
 			},
+			"Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current fishCaught_{{ModId}}.Tilly, SEASON Summer",
 			"Entries": {
 				"Top bookshelf": {
 					"Position": {
@@ -127,13 +128,14 @@
 					"Layer": "Buildings",
 					"Remove": true
 				},
-				{
+				{ //! Misbehaving
 					"Position": {
 						"X": 11,
 						"Y": 1
 					},
 					"Layer": "Back",
 					"SetIndex": 640,
+					"SetTilesheet": "untitled tile sheet",
 					"SetProperties": {
 						"Water": "T"
 					}

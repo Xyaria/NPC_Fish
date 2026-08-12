@@ -165,29 +165,6 @@
 						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry", "MinQuantity": 3, "MaxQuantity": 4 }
 					]
 				},
-				"id_(o){{ModId}}.Morris": {
-					"RequiredTags": [ "id_(o){{ModId}}.Morris" ],
-					"SpawnTime": 3,
-					"WaterColor": [
-						{
-							"Id": "{{ModId}}_Morris",
-							"Color": "90 90 127",
-							"MinPopulation": 3,
-							"MinUnlockedPopulationGate": 0,
-							"Condition": null
-						}
-					],
-					"ProducedItems": [
-						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)336", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 2, "MaxQuantity": 3 },
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)72", "MinQuantity": 1, "MaxQuantity": 1 }
-					]
-				},
 				"id_(o){{ModId}}.Olivia": {
 					"RequiredTags": [ "id_(o){{ModId}}.Olivia" ],
 					"SpawnTime": 3,

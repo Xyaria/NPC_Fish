@@ -24,11 +24,11 @@
 			"Action": "EditData",
 			"Target": "Data/AquariumFish",
 			"When": {
-				"Hasmod": "Wolf.Gil",
+				"Hasmod|contains=Wolf.Gil": true,
 				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false
 			},
 			"Entries": {
-				"{{ModId}}.Gil": "3/fish/////Mods\\{{ModId}}\\SVE_aquarium"
+				"{{ModId}}.Gil": "2/fish/////Mods\\{{ModId}}\\standalones_aquarium"
 			}
 		},
 	]

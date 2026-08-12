@@ -214,25 +214,6 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": ["Custom_MorrisProperty", "Fish"],
-			"When": {
-				"IsCommunityCenterComplete": "false",
-				"IsJojaMartComplete": "true"
-			},
-			"Entries": {
-				"{{ModId}}.MorrisFish": {
-					"Chance": 1.0,
-					"Id": "{{ModId}}.MorrisFish",
-					"CatchLimit": 1,
-					"IsBossFish": "True",
-					"ItemId": "{{ModId}}.Morris",
-					"Condition": "SEASON Spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
 			"TargetField": ["Custom_GrampletonSuburbs", "Fish"],
 			"Entries": {
 				"{{ModId}}.ScarlettFish": {

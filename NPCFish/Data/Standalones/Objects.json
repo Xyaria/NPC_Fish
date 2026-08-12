@@ -66,7 +66,7 @@
 					"Category": -4,
 					"Price": "200",
 					"Texture": "Mods/{{ModId}}/standalones_sprites",
-					"SpriteIndex": 3,
+					"SpriteIndex": 2,
 					"ContextTags": [
 						"color_brown",
 						"fish_legendary",

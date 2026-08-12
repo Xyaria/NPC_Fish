@@ -11,7 +11,6 @@
 				"{{ModId}}.Lance": "{{i18n:NPCFish.Name.SVE.Lance}}/95/Floater/20/50/600 2600/spring/Sunny/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Martin": "{{i18n:NPCFish.Name.SVE.Martin}}/55/sinker/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Morgan": "{{i18n:NPCFish.Name.SVE.Morgan}}/65/floater/20/50/600 2600/fall/Rainy/690 .4 685 .1/1/.50/.1/0",
-				"{{ModId}}.Morris": "{{i18n:NPCFish.Name.SVE.Morris}}/75/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Olivia": "{{i18n:NPCFish.Name.SVE.Olivia}}/60/floater/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Scarlett": "{{i18n:NPCFish.Name.SVE.Scarlett}}/55/dart/20/50/600 2600/summer/Sunny/690 .4 685 .1/1/.50/.1/0",
 				"{{ModId}}.Sophia": "{{i18n:NPCFish.Name.SVE.Sophia}}/65/smooth/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0",

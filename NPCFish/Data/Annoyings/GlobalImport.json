@@ -8,5 +8,9 @@
 			"Action": "Include",
 			"FromFile": "Data/Annoyings/Gunther.json"
 		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Annoyings/Morris.json"
+		},
 	]
 }

@@ -1,0 +1,277 @@
+{
+	"Changes": [
+		// ----- Object Data
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": { 
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=SiTheGreat.MorrisRedeemed": false,
+			},
+			"Entries": {
+				"{{ModId}}.Morris": {
+					"Name": "{{i18n:NPCFish.Name.Morris}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Morris}}",
+					"Description": "{{i18n:NPCFish.Desc.Morris}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 48,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_Vanilla",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				}
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": { 
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP,SiTheGreat.MorrisRedeemed",
+			},
+			"Entries": {
+				"{{ModId}}.Morris": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Morris}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Morris}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Morris}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
+					"SpriteIndex": 9,
+					"ContextTags": [
+						"color_dark_gray",
+						"fish_talk_rude",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+
+
+		// ----- Aquarium Data
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP,SiTheGreat.MorrisRedeemed",
+			},
+			"Entries": {
+				"{{ModId}}.Morris": "9/fish/////Mods\\{{ModId}}\\SVE_aquarium",
+			}
+		},
+
+
+		// ----- Fish Data
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=SiTheGreat.MorrisRedeemed": false,
+			},
+			"Entries": {
+				"{{ModId}}.Morris": "{{i18n:NPCFish.Name.Morris}}/trap/.03/680 .35/ocean/1/5/false"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP,SiTheGreat.MorrisRedeemed",
+			},
+			"Entries": {
+				"{{ModId}}.Morris": "{{i18n:NPCFish.Name.SVE.Morris}}/75/mixed/20/50/600 2600/spring/both/690 .4 685 .1/1/.50/.1/0",
+			}
+		},
+
+
+		// ----- Fish Pond Data
+		{ // SVE and Morris reedeemed
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=SiTheGreat.MorrisRedeemed": true,
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Morris": {
+					"RequiredTags": [ "id_(o){{ModId}}.Morris" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Morris",
+							"Color": "90 90 127",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)336", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)72", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+		{// SVE without Morris reedeemed
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=SiTheGreat.MorrisRedeemed": false,
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Morris": {
+					"RequiredTags": [ "id_(o){{ModId}}.Morris" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Morris",
+							"Color": "90 90 127",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)336", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)FlashShifter.StardewValleyExpandedCP_Money_Bag", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)72", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+		{// Morris reedeemed without SVE
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=SiTheGreat.MorrisRedeemed": true,
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Morris": {
+					"RequiredTags": [ "id_(o){{ModId}}.Morris" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Morris",
+							"Color": "90 90 127",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)223", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)223", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)223", "MinQuantity": 1, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)239", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)199", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+
+
+		// ----- Location Edit
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Town", "FishAreas"],
+			"Entries": {
+				"Next to Joja": {
+					"Position": {
+						"X": 68,
+						"Y": 42,
+						"Width": 7,
+						"Height": 8
+					}
+				}
+			}
+		},
+		{// SVE and Morris reedeemed
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Custom_MorrisProperty", "Fish"],
+			"When": {
+				"IsCommunityCenterComplete": "false",
+				"IsJojaMartComplete": "true",
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=SiTheGreat.MorrisRedeemed": true,
+			},
+			"Entries": {
+				"{{ModId}}.MorrisFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MorrisFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Morris",
+					"Condition": "SEASON Spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				}
+			}
+		},
+		{// SVE without Morris reedeemed
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Custom_MorrisProperty", "Fish"],
+			"When": {
+				"IsCommunityCenterComplete": "false",
+				"IsJojaMartComplete": "true",
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Hasmod|contains=SiTheGreat.MorrisRedeemed": false,
+			},
+			"Entries": {
+				"{{ModId}}.MorrisFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MorrisFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Morris",
+					"Condition": "SEASON Spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				}
+			}
+		},
+		{// Morris reedeemed without SVE
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Town", "Fish"],
+			"When": {
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=SiTheGreat.MorrisRedeemed": true,
+			},
+			"Entries": {
+				"{{ModId}}.MorrisFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MorrisFish",
+					"CatchLimit": 1,
+					"FishAreaId": "Next to Joja",
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Morris",
+					"Condition": "SEASON Winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				}
+			}
+		},
+	]
+}

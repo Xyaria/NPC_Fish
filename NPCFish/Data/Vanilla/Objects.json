@@ -860,23 +860,6 @@
 						"fish_has_roe"
 					]
 				},
-				"{{ModId}}.Morris": {
-					"Name": "{{i18n:NPCFish.Name.Morris}}",
-					"DisplayName": "{{i18n:NPCFish.Name.Morris}}",
-					"Description": "{{i18n:NPCFish.Desc.Morris}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods/{{ModId}}/vanilla_sprites",
-					"SpriteIndex": 48,
-					"ContextTags": [
-						"color_blue",
-						"fish_crab_pot",
-						"fish_crab_pot_NPCFish_Vanilla",
-						"fish_freshwater",
-						"fish_has_roe"
-					]
-				}
 			}
 		},
 	]

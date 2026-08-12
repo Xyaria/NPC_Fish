@@ -78,7 +78,7 @@
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Gil",
-							"Color": "11 180 230", //! TODO
+							"Color": "116 111 187",
 							"MinPopulation": 3,
 							"MinUnlockedPopulationGate": 0,
 							"Condition": null

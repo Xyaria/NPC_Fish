@@ -116,22 +116,6 @@
 						"fish_has_roe"
 					]
 				},
-				"{{ModId}}.Morris": {
-					"Name": "{{i18n:NPCFish.Name.SVE.Morris}}",
-					"DisplayName": "{{i18n:NPCFish.Name.SVE.Morris}}",
-					"Description": "{{i18n:NPCFish.Desc.SVE.Morris}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods/{{ModId}}/SVE_sprites",
-					"SpriteIndex": 9,
-					"ContextTags": [
-						"color_dark_gray",
-						"fish_talk_rude",
-						"fish_legendary",
-						"fish_has_roe"
-					]
-				},
 				"{{ModId}}.Olivia": {
 					"Name": "{{i18n:NPCFish.Name.SVE.Olivia}}",
 					"DisplayName": "{{i18n:NPCFish.Name.SVE.Olivia}}",
