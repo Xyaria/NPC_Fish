@@ -42,5 +42,17 @@
 				"{{ModId}}.Gil": "{{i18n:NPCFish.Name.Standalones.Gil}}/77/Smooth/20/50/600 2600/summer/both/690 .4 685 .1/1/.50/.1/0",
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=LemurKat.Mr.Ginger.NPC": true
+			},
+			"Entries": {
+				"{{ModId}}_MisterGingerFish": "{{i18n:NPCFish.Name.Standalones.MisterGinger}}/30/dart/15/60/600 2600/spring summer/both/690 .3 681 .1/3/.4/.15/0"
+}
+
+}
+
 	]
 }
