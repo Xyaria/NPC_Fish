@@ -296,5 +296,59 @@
 				},
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["AREA", "Fish"], //! TODO
+			"When": {
+				"Hasmod|contains=Praise Wumbus": true,
+			},
+			"Entries": {
+				"{{ModId}}.WumbusFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.WumbusFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Wumbus",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["AREA", "Fish"], //! TODO
+			"When": {
+				"Hasmod|contains=Wem.Clark": true,
+			},
+			"Entries": {
+				"{{ModId}}.ClarkFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.ClarkFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Clark",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["AREA", "Fish"], //! TODO
+			"When": {
+				"Hasmod|contains=LemurKat.Mr.Ginger.NPC": true,
+			},
+			"Entries": {
+				"{{ModId}}.MrGingerFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MrGingerFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.MrGinger",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
 	]
 }

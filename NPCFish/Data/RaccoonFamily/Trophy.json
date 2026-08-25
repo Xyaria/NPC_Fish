@@ -1,0 +1,32 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"{{ModId}}_NPCFishRacFamTrophy": "{{ModId}}_NPCFishRacFamTrophy/decor/1 2/1 1/1/0/2/{{i18n:NPCFish.RacFam.Trophy.Name}}/4/Mods\\{{ModId}}\\trophies/True/"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"{{ModId}}_NPCFishRacFamTrophyMail": "{{i18n:NPCFish.RacFam.Trophy.Mail.Content}} %item id (F){{ModId}}_NPCFishRacFamTrophy%%[letterbg 2][#]{{i18n:NPCFish.RacFam.Trophy.Mail.Title}}",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_OnCompleteRacFamCollection": {
+					"Id": "{{ModId}}_OnCompleteRacFamCollection",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Rascaloon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccomie, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccooroni, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Floraccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Musiccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccoonius, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Librariccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Racclothier, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Buildeaver",
+					"Actions": [
+						"AddMail Current {{ModId}}_NPCFishRacFamTrophyMail"
+					]
+				}
+			}
+		},
+	]
+}

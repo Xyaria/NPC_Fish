@@ -46,11 +46,43 @@
 			"Action": "EditData",
 			"Target": "Data/Fish",
 			"When": {
+				"Hasmod|contains=Praise Wumbus": true
+			},
+			"Entries": {
+				"{{ModId}}.Wumbus": "{{i18n:NPCFish.Name.Standalones.Wumbus}}/85/dart/15/60/600 2600/spring/both/690 .3 681 .1/3/.50/.1/0"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=Wem.Clark": true
+			},
+			"Entries": {
+				"{{ModId}}.Clark": "{{i18n:NPCFish.Name.Standalones.Clark}}/72/smooth/15/60/600 2600/summer/both/690 .3 681 .1/3/.50/.1/0"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
 				"Hasmod|contains=LemurKat.Mr.Ginger.NPC": true
 			},
 			"Entries": {
-				"{{ModId}}_MisterGingerFish": "{{i18n:NPCFish.Name.Standalones.MisterGinger}}/60/dart/15/60/600 2600/summer/both/690 .3 681 .1/3/.50/.1/0"
+				"{{ModId}}.MisterGinger": "{{i18n:NPCFish.Name.Standalones.MisterGinger}}/60/dart/15/60/600 2600/summer/both/690 .3 681 .1/3/.50/.1/0"
 			}
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Hasmod|contains=Luminte.WellRead": true
+			},
+			"Entries": {
+				"{{ModId}}.Scritch": "{{i18n:NPCFish.Name.Standalones.Scritch}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Ossi": "{{i18n:NPCFish.Name.Standalones.Ossi}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Calus": "{{i18n:NPCFish.Name.Standalones.Calus}}/trap/.03/680 .35/freshwater/1/5/false",
+			}
+		},
 	]
 }

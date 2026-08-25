@@ -12,7 +12,7 @@
 					"SpawnTime": 3,
 					"WaterColor": [
 						{
-							"Id": "{{Modid}}_Rasmodia",
+							"Id": "{{ModId}}_Rasmodia",
 							"Color": "196 103 237",
 							"MinPopulation": 3,
 							"MinUnlockedPopulationGate": 0,
@@ -45,7 +45,7 @@
 					"SpawnTime": 3,
 					"WaterColor": [
 						{
-							"Id": "{{Modid}}Tilly",
+							"Id": "{{ModId}}Tilly",
 							"Color": "236 230 230",
 							"MinPopulation": 3,
 							"MinUnlockedPopulationGate": 0,
@@ -64,7 +64,8 @@
 					]
 				},
 			}
-		},		
+		},
+
 		{ // Gil
 			"Action": "EditData",
 			"Target": "Data/FishPondData",
@@ -93,6 +94,90 @@
 						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)772", "MinQuantity": 1, "MaxQuantity": 1 },
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
 						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)459", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+
+		{ // Wumbus
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=Praise Wumbus": true
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Wumbus": {
+					"RequiredTags": [ "id_(o){{ModId}}.Wumbus" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Wumbus",
+							"Color": "128 216 124",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [ //! TODO only bait for now
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+					]
+				},
+			}
+		},
+
+		{ // Clark
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=Wem.Clark": true
+			},
+			"Entries": {
+				"id_(o){{ModId}}.Clark": {
+					"RequiredTags": [ "id_(o){{ModId}}.Clark" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Clark",
+							"Color": "62 88 161",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [ //! TODO only bait for now
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+					]
+				},
+			}
+		},
+
+		{ // Mr Ginger
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {
+				"Hasmod|contains=LemurKat.Mr.Ginger.NPC": true
+			},
+			"Entries": {
+				"id_(o){{ModId}}.MrGinger": {
+					"RequiredTags": [ "id_(o){{ModId}}.MrGinger" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_MrGinger",
+							"Color": "251 229 160",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [ //! TODO only bait for now
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
 					]
 				},
 			}

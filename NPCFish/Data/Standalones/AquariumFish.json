@@ -31,6 +31,36 @@
 				"{{ModId}}.Gil": "2/fish/////Mods\\{{ModId}}\\standalones_aquarium"
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod|contains=Praise Wumbus": true
+			},
+			"Entries": {
+				"{{ModId}}.Wumbus": "3/fish/////Mods\\{{ModId}}\\standalones_aquarium",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod|contains=Wem.Clark": true
+			},
+			"Entries": {
+				"{{ModId}}.Clark": "4/eel/////Mods\\{{ModId}}\\standalones_aquarium",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"When": {
+				"Hasmod|contains=LemurKat.Mr.Ginger.NPC": true
+			},
+			"Entries": {
+				"{{ModId}}.MrGinger": "5/fish/////Mods\\{{ModId}}\\standalones_aquarium",
+			}
+		},
 	]
 }
 

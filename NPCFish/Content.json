@@ -8,12 +8,20 @@
 		},
 		{
 			"Action": "Load",
-			"Target": "Mods/{{ModId}}/standalones_sprites,Mods/{{ModId}}/standalones_aquarium",
+			"Target": "Mods/{{ModId}}/standalones_sprites,Mods/{{ModId}}/standalones_crabpot_sprites,Mods/{{ModId}}/standalones_aquarium",
 			"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/sve_sprites,Mods/{{ModId}}/sve_aquarium ",
+			"FromFile": "assets/{{TargetWithoutPath}}.png",
+		},
+		{
+			"Action": "Load",
+			"When": {
+				"HasMod|contains=Si.Raccoons": true
+			},
+			"Target": "Mods/{{ModId}}/raccoon_sprites",
 			"FromFile": "assets/{{TargetWithoutPath}}.png",
 		},
 		{

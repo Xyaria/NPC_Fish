@@ -1,0 +1,163 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.Rasccaloon": {
+					"Name": "{{i18n:NPCFish.Name.RacFam.Rasccaloon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.RacFam.Rasccaloon}}",
+					"Description": "{{i18n:NPCFish.Desc.RacFam.Rasccaloon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/raccoon_sprites",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_RacFam",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Raccomie": {
+					"Name": "{{i18n:NPCFish.Name.RacFam.Raccomie}}",
+					"DisplayName": "{{i18n:NPCFish.Name.RacFam.Raccomie}}",
+					"Description": "{{i18n:NPCFish.Desc.RacFam.Raccomie}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/raccoon_sprites",
+					"SpriteIndex": 1,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_RacFam",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Raccooroni": {
+					"Name": "{{i18n:NPCFish.Name.RacFam.Raccooroni}}",
+					"DisplayName": "{{i18n:NPCFish.Name.RacFam.Raccooroni}}",
+					"Description": "{{i18n:NPCFish.Desc.RacFam.Raccooroni}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/raccoon_sprites",
+					"SpriteIndex": 2,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_RacFam",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Floraccoon": {
+					"Name": "{{i18n:NPCFish.Name.RacFam.Floraccoon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.RacFam.Floraccoon}}",
+					"Description": "{{i18n:NPCFish.Desc.RacFam.Floraccoon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/raccoon_sprites",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_RacFam",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Musiccoon": {
+					"Name": "{{i18n:NPCFish.Name.RacFam.Musiccoon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.RacFam.Musiccoon}}",
+					"Description": "{{i18n:NPCFish.Desc.RacFam.Musiccoon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/raccoon_sprites",
+					"SpriteIndex": 4,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_RacFam",
+						"fish_saltwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Raccoonius": {
+					"Name": "{{i18n:NPCFish.Name.RacFam.Raccoonius}}",
+					"DisplayName": "{{i18n:NPCFish.Name.RacFam.Raccoonius}}",
+					"Description": "{{i18n:NPCFish.Desc.RacFam.Raccoonius}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/raccoon_sprites",
+					"SpriteIndex": 5,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_RacFam",
+						"fish_saltwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Librariccoon": {
+					"Name": "{{i18n:NPCFish.Name.RacFam.Librariccoon}}",
+					"DisplayName": "{{i18n:NPCFish.Name.RacFam.Librariccoon}}",
+					"Description": "{{i18n:NPCFish.Desc.RacFam.Librariccoon}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/raccoon_sprites",
+					"SpriteIndex": 6,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_RacFam",
+						"fish_saltwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Racclothier": {
+					"Name": "{{i18n:NPCFish.Name.RacFam.Racclothier}}",
+					"DisplayName": "{{i18n:NPCFish.Name.RacFam.Racclothier}}",
+					"Description": "{{i18n:NPCFish.Desc.RacFam.Racclothier}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/raccoon_sprites",
+					"SpriteIndex": 7,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_RacFam",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Buildeaver": {
+					"Name": "{{i18n:NPCFish.Name.RacFam.Buildeaver}}",
+					"DisplayName": "{{i18n:NPCFish.Name.RacFam.Buildeaver}}",
+					"Description": "{{i18n:NPCFish.Desc.RacFam.Buildeaver}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/raccoon_sprites",
+					"SpriteIndex": 8,
+					"ContextTags": [
+						"color_brown",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_RacFam",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				}
+			}
+		}
+	]
+}
