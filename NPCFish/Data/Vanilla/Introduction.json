@@ -41,7 +41,7 @@
 			"Action": "EditData",
 			"Target": "Data/Quests",
 			"Entries": {
-				"{{ModId}}.Intro_WillyQuest": "ItemHarvest/{{i18n:NPCFish.WillyQuest_title}}/{{i18n:NPCFish.WillyQuest_description}}/{{i18n:NPCFish.WillyQuest_instruction}}/(O){{ModId}}.Willy 1/0/1000/"
+				"{{ModId}}.Intro_WillyQuest": "ItemHarvest/{{i18n:NPCFish.WillyQuest_title}}/{{i18n:NPCFish.WillyQuest_description}}/{{i18n:NPCFish.WillyQuest_instruction}}/(O){{ModId}}.Willy 1/0/1000//true"
 			}
 		},
 		{
