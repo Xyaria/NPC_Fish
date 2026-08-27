@@ -118,10 +118,15 @@
 							"Condition": null
 						}
 					],
-					"ProducedItems": [ //! TODO only bait for now
+					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)260", "MinQuantity": 1, "MaxQuantity": 1 },
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)260", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)260", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)482", "MinQuantity": 1, "MaxQuantity": 3 },
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)126", "MinQuantity": 1, "MaxQuantity": 1 }
 					]
 				},
 			}
@@ -146,10 +151,14 @@
 							"Condition": null
 						}
 					],
-					"ProducedItems": [ //! TODO only bait for now
+					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)307", "MinQuantity": 1, "MaxQuantity": 1 },
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)307", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)129", "MinQuantity": 1, "MaxQuantity": 3 },
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)201", "MinQuantity": 1, "MaxQuantity": 1 }
 					]
 				},
 			}
@@ -174,10 +183,14 @@
 							"Condition": null
 						}
 					],
-					"ProducedItems": [ //! TODO only bait for now
+					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)424", "MinQuantity": 1, "MaxQuantity": 1 },
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)424", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)227", "MinQuantity": 1, "MaxQuantity": 1 },
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)715", "MinQuantity": 1, "MaxQuantity": 1 }
 					]
 				},
 			}

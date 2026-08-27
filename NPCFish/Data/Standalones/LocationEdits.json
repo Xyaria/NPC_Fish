@@ -35,6 +35,24 @@
 			}
 		},
 		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Town", "FishAreas"],
+			"When": {
+				"Hasmod|contains=LemurKat.Mr.Ginger.NPC": true
+			},
+			"Entries": {
+				"Towards the sea": {
+					"Position": {
+						"X": 80,
+						"Y": 103,
+						"Width": 14,
+						"Height": 7
+					}
+				}
+			}
+		},
+		{
 			"Action": "EditMap",
 			"Target": "Maps/ArchaeologyHouse",
 			"When": {
@@ -299,7 +317,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": ["AREA", "Fish"], //! TODO
+			"TargetField": ["Mountain", "Fish"],
 			"When": {
 				"Hasmod|contains=Praise Wumbus": true,
 			},
@@ -309,6 +327,8 @@
 					"Id": "{{ModId}}.WumbusFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
+					"MinDistanceFromShore": 4,
+					"MaxDistanceFromShore": -1,
 					"ItemId": "{{ModId}}.Wumbus",
 					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				},
@@ -317,7 +337,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": ["AREA", "Fish"], //! TODO
+			"TargetField": ["Town", "Fish"],
 			"When": {
 				"Hasmod|contains=Wem.Clark": true,
 			},
@@ -335,7 +355,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": ["AREA", "Fish"], //! TODO
+			"TargetField": ["Town", "Fish"],
 			"When": {
 				"Hasmod|contains=LemurKat.Mr.Ginger.NPC": true,
 			},
@@ -344,6 +364,7 @@
 					"Chance": 1.0,
 					"Id": "{{ModId}}.MrGingerFish",
 					"CatchLimit": 1,
+					"FishAreaId": "Towards the sea",
 					"IsBossFish": "True",
 					"ItemId": "{{ModId}}.MrGinger",
 					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
