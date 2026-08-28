@@ -21,7 +21,7 @@
 				"{{ModId}}_OnCompleteRacFamCollection": {
 					"Id": "{{ModId}}_OnCompleteRacFamCollection",
 					"Trigger": "DayStarted",
-					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Rascaloon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccomie, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccooroni, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Floraccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Musiccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccoonius, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Librariccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Racclothier, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Buildeaver",
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Buildeaver, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Floraccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Librariccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Musiccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Racclothier, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccomie, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccoon, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccoonius, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Raccooroni, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Rasccaloon",
 					"Actions": [
 						"AddMail Current {{ModId}}_NPCFishRacFamTrophyMail"
 					]

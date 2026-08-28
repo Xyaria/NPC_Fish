@@ -106,7 +106,7 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"When": {
-				"Hasmod|contains=Praise Wumbus": true,
+				"Hasmod|contains=Si.Wumbus": true,
 			},
 			"Entries": {
 				"{{ModId}}.Wumbus": {

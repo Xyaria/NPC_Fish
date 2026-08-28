@@ -46,7 +46,7 @@
 			"Action": "EditData",
 			"Target": "Data/Fish",
 			"When": {
-				"Hasmod|contains=Praise Wumbus": true
+				"Hasmod|contains=Si.Wumbus": true
 			},
 			"Entries": {
 				"{{ModId}}.Wumbus": "{{i18n:NPCFish.Name.Standalones.Wumbus}}/85/dart/15/60/600 2600/spring/both/690 .3 681 .1/3/.50/.1/0"
@@ -69,7 +69,7 @@
 				"Hasmod|contains=LemurKat.Mr.Ginger.NPC": true
 			},
 			"Entries": {
-				"{{ModId}}.MisterGinger": "{{i18n:NPCFish.Name.Standalones.MisterGinger}}/60/dart/15/60/600 2600/summer/both/690 .3 681 .1/3/.50/.1/0"
+				"{{ModId}}.MrGinger": "{{i18n:NPCFish.Name.Standalones.MrGinger}}/60/dart/15/60/600 2600/summer/both/690 .3 681 .1/3/.50/.1/0"
 			}
 		},
 		{

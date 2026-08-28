@@ -4,13 +4,13 @@
 			"Action": "EditData",
 			"Target": "Data/Fish",
 			"Entries": {
-				"{{ModId}}.Rascaloon": "{{i18n:NPCFish.Name.RacFam.Rascaloon}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Rasccaloon": "{{i18n:NPCFish.Name.RacFam.Rasccaloon}}/trap/.03/680 .35/freshwater/1/5/false",
 				"{{ModId}}.Raccomie": "{{i18n:NPCFish.Name.RacFam.Raccomie}}/trap/.03/680 .35/freshwater/1/5/false",
 				"{{ModId}}.Raccooroni": "{{i18n:NPCFish.Name.RacFam.Raccooroni}}/trap/.03/680 .35/freshwater/1/5/false",
 				"{{ModId}}.Floraccoon": "{{i18n:NPCFish.Name.RacFam.Floraccoon}}/trap/.03/680 .35/freshwater/1/5/false",
-				"{{ModId}}.Musiccoon": "{{i18n:NPCFish.Name.RacFam.Musiccoon}}/trap/.03/680 .35/ocean/1/5/false",
-				"{{ModId}}.Raccoonius": "{{i18n:NPCFish.Name.RacFam.Raccoonius}}/trap/.03/680 .35/ocean/1/5/false",
-				"{{ModId}}.Librariccoon": "{{i18n:NPCFish.Name.RacFam.Librariccoon}}/trap/.03/680 .35/ocean/1/5/false",
+				"{{ModId}}.Musiccoon": "{{i18n:NPCFish.Name.RacFam.Musiccoon}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Raccoonius": "{{i18n:NPCFish.Name.RacFam.Raccoonius}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Librariccoon": "{{i18n:NPCFish.Name.RacFam.Librariccoon}}/trap/.03/680 .35/freshwater/1/5/false",
 				"{{ModId}}.Racclothier": "{{i18n:NPCFish.Name.RacFam.Racclothier}}/trap/.03/680 .35/freshwater/1/5/false",
 				"{{ModId}}.Buildeaver": "{{i18n:NPCFish.Name.RacFam.Buildeaver}}/trap/.03/680 .35/freshwater/1/5/false"
 			}

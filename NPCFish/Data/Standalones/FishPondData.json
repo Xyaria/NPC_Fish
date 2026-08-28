@@ -103,7 +103,7 @@
 			"Action": "EditData",
 			"Target": "Data/FishPondData",
 			"When": {
-				"Hasmod|contains=Praise Wumbus": true
+				"Hasmod|contains=Si.Wumbus": true
 			},
 			"Entries": {
 				"id_(o){{ModId}}.Wumbus": {

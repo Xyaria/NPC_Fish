@@ -35,7 +35,7 @@
 			"Action": "EditData",
 			"Target": "Data/AquariumFish",
 			"When": {
-				"Hasmod|contains=Praise Wumbus": true
+				"Hasmod|contains=Si.Wumbus": true
 			},
 			"Entries": {
 				"{{ModId}}.Wumbus": "3/fish/////Mods\\{{ModId}}\\standalones_aquarium",

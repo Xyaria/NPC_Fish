@@ -1,7 +1,7 @@
 {
 	"Name": "NPC Fish",
 	"Author": "Xyaria",
-	"Version": "1.1.0",
+	"Version": "1.2.0",
 	"Description": "Add new fish that look like the valley inhabitants",
 	"UniqueID": "xyaria.NPCFish",
 	"MinimumApiVersion": "4.0.0",
@@ -21,6 +21,14 @@
 
 		{ // Stardew Valley Expanded
 			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": "False"
+		},
+		{ // Raccoon Family Expanded
+			"UniqueID": "Si.Raccoons",
+			"IsRequired": "False"
+		},
+		{ // Well Read
+			"UniqueID": "Luminte.WellRead",
 			"IsRequired": "False"
 		},
 
@@ -48,6 +56,18 @@
 		},
 		{ // Morris Reedeemed
 			"UniqueID": "SiTheGreat.MorrisRedeemed",
+			"IsRequired": "False"
+		},
+		{ // Mister Ginger (cat NPC)
+			"UniqueID": "LemurKat.Mr.Ginger.NPC",
+			"IsRequired": "False"
+		},
+		{ // Clark the Reporter
+			"UniqueID": "Wem.Clark",
+			"IsRequired": "False"
+		},
+		{ // Marriageable Milkable Wumbus
+			"UniqueID": "Si.Wumbus",
 			"IsRequired": "False"
 		},
 	]

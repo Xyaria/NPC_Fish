@@ -319,7 +319,7 @@
 			"Target": "Data/Locations",
 			"TargetField": ["Mountain", "Fish"],
 			"When": {
-				"Hasmod|contains=Praise Wumbus": true,
+				"Hasmod|contains=Si.Wumbus": true,
 			},
 			"Entries": {
 				"{{ModId}}.WumbusFish": {

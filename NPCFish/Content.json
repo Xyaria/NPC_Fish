@@ -126,6 +126,28 @@
 			}
 		},
 
+		// Load Raccoon family fish
+		{
+			"Action": "Include",
+			"FromFile": "Data/RaccoonFamily/FishData.json",
+			"When": {
+				"Hasmod|contains=Si.Raccoons": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/RaccoonFamily/Objects.json",
+			"When": {
+				"Hasmod|contains=Si.Raccoons": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/RaccoonFamily/Trophy.json",
+			"When": {
+				"Hasmod|contains=Si.Raccoons": true
+			}
+		},
 
 		// Load Standalones Fish
 		{
