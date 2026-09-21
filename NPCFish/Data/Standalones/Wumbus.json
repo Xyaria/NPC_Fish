@@ -1,0 +1,115 @@
+{
+	"Changes": [
+		//
+		//    ▄████▄  ▄▄▄  ▄▄ ▄▄  ▄▄▄  ▄▄▄▄  ▄▄ ▄▄ ▄▄ ▄▄   ▄▄
+		//    ██▄▄██ ██▀██ ██ ██ ██▀██ ██▄█▄ ██ ██ ██ ██▀▄▀██
+		//    ██  ██ ▀███▀ ▀███▀ ██▀██ ██ ██ ██ ▀███▀ ██   ██
+		//              ▀▀
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"Entries": {
+				"{{ModId}}.Wumbus": "3/fish/////Mods\\{{ModId}}\\standalones_aquarium",
+			}
+		},
+
+		//
+		//    ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		//    ██▄▄   ██ ███▄▄ ██▄██
+		//    ██     ██ ▄▄██▀ ██ ██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{ModId}}.Wumbus": "{{i18n:NPCFish.Name.Standalones.Wumbus}}/85/dart/15/60/600 2600/spring/both/690 .3 681 .1/3/.50/.1/0"
+			}
+		},
+
+		//
+		//    █████▄  ▄▄▄  ▄▄  ▄▄ ▄▄▄▄
+		//    ██▄▄█▀ ██▀██ ███▄██ ██▀██
+		//    ██     ▀███▀ ██ ▀██ ████▀
+		//
+		{ // Wumbus
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+				"id_(o){{ModId}}.Wumbus": {
+					"RequiredTags": [ "id_(o){{ModId}}.Wumbus" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Wumbus",
+							"Color": "128 216 124",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)260", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)260", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)260", "MinQuantity": 2, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)482", "MinQuantity": 1, "MaxQuantity": 3 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)126", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+
+		//
+		//    ██      ▄▄▄   ▄▄▄▄  ▄▄▄ ▄▄▄▄▄▄ ▄▄  ▄▄▄  ▄▄  ▄▄
+		//    ██     ██▀██ ██▀▀▀ ██▀██  ██   ██ ██▀██ ███▄██
+		//    ██████ ▀███▀ ▀████ ██▀██  ██   ██ ▀███▀ ██ ▀██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Mountain", "Fish"],
+			"Entries": {
+				"{{ModId}}.WumbusFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.WumbusFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"MinDistanceFromShore": 4,
+					"MaxDistanceFromShore": -1,
+					"ItemId": "{{ModId}}.Wumbus",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
+
+		//
+		//    ▄████▄ ▄▄▄▄    ▄▄ ▄▄▄▄▄  ▄▄▄▄ ▄▄▄▄▄▄
+		//    ██  ██ ██▄██   ██ ██▄▄  ██▀▀▀   ██
+		//    ▀████▀ ██▄█▀ ▄▄█▀ ██▄▄▄ ▀████   ██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.Wumbus": {
+					"Name": "{{i18n:NPCFish.Name.Standalones.Wumbus}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Standalones.Wumbus}}",
+					"Description": "{{i18n:NPCFish.Desc.Standalones.Wumbus}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/standalones_sprites",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"color_green",
+						"fish_legendary",
+						"fish_talk_carnivore",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Data/RaccoonFamily/FishData.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/RaccoonFamily/Objects.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/RaccoonFamily/Trophy.json",
+		},
+	]
+}

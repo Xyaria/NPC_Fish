@@ -1,0 +1,64 @@
+{
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/Rasmodia.json",
+			"When": {
+				"Hasmod|contains=Nom0ri.RomRas": true
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/Tilly.json",
+			"When": {
+				"Hasmod|contains=Wem.Bundle": true
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/Wumbus.json",
+			"When": {
+				"Hasmod|contains=Si.Wumbus": true
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/WellRead.json",
+			"When": {
+				"Hasmod|contains=Luminte.WellRead": true
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/Clark.json",
+			"When": {
+				"Hasmod|contains=Wem.Clark": true
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/MrGinger.json",
+			"When": {
+				"Hasmod|contains=LemurKat.Mr.Ginger.NPC": true
+			},
+		},
+
+		// Special treatment for these – loading conditions are per patch, as more than one mod touches these NPCs
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/Marlon.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/Gunther.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/Morris.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/Gil.json"
+		},
+	]
+}

@@ -31,6 +31,10 @@
 			"UniqueID": "Luminte.WellRead",
 			"IsRequired": "False"
 		},
+		{ // Well Read
+			"UniqueID": "Lemurkat.EastScarp",
+			"IsRequired": "False"
+		},
 
 		// ----- STANDALONES SUPPORT -----
 

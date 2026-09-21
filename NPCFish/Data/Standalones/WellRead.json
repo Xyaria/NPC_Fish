@@ -1,0 +1,81 @@
+{
+	"Changes": [
+		//
+		//    ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		//    ██▄▄   ██ ███▄▄ ██▄██
+		//    ██     ██ ▄▄██▀ ██ ██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{ModId}}.Scritch": "{{i18n:NPCFish.Name.Standalones.Scritch}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Ossi": "{{i18n:NPCFish.Name.Standalones.Ossi}}/trap/.03/680 .35/freshwater/1/5/false",
+				"{{ModId}}.Calus": "{{i18n:NPCFish.Name.Standalones.Calus}}/trap/.03/680 .35/freshwater/1/5/false",
+			}
+		},
+
+		//
+		//    ▄████▄ ▄▄▄▄    ▄▄ ▄▄▄▄▄  ▄▄▄▄ ▄▄▄▄▄▄
+		//    ██  ██ ██▄██   ██ ██▄▄  ██▀▀▀   ██
+		//    ▀████▀ ██▄█▀ ▄▄█▀ ██▄▄▄ ▀████   ██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.Scritch": {
+					"Name": "{{i18n:NPCFish.Name.Standalones.Scritch}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Standalones.Scritch}}",
+					"Description": "{{i18n:NPCFish.Desc.Standalones.Scritch}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/standalones_crabpot_sprites",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"color_grey",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_standalone",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Ossi": {
+					"Name": "{{i18n:NPCFish.Name.Standalones.Ossi}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Standalones.Ossi}}",
+					"Description": "{{i18n:NPCFish.Desc.Standalones.Ossi}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/standalones_crabpot_sprites",
+					"SpriteIndex": 1,
+					"ContextTags": [
+						"color_black",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_standalone",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Calus": {
+					"Name": "{{i18n:NPCFish.Name.Standalones.Calus}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Standalones.Calus}}",
+					"Description": "{{i18n:NPCFish.Desc.Standalones.Calus}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/standalones_crabpot_sprites",
+					"SpriteIndex": 2,
+					"ContextTags": [
+						"color_black",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_standalone",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+	]
+}

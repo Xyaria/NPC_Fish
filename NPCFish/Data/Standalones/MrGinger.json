@@ -1,0 +1,129 @@
+{
+	"Changes": [
+		//
+		//    ▄████▄  ▄▄▄  ▄▄ ▄▄  ▄▄▄  ▄▄▄▄  ▄▄ ▄▄ ▄▄ ▄▄   ▄▄
+		//    ██▄▄██ ██▀██ ██ ██ ██▀██ ██▄█▄ ██ ██ ██ ██▀▄▀██
+		//    ██  ██ ▀███▀ ▀███▀ ██▀██ ██ ██ ██ ▀███▀ ██   ██
+		//              ▀▀
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"Entries": {
+				"{{ModId}}.MrGinger": "5/fish/////Mods\\{{ModId}}\\standalones_aquarium",
+			}
+		},
+
+		//
+		//    ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		//    ██▄▄   ██ ███▄▄ ██▄██
+		//    ██     ██ ▄▄██▀ ██ ██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{ModId}}.MrGinger": "{{i18n:NPCFish.Name.Standalones.MrGinger}}/60/dart/15/60/600 2600/summer/both/690 .3 681 .1/3/.50/.1/0"
+			}
+		},
+
+		//
+		//    █████▄  ▄▄▄  ▄▄  ▄▄ ▄▄▄▄
+		//    ██▄▄█▀ ██▀██ ███▄██ ██▀██
+		//    ██     ▀███▀ ██ ▀██ ████▀
+		//
+		{ // Mr Ginger
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+				"id_(o){{ModId}}.MrGinger": {
+					"RequiredTags": [ "id_(o){{ModId}}.MrGinger" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_MrGinger",
+							"Color": "251 229 160",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)424", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)424", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)227", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)715", "MinQuantity": 1, "MaxQuantity": 1 }
+					]
+				},
+			}
+		},
+
+		//
+		//    ██      ▄▄▄   ▄▄▄▄  ▄▄▄ ▄▄▄▄▄▄ ▄▄  ▄▄▄  ▄▄  ▄▄
+		//    ██     ██▀██ ██▀▀▀ ██▀██  ██   ██ ██▀██ ███▄██
+		//    ██████ ▀███▀ ▀████ ██▀██  ██   ██ ▀███▀ ██ ▀██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Town", "Fish"],
+			"Entries": {
+				"{{ModId}}.MrGingerFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MrGingerFish",
+					"CatchLimit": 1,
+					"FishAreaId": "Towards the sea",
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.MrGinger",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Town", "Fish"],
+			"Entries": {
+				"{{ModId}}.MrGingerFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MrGingerFish",
+					"CatchLimit": 1,
+					"FishAreaId": "Towards the sea",
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.MrGinger",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
+
+		//
+		//    ▄████▄ ▄▄▄▄    ▄▄ ▄▄▄▄▄  ▄▄▄▄ ▄▄▄▄▄▄
+		//    ██  ██ ██▄██   ██ ██▄▄  ██▀▀▀   ██
+		//    ▀████▀ ██▄█▀ ▄▄█▀ ██▄▄▄ ▀████   ██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.MrGinger": {
+					"Name": "{{i18n:NPCFish.Name.Standalones.MrGinger}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Standalones.MrGinger}}",
+					"Description": "{{i18n:NPCFish.Desc.Standalones.MrGinger}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/standalones_sprites",
+					"SpriteIndex": 5,
+					"ContextTags": [
+						"color_orange",
+						"fish_legendary",
+						"fish_talk_demanding",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+	]
+}

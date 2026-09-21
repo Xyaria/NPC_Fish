@@ -1,62 +1,10 @@
 {
 	"Changes": [
-		// ----- Object Data
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"When": { 
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
-				"Hasmod|contains=SiTheGreat.MorrisRedeemed": false,
-			},
-			"Entries": {
-				"{{ModId}}.Morris": {
-					"Name": "{{i18n:NPCFish.Name.Morris}}",
-					"DisplayName": "{{i18n:NPCFish.Name.Morris}}",
-					"Description": "{{i18n:NPCFish.Desc.Morris}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods/{{ModId}}/vanilla_sprites",
-					"SpriteIndex": 48,
-					"ContextTags": [
-						"color_blue",
-						"fish_crab_pot",
-						"fish_crab_pot_NPCFish_Vanilla",
-						"fish_freshwater",
-						"fish_has_roe"
-					]
-				}
-			}
-		},
-
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"When": { 
-				"Hasmod": "FlashShifter.StardewValleyExpandedCP,SiTheGreat.MorrisRedeemed",
-			},
-			"Entries": {
-				"{{ModId}}.Morris": {
-					"Name": "{{i18n:NPCFish.Name.SVE.Morris}}",
-					"DisplayName": "{{i18n:NPCFish.Name.SVE.Morris}}",
-					"Description": "{{i18n:NPCFish.Desc.SVE.Morris}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods/{{ModId}}/SVE_sprites",
-					"SpriteIndex": 9,
-					"ContextTags": [
-						"color_dark_gray",
-						"fish_talk_rude",
-						"fish_legendary",
-						"fish_has_roe"
-					]
-				},
-			}
-		},
-
-
-		// ----- Aquarium Data
+		//
+		//    ▄████▄  ▄▄▄  ▄▄ ▄▄  ▄▄▄  ▄▄▄▄  ▄▄ ▄▄ ▄▄ ▄▄   ▄▄
+		//    ██▄▄██ ██▀██ ██ ██ ██▀██ ██▄█▄ ██ ██ ██ ██▀▄▀██
+		//    ██  ██ ▀███▀ ▀███▀ ██▀██ ██ ██ ██ ▀███▀ ██   ██
+		//              ▀▀
 		{
 			"Action": "EditData",
 			"Target": "Data/AquariumFish",
@@ -68,8 +16,11 @@
 			}
 		},
 
-
-		// ----- Fish Data
+		//
+		//    ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		//    ██▄▄   ██ ███▄▄ ██▄██
+		//    ██     ██ ▄▄██▀ ██ ██
+		//
 		{
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -92,8 +43,11 @@
 			}
 		},
 
-
-		// ----- Fish Pond Data
+		//
+		//    █████▄  ▄▄▄  ▄▄  ▄▄ ▄▄▄▄
+		//    ██▄▄█▀ ██▀██ ███▄██ ██▀██
+		//    ██     ▀███▀ ██ ▀██ ████▀
+		//
 		{ // SVE and Morris reedeemed
 			"Action": "EditData",
 			"Target": "Data/FishPondData",
@@ -194,8 +148,11 @@
 			}
 		},
 
-
-		// ----- Location Edit
+		//
+		//    ██      ▄▄▄   ▄▄▄▄  ▄▄▄ ▄▄▄▄▄▄ ▄▄  ▄▄▄  ▄▄  ▄▄
+		//    ██     ██▀██ ██▀▀▀ ██▀██  ██   ██ ██▀██ ███▄██
+		//    ██████ ▀███▀ ▀████ ██▀██  ██   ██ ▀███▀ ██ ▀██
+		//
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -271,6 +228,65 @@
 					"ItemId": "{{ModId}}.Morris",
 					"Condition": "SEASON Winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
 				}
+			}
+		},
+		
+		//
+		//    ▄████▄ ▄▄▄▄    ▄▄ ▄▄▄▄▄  ▄▄▄▄ ▄▄▄▄▄▄
+		//    ██  ██ ██▄██   ██ ██▄▄  ██▀▀▀   ██
+		//    ▀████▀ ██▄█▀ ▄▄█▀ ██▄▄▄ ▀████   ██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": { 
+				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod|contains=SiTheGreat.MorrisRedeemed": false,
+			},
+			"Entries": {
+				"{{ModId}}.Morris": {
+					"Name": "{{i18n:NPCFish.Name.Morris}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Morris}}",
+					"Description": "{{i18n:NPCFish.Desc.Morris}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 48,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_Vanilla",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				}
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": { 
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP,SiTheGreat.MorrisRedeemed",
+			},
+			"Entries": {
+				"{{ModId}}.Morris": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Morris}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Morris}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Morris}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
+					"SpriteIndex": 9,
+					"ContextTags": [
+						"color_dark_gray",
+						"fish_talk_rude",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
 			}
 		},
 	]

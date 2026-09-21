@@ -1,6 +1,11 @@
 {
 	"Format": "2.8.0",
 	"Changes": [
+		//
+		//    ▄█████ ▄▄▄▄  ▄▄▄▄  ▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄  ▄▄▄▄ ▄▄ ▄▄ ▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄
+		//    ▀▀▀▄▄▄ ██▄█▀ ██▄█▄ ██   ██   ██▄▄  ███▄▄ ██▄██ ██▄▄  ██▄▄    ██  ███▄▄
+		//    █████▀ ██    ██ ██ ██   ██   ██▄▄▄ ▄▄██▀ ██ ██ ██▄▄▄ ██▄▄▄   ██  ▄▄██▀
+		//
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/vanilla_sprites,Mods/{{ModId}}/vanilla_aquarium",
@@ -8,21 +13,18 @@
 		},
 		{
 			"Action": "Load",
-			"Target": "Mods/{{ModId}}/standalones_sprites,Mods/{{ModId}}/standalones_crabpot_sprites,Mods/{{ModId}}/standalones_aquarium",
+			"Target": "Mods/{{ModId}}/sve_sprites,Mods/{{ModId}}/sve_aquarium",
 			"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
 			"Action": "Load",
-			"Target": "Mods/{{ModId}}/sve_sprites,Mods/{{ModId}}/sve_aquarium ",
+			"Target": "Mods/{{ModId}}/raccoon_sprites",
 			"FromFile": "assets/{{TargetWithoutPath}}.png",
 		},
 		{
 			"Action": "Load",
-			"When": {
-				"HasMod|contains=Si.Raccoons": true
-			},
-			"Target": "Mods/{{ModId}}/raccoon_sprites",
-			"FromFile": "assets/{{TargetWithoutPath}}.png",
+			"Target": "Mods/{{ModId}}/standalones_sprites,Mods/{{ModId}}/standalones_crabpot_sprites,Mods/{{ModId}}/standalones_aquarium",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
 			"Target": "Mods/{{ModId}}/soggyNoteBG",
@@ -39,142 +41,55 @@
 			"Action": "Load",
 			"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
+
+		//
+		// ██  ██  ▄▄▄  ▄▄  ▄▄ ▄▄ ▄▄    ▄▄     ▄▄▄    ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		// ██▄▄██ ██▀██ ███▄██ ██ ██    ██    ██▀██   ██▄▄   ██ ███▄▄ ██▄██
+		//  ▀██▀  ██▀██ ██ ▀██ ██ ██▄▄▄ ██▄▄▄ ██▀██   ██     ██ ▄▄██▀ ██ ██
+		//
 		{
 			"Action": "Include",
 			"FromFile": "Data/Vanilla/Introduction.json"
 		},
-
-		// Load Vanilla
 		{
 			"Action": "Include",
-			"FromFile": "Data/Vanilla/AquariumFish.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/Vanilla/FishData.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/Vanilla/FishPondData.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/Vanilla/LocationEdits.json"
+			"FromFile": "Data/Vanilla/_VanillaPatch.json"
 		},
 
+		//
+		// ▄█████ ██  ██ ██████   ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		// ▀▀▀▄▄▄ ██▄▄██ ██▄▄     ██▄▄   ██ ███▄▄ ██▄██
+		// █████▀  ▀██▀  ██▄▄▄▄   ██     ██ ▄▄██▀ ██ ██
+		//
 		{
 			"Action": "Include",
-			"FromFile": "Data/Vanilla/Objects.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/Vanilla/SecretNotes.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/Vanilla/Trophy.json"
-		},
-
-		// Load SVE Fish
-		{
-			"Action": "Include",
-			"FromFile": "Data/SVE/FishData.json",
-			"When": {
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/SVE/Objects.json",
-			"When": {
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/SVE/FishPondData.json",
-			"When": {
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/SVE/LocationEdits.json",
-			"When": {
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/SVE/AquariumFish.json",
-			"When": {
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/SVE/SecretNotes.json",
-			"When": {
-				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/SVE/Trophy.json",
+			"FromFile": "Data/SVE/_SVEPatch.json",
 			"When": {
 				"Hasmod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 
-		// Load Raccoon family fish
+		//
+		// █████▄   ▄▄▄   ▄▄▄▄  ▄▄▄▄  ▄▄▄   ▄▄▄  ▄▄  ▄▄   ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		// ██▄▄██▄ ██▀██ ██▀▀▀ ██▀▀▀ ██▀██ ██▀██ ███▄██   ██▄▄   ██ ███▄▄ ██▄██
+		// ██   ██ ██▀██ ▀████ ▀████ ▀███▀ ▀███▀ ██ ▀██   ██     ██ ▄▄██▀ ██ ██
+		//
 		{
 			"Action": "Include",
-			"FromFile": "Data/RaccoonFamily/FishData.json",
-			"When": {
-				"Hasmod|contains=Si.Raccoons": true
-			}
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/RaccoonFamily/Objects.json",
-			"When": {
-				"Hasmod|contains=Si.Raccoons": true
-			}
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/RaccoonFamily/Trophy.json",
+			"FromFile": "Data/RaccoonFamily/_RaccoonFamilyPatch.json",
 			"When": {
 				"Hasmod|contains=Si.Raccoons": true
 			}
 		},
 
-		// Load Standalones Fish
+		//
+		// ▄█████ ▄▄▄▄▄▄ ▄▄▄  ▄▄  ▄▄ ▄▄▄▄   ▄▄▄  ▄▄     ▄▄▄  ▄▄  ▄▄ ▄▄▄▄▄  ▄▄▄▄   ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		// ▀▀▀▄▄▄   ██  ██▀██ ███▄██ ██▀██ ██▀██ ██    ██▀██ ███▄██ ██▄▄  ███▄▄   ██▄▄   ██ ███▄▄ ██▄██
+		// █████▀   ██  ██▀██ ██ ▀██ ████▀ ██▀██ ██▄▄▄ ▀███▀ ██ ▀██ ██▄▄▄ ▄▄██▀   ██     ██ ▄▄██▀ ██ ██
+		//
 		{
 			"Action": "Include",
-			"FromFile": "Data/Standalones/FishData.json",
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/Standalones/Objects.json",
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/Standalones/FishPondData.json",
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/Standalones/LocationEdits.json",
-		},
-		{
-			"Action": "Include",
-			"FromFile": "Data/Standalones/AquariumFish.json",
-		},
-
-		// Load annoying Fish (too many mods touch them, they are banished in their own files)
-		{
-			"Action": "Include",
-			"FromFile": "Data/Annoyings/GlobalImport.json"
+			"FromFile": "Data/Standalones/_StandalonesPatch.json"
 		}
 	]
 }

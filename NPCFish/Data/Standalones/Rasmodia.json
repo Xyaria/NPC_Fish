@@ -1,0 +1,113 @@
+{
+	"Changes": [
+		//
+		//    ▄████▄  ▄▄▄  ▄▄ ▄▄  ▄▄▄  ▄▄▄▄  ▄▄ ▄▄ ▄▄ ▄▄   ▄▄
+		//    ██▄▄██ ██▀██ ██ ██ ██▀██ ██▄█▄ ██ ██ ██ ██▀▄▀██
+		//    ██  ██ ▀███▀ ▀███▀ ██▀██ ██ ██ ██ ▀███▀ ██   ██
+		//              ▀▀
+		{
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"Entries": {
+				"{{ModId}}.Rasmodia": "0/fish/////Mods\\{{ModId}}\\standalones_aquarium"
+			}
+		},
+
+		//
+		//    ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		//    ██▄▄   ██ ███▄▄ ██▄██
+		//    ██     ██ ▄▄██▀ ██ ██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{ModId}}.Rasmodia": "{{i18n:NPCFish.Name.Standalones.Rasmodia}}/90/sinker/20/50/600 2600/winter/both/690 .4 685 .1/1/.50/.1/0"
+			}
+		},
+
+		//
+		//    █████▄  ▄▄▄  ▄▄  ▄▄ ▄▄▄▄
+		//    ██▄▄█▀ ██▀██ ███▄██ ██▀██
+		//    ██     ▀███▀ ██ ▀██ ████▀
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+				"id_(o){{ModId}}.Rasmodia": {
+					"RequiredTags": ["id_(o){{ModId}}.Rasmodia"],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Rasmodia",
+							"Color": "196 103 237",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{"RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1},
+						{"RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)768", "MinQuantity": 1, "MaxQuantity": 1},
+						{"RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)768", "MinQuantity": 1, "MaxQuantity": 2},
+						{"RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4},
+						{"RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)422", "MinQuantity": 1, "MaxQuantity": 2},
+						{"RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)768", "MinQuantity": 2, "MaxQuantity": 3},
+						{"RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4},
+						{"RequiredPopulation": 9, "Chance": 0.05, "ItemID": "(O)Book_Mystery", "MinQuantity": 1, "MaxQuantity": 1}
+					]
+				}
+			}
+		},
+
+		//
+		//    ██      ▄▄▄   ▄▄▄▄  ▄▄▄ ▄▄▄▄▄▄ ▄▄  ▄▄▄  ▄▄  ▄▄
+		//    ██     ██▀██ ██▀▀▀ ██▀██  ██   ██ ██▀██ ███▄██
+		//    ██████ ▀███▀ ▀████ ██▀██  ██   ██ ▀███▀ ██ ▀██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["WitchSwamp", "Fish"],
+			"Entries": {
+				"{{ModId}}.RasmodiaFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.RasmodiaFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Rasmodia",
+					"Condition": "SEASON winter,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard,PLAYER_SPECIAL_ORDER_COMPLETE current Wizard2,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				}
+			}
+		},
+
+		//
+		//    ▄████▄ ▄▄▄▄    ▄▄ ▄▄▄▄▄  ▄▄▄▄ ▄▄▄▄▄▄
+		//    ██  ██ ██▄██   ██ ██▄▄  ██▀▀▀   ██
+		//    ▀████▀ ██▄█▀ ▄▄█▀ ██▄▄▄ ▀████   ██
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.Rasmodia": {
+					"Name": "{{i18n:NPCFish.Name.Standalones.Rasmodia}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Standalones.Rasmodia}}",
+					"Description": "{{i18n:NPCFish.Desc.Standalones.Rasmodia}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/standalones_sprites",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"color_prismatic",
+						"fish_talk_stiff",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				}
+			}
+		}
+	]
+}

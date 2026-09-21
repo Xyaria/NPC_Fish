@@ -1,60 +1,10 @@
 {
 	"Changes": [
-		// ----- Object Data
-		{ // Vanilla – non-social crabpot version
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"When": { 
-				"Hasmod | contains=FlashShifter.StardewValleyExpandedCP": false,
-				"Hasmod | contains=FlashShifter.Wolf.Gun": false,
-			},
-			"Entries": {
-				"{{ModId}}.Gunther": {
-					"Name": "{{i18n:NPCFish.Name.Gunther}}",
-					"DisplayName": "{{i18n:NPCFish.Name.Gunther}}",
-					"Description": "{{i18n:NPCFish.Desc.Gunther}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods/{{ModId}}/vanilla_sprites",
-					"SpriteIndex": 41,
-					"ContextTags": [
-						"color_blue",
-						"fish_crab_pot",
-						"fish_crab_pot_NPCFish_Vanilla",
-						"fish_freshwater",
-						"fish_has_roe"
-					]
-				},
-			}
-		},
-		{ // Modded – social fish version
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"When": {
-				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
-			},
-			"Entries": {
-				"{{ModId}}.Gunther": {
-					"Name": "{{i18n:NPCFish.Name.SVE.Gunther}}",
-					"DisplayName": "{{i18n:NPCFish.Name.SVE.Gunther}}",
-					"Description": "{{i18n:NPCFish.Desc.SVE.Gunther}}",
-					"Type": "Fish",
-					"Category": -4,
-					"Price": "200",
-					"Texture": "Mods/{{ModId}}/SVE_sprites",
-					"SpriteIndex": 3,
-					"ContextTags": [
-						"color_light_blue",
-						"fish_legendary",
-						"fish_has_roe"
-					]
-				},
-			}
-		},
-
-
-		// ----- Aquarium Data
+		//
+		//    ▄████▄  ▄▄▄  ▄▄ ▄▄  ▄▄▄  ▄▄▄▄  ▄▄ ▄▄ ▄▄ ▄▄   ▄▄
+		//    ██▄▄██ ██▀██ ██ ██ ██▀██ ██▄█▄ ██ ██ ██ ██▀▄▀██
+		//    ██  ██ ▀███▀ ▀███▀ ██▀██ ██ ██ ██ ▀███▀ ██   ██
+		//              ▀▀
 		{
 			"Action": "EditData",
 			"Target": "Data/AquariumFish",
@@ -65,9 +15,12 @@
 				"{{ModId}}.Gunther": "3/eel/////Mods\\{{ModId}}\\SVE_aquarium",
 			}
 		},
-
-
-		// ----- Fish Data
+		
+		//
+		//    ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		//    ██▄▄   ██ ███▄▄ ██▄██
+		//    ██     ██ ▄▄██▀ ██ ██
+		//
 		{ // Vanilla – non-social crabpot version
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -90,8 +43,11 @@
 			}
 		},
 
-
-		// ----- Fish Pond Data
+		//
+		//    █████▄  ▄▄▄  ▄▄  ▄▄ ▄▄▄▄
+		//    ██▄▄█▀ ██▀██ ███▄██ ██▀██
+		//    ██     ▀███▀ ██ ▀██ ████▀
+		//
 		{ // SVE gift tastes
 			"Action": "EditData",
 			"Target": "Data/FishPondData",
@@ -157,9 +113,12 @@
 				},
 			}
 		},
-
-
-		// ----- Location Edit
+		
+		//
+		//    ██      ▄▄▄   ▄▄▄▄  ▄▄▄ ▄▄▄▄▄▄ ▄▄  ▄▄▄  ▄▄  ▄▄
+		//    ██     ██▀██ ██▀▀▀ ██▀██  ██   ██ ██▀██ ███▄██
+		//    ██████ ▀███▀ ▀████ ██▀██  ██   ██ ▀███▀ ██ ▀██
+		//
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -176,6 +135,63 @@
 					"ItemId": "{{ModId}}.Gunther",
 					"FishAreaId": "South of Bridge",
 					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				},
+			}
+		},
+		
+		//
+		//    ▄████▄ ▄▄▄▄    ▄▄ ▄▄▄▄▄  ▄▄▄▄ ▄▄▄▄▄▄
+		//    ██  ██ ██▄██   ██ ██▄▄  ██▀▀▀   ██
+		//    ▀████▀ ██▄█▀ ▄▄█▀ ██▄▄▄ ▀████   ██
+		//
+		{ // Vanilla – non-social crabpot version
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": { 
+				"Hasmod | contains=FlashShifter.StardewValleyExpandedCP": false,
+				"Hasmod | contains=FlashShifter.Wolf.Gun": false,
+			},
+			"Entries": {
+				"{{ModId}}.Gunther": {
+					"Name": "{{i18n:NPCFish.Name.Gunther}}",
+					"DisplayName": "{{i18n:NPCFish.Name.Gunther}}",
+					"Description": "{{i18n:NPCFish.Desc.Gunther}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/vanilla_sprites",
+					"SpriteIndex": 41,
+					"ContextTags": [
+						"color_blue",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_Vanilla",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+			}
+		},
+		{ // Modded – social fish version
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hasmod": "FlashShifter.StardewValleyExpandedCP, Wolf.Gun"
+			},
+			"Entries": {
+				"{{ModId}}.Gunther": {
+					"Name": "{{i18n:NPCFish.Name.SVE.Gunther}}",
+					"DisplayName": "{{i18n:NPCFish.Name.SVE.Gunther}}",
+					"Description": "{{i18n:NPCFish.Desc.SVE.Gunther}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/SVE_sprites",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"color_light_blue",
+						"fish_legendary",
+						"fish_has_roe"
+					]
 				},
 			}
 		},

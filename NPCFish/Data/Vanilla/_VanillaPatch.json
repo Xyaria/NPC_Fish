@@ -1,0 +1,33 @@
+{
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/AquariumFish.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/FishData.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/FishPondData.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/LocationEdits.json"
+		},
+
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Objects.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/SecretNotes.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Trophy.json"
+		},
+	]
+}

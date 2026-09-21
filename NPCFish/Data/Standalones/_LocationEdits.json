@@ -1,0 +1,222 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Mountain", "FishAreas"],
+			"Entries": {
+				"Next to Guild": {
+					"Position": {
+						"X": 84,
+						"Y": 7,
+						"Width": 4,
+						"Height": 2
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ArchaeologyHouse",
+			"When": {
+				"Hasmod|contains=Wem.Bundle": true
+			},
+			"MapProperties": {
+				"IndoorWater": "T"
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 9,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 9,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 1426,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 9,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 9,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 10,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 10,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 1426,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 10,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 10,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 11,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{ //! Misbehaving
+					"Position": {
+						"X": 11,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 640,
+					"SetTilesheet": "untitled tile sheet",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 11,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 11,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 12,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 12,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 1426,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 12,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 12,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 13,
+						"Y": 1,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 13,
+						"Y": 1
+					},
+					"Layer": "Back",
+					"SetIndex": 1426,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 13,
+						"Y": 2,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 13,
+						"Y": 2
+					},
+					"Layer": "Back",
+					"SetIndex": 80,
+					"SetProperties": {
+						"Water": "T"
+					}
+				}
+			]
+		},
+	]
+}
