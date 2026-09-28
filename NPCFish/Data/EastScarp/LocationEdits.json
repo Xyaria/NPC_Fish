@@ -1,0 +1,21 @@
+{
+	"Changes": [
+		// ---------- Fish setup ----------
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["map", "Fish"],
+			"Entries": {
+				"{{ModId}}.NameFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.NameFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					//"FishAreaId": "",
+					"ItemId": "{{ModId}}.Name",
+					"Condition": "SEASON xxxx,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+				}
+			}
+		},
+	]
+}

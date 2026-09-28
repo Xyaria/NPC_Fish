@@ -1,0 +1,608 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+				"id_(o){{ModId}}.Aideen": {
+					"RequiredTags": [ "id_(o){{ModId}}.Aideen" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Aideen",
+							"Color": "#952c42",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Beatrice": {
+					"RequiredTags": [ "id_(o){{ModId}}.Beatrice" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Beatrice",
+							"Color": "#699d75",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Corwin": {
+					"RequiredTags": [ "id_(o){{ModId}}.Corwin" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Corwin",
+							"Color": "#a73189",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Dale": {
+					"RequiredTags": [ "id_(o){{ModId}}.Dale" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Dale",
+							"Color": "#ffe784",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Edith": {
+					"RequiredTags": [ "id_(o){{ModId}}.Edith" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Edith",
+							"Color": "#9a41ee",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Eloise": {
+					"RequiredTags": [ "id_(o){{ModId}}.Eloise" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Eloise",
+							"Color": "#d577dc",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Ethan": {
+					"RequiredTags": [ "id_(o){{ModId}}.Ethan" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Ethan",
+							"Color": "#29489e",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Eyvind": {
+					"RequiredTags": [ "id_(o){{ModId}}.Eyvind" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Eyvind",
+							"Color": "#9b6d5f",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Jacob": {
+					"RequiredTags": [ "id_(o){{ModId}}.Jacob" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Jacob",
+							"Color": "#9bb8f2",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Jade": {
+					"RequiredTags": [ "id_(o){{ModId}}.Jade" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Jade",
+							"Color": "#ef8eca",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Jasper": {
+					"RequiredTags": [ "id_(o){{ModId}}.Jasper" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Jasper",
+							"Color": "#287b66",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Jessie": {
+					"RequiredTags": [ "id_(o){{ModId}}.Jessie" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Jessie",
+							"Color": "#d55800",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Josephine": {
+					"RequiredTags": [ "id_(o){{ModId}}.Josephine" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Josephine",
+							"Color": "#dbd2d2",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Juliet": {
+					"RequiredTags": [ "id_(o){{ModId}}.Juliet" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Juliet",
+							"Color": "#abaff4",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Kataryna": {
+					"RequiredTags": [ "id_(o){{ModId}}.Kataryna" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Kataryna",
+							"Color": "#920022",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Keanu": {
+					"RequiredTags": [ "id_(o){{ModId}}.Keanu" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Keanu",
+							"Color": "#2f2f3b",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Kennedy": {
+					"RequiredTags": [ "id_(o){{ModId}}.Kennedy" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Kennedy",
+							"Color": "#f7b2b2",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Lexi": {
+					"RequiredTags": [ "id_(o){{ModId}}.Lexi" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Lexi",
+							"Color": "#66f46b",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Luma": {
+					"RequiredTags": [ "id_(o){{ModId}}.Luma" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Luma",
+							"Color": "#ffff14",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Michael": {
+					"RequiredTags": [ "id_(o){{ModId}}.Michael" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Michael",
+							"Color": "#c70039",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Oliver": {
+					"RequiredTags": [ "id_(o){{ModId}}.Oliver" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Oliver",
+							"Color": "#ea4223",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Rosa": {
+					"RequiredTags": [ "id_(o){{ModId}}.Rosa" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Rosa",
+							"Color": "#ffebc0",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Stella": {
+					"RequiredTags": [ "id_(o){{ModId}}.Stella" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Stella",
+							"Color": "#ff5277",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Tristan": {
+					"RequiredTags": [ "id_(o){{ModId}}.Tristan" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Tristan",
+							"Color": "#859d73",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Victoria": {
+					"RequiredTags": [ "id_(o){{ModId}}.Victoria" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Victoria",
+							"Color": "#486bc5",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+				"id_(o){{ModId}}.Vivienne": {
+					"RequiredTags": [ "id_(o){{ModId}}.Vivienne" ],
+					"SpawnTime": 3,
+					"WaterColor": [
+						{
+							"Id": "{{ModId}}_Vivienne",
+							"Color": "#30f2cb",
+							"MinPopulation": 3,
+							"MinUnlockedPopulationGate": 0,
+							"Condition": null
+						}
+					],
+					"ProducedItems": [
+						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+					]
+				},
+			}
+		}
+	]
+}

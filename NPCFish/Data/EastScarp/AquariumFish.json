@@ -1,0 +1,47 @@
+{
+	"Changes": [
+		{
+			"LogName": "Adding Vanilla Aquarium Fish",
+			"Action": "EditData",
+			"Target": "Data/AquariumFish",
+			"Entries": {
+				"{{ModId}}.Aideen": "0/eel/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Beatrice": "1/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Corwin": "2/static/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Dale": "3/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Edith": "4/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Eloise": "5/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Ethan": "6/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Eyvind": "7/static/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Jacob": "8/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Jade": "9/float/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Jasper": "10/float/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Jessie": "11/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Josephine": "12/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Juliet": "13/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Kataryna": "14/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Keanu": "15/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Kennedy": "16/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Lexi": "17/float/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Luma": "18/static/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Michael": "19/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Oliver": "20/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Rosa": "21/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Stella": "22/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Tristan": "23/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Victoria": "24/fish/////Mods\\{{ModId}}\\es_aquarium",
+				"{{ModId}}.Vivienne": "25/fish/////Mods\\{{ModId}}\\es_aquarium",
+			}
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+

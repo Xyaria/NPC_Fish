@@ -19,7 +19,12 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/raccoon_sprites",
-			"FromFile": "assets/{{TargetWithoutPath}}.png",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/es_sprites,Mods/{{ModId}}/es_aquarium",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
 			"Action": "Load",
@@ -79,6 +84,19 @@
 			"FromFile": "Data/RaccoonFamily/_RaccoonFamilyPatch.json",
 			"When": {
 				"Hasmod|contains=Si.Raccoons": true
+			}
+		},
+
+		//
+		// ██████ ▄█████   ██████ ▄▄  ▄▄▄▄ ▄▄ ▄▄
+		// ██▄▄   ▀▀▀▄▄▄   ██▄▄   ██ ███▄▄ ██▄██
+		// ██▄▄▄▄ █████▀   ██     ██ ▄▄██▀ ██ ██
+		//
+		{
+			"Action": "Include",
+			"FromFile": "Data/EastScarp/_EastScarpPatch.json",
+			"When": {
+				"Hasmod|contains=Lemurkat.EastScarp": true
 			}
 		},
 

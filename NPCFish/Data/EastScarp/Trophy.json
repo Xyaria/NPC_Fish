@@ -1,0 +1,32 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"{{ModId}}_NPCFishEastScarpTrophy": "{{ModId}}_NPCFishEastScarpTrophy/decor/1 2/1 1/1/0/2/{{i18n:NPCFish.EastScarp.Trophy.Name}}/3/Mods\\{{ModId}}\\trophies/True/"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"{{ModId}}_NPCFishEastScarpTrophyMail": "{{i18n:NPCFish.EastScarp.Trophy.Mail.Content}} %item id (F){{ModId}}_NPCFishEastScarpTrophy%%[letterbg 2][#]{{i18n:NPCFish.EastScarp.Trophy.Mail.Title}}",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_OnCompleteEastScarpCollection": {
+					"Id": "{{ModId}}_OnCompleteEastScarpCollection",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Aideen, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Beatrice, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Corwin, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Dale, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Edith, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Eloise, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Ethan, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Eyvind, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jacob, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jade, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jasper, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Jessie, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Josephine, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Juliet, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Kataryna, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Keanu, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Kennedy, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Lexi, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Luma, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Michael, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Oliver, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Rosa, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Stella, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Tristan, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Victoria, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Vivienne, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Abyss, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.BaronMunchington, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Cameron, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.CaptainRoderick, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Gremlin, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Happy, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.LadySheba, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.LittleGruff, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Pepper, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Richie, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.TheEmperess, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.TheEmperor, PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Valkyrie",
+					"Actions": [
+						"AddMail Current {{ModId}}_NPCFishEastScarpTrophyMail"
+					]
+				}
+			}
+		},
+	]
+}

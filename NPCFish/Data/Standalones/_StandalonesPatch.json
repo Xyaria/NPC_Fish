@@ -1,5 +1,11 @@
 {
 	"Changes": [
+		// Generic location edits for standalones (to put away big ugly patches)
+		{
+			"Action": "Include",
+			"FromFile": "Data/Standalones/_LocationEdits.json",
+		},
+
 		{
 			"Action": "Include",
 			"FromFile": "Data/Standalones/Rasmodia.json",

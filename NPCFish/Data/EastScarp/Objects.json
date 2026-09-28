@@ -1,0 +1,646 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.Aideen": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Aideen}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Aideen}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Aideen}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"color_dark_red",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Beatrice": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Beatrice}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Beatrice}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Beatrice}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 1,
+					"ContextTags": [
+						"color_black",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Corwin": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Corwin}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Corwin}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Corwin}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 2,
+					"ContextTags": [
+						"color_dark_purple",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Dale": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Dale}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Dale}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Dale}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"color_gold",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Edith": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Edith}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Edith}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Edith}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 4,
+					"ContextTags": [
+						"color_pink",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Eloise": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Eloise}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Eloise}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Eloise}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 5,
+					"ContextTags": [
+						"color_pink",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Ethan": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Ethan}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Ethan}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Ethan}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 6,
+					"ContextTags": [
+						"color_dark_blue",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Eyvind": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Eyvind}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Eyvind}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Eyvind}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 7,
+					"ContextTags": [
+						"color_gold",
+						"fish_talk_TODO",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Jacob": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Jacob}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Jacob}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Jacob}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 8,
+					"ContextTags": [
+						"color_light_cyan",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Jade": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Jade}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Jade}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Jade}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 9,
+					"ContextTags": [
+						"color_pink",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Jasper": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Jasper}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Jasper}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Jasper}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 10,
+					"ContextTags": [
+						"color_dark_green",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Jessie": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Jessie}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Jessie}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Jessie}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 11,
+					"ContextTags": [
+						"color_blue",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Josephine": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Josephine}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Josephine}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Josephine}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 12,
+					"ContextTags": [
+						"color_purple",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Juliet": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Juliet}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Juliet}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Juliet}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 13,
+					"ContextTags": [
+						"color_purple",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Kataryna": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Kataryna}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Kataryna}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Kataryna}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 14,
+					"ContextTags": [
+						"color_red",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Keanu": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Keanu}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Keanu}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Keanu}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 15,
+					"ContextTags": [
+						"color_black",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Kennedy": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Kennedy}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Kennedy}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Kennedy}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 16,
+					"ContextTags": [
+						"color_pink",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Lexi": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Lexi}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Lexi}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Lexi}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 17,
+					"ContextTags": [
+						"color_green",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Luma": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Luma}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Luma}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Luma}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 18,
+					"ContextTags": [
+						"color_yellow",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Michael": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Michael}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Michael}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Michael}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 19,
+					"ContextTags": [
+						"color_dark_red",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Oliver": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Oliver}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Oliver}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Oliver}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 20,
+					"ContextTags": [
+						"color_red",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Rosa": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Rosa}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Rosa}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Rosa}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 21,
+					"ContextTags": [
+						"color_orange",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Stella": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Stella}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Stella}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Stella}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 22,
+					"ContextTags": [
+						"color_dark_pink",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Tristan": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Tristan}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Tristan}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Tristan}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 23,
+					"ContextTags": [
+						"color_green",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Victoria": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Victoria}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Victoria}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Victoria}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 24,
+					"ContextTags": [
+						"color_purple",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Vivienne": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Vivienne}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Vivienne}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Vivienne}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 25,
+					"ContextTags": [
+						"color_aquamarine",
+						"fish_talk_TODO",
+						"fish_legendary",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Abyss": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Abyss}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Abyss}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Abyss}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 26,
+					"ContextTags": [
+						"color_black",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.BaronMunchington": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.BaronMunchington}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.BaronMunchington}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.BaronMunchington}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 27,
+					"ContextTags": [
+						"color_sand",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Cameron": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Cameron}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Cameron}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Cameron}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 28,
+					"ContextTags": [
+						"color_yellow",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_ocean",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.CaptainRoderick": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.CaptainRoderick}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.CaptainRoderick}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.CaptainRoderick}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 29,
+					"ContextTags": [
+						"color_red",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_ocean",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Gremlin": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Gremlin}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Gremlin}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Gremlin}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 30,
+					"ContextTags": [
+						"color_sand",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_ocean",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Happy": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Happy}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Happy}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Happy}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 31,
+					"ContextTags": [
+						"color_yellow",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.LadySheba": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.LadySheba}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.LadySheba}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.LadySheba}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 32,
+					"ContextTags": [
+						"color_gray",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.LittleGruff": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.LittleGruff}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.LittleGruff}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.LittleGruff}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 33,
+					"ContextTags": [
+						"color_dark_purple",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Pepper": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Pepper}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Pepper}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Pepper}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 34,
+					"ContextTags": [
+						"color_white",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_ocean",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Richie": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Richie}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Richie}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Richie}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 35,
+					"ContextTags": [
+						"color_red",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_ocean",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.TheEmperess": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.TheEmperess}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.TheEmperess}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.TheEmperess}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 036,
+					"ContextTags": [
+						"color_sans",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.TheEmperor": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.TheEmperor}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.TheEmperor}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.TheEmperor}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 137,
+					"ContextTags": [
+						"color_orange",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_freshwater",
+						"fish_has_roe"
+					]
+				},
+				"{{ModId}}.Valkyrie": {
+					"Name": "{{i18n:NPCFish.Name.EastScarp.Valkyrie}}",
+					"DisplayName": "{{i18n:NPCFish.Name.EastScarp.Valkyrie}}",
+					"Description": "{{i18n:NPCFish.Desc.EastScarp.Valkyrie}}",
+					"Type": "Fish",
+					"Category": -4,
+					"Price": "200",
+					"Texture": "Mods/{{ModId}}/es_sprites",
+					"SpriteIndex": 238,
+					"ContextTags": [
+						"color_sand",
+						"fish_crab_pot",
+						"fish_crab_pot_NPCFish_EastScarp",
+						"fish_ocean",
+						"fish_has_roe"
+					]
+				},
+			}
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Data/EastScarp/FishData.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/EastScarp/Objects.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/EastScarp/FishPondData.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/EastScarp/LocationEdits.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/EastScarp/AquariumFish.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/EastScarp/SecretNotes.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/EastScarp/Trophy.json",
+		},
+	]
+}
