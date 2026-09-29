@@ -18,13 +18,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)597", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)597", "MinQuantity": 1, "MaxQuantity": 2 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)106", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)597", "MinQuantity": 2, "MaxQuantity": 3 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)540", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Beatrice": {
@@ -41,13 +41,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)192", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)192", "MinQuantity": 1, "MaxQuantity": 2 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)84", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)192", "MinQuantity": 2, "MaxQuantity": 3 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)207", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Corwin": {
@@ -64,13 +64,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)340", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)340", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)303", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)340", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)422", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Dale": {
@@ -87,13 +87,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)580", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)580", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)614", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)580", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)Lemurkat.EastScarp_HotChoco", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Edith": {
@@ -110,13 +110,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)723", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)723", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)724", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)723", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)200", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Eloise": {
@@ -133,13 +133,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)18", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)18", "MinQuantity": 1, "MaxQuantity": 2 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)444", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)18", "MinQuantity": 1, "MaxQuantity": 3 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)EastScarp_Blue_Jay_Feather", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Ethan": {
@@ -156,13 +156,10 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)408", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)408", "MinQuantity": 1, "MaxQuantity": 2 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)403", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Eyvind": {
@@ -179,13 +176,10 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)440", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)440", "MinQuantity": 1, "MaxQuantity": 2 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)EastScarp_Azure_Chrysanthemum", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Jacob": {
@@ -202,13 +196,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)205", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)205", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)282", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)205", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)342", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Jade": {
@@ -225,13 +219,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)684", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)684", "MinQuantity": 1, "MaxQuantity": 2 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)577", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)684", "MinQuantity": 1, "MaxQuantity": 3 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)595", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Jasper": {
@@ -248,13 +242,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)82", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)82", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)72", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)82", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)108", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Jessie": {
@@ -271,13 +265,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)281", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)281", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)254", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)281", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)EastScarp_Cuccaroot", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Josephine": {
@@ -294,13 +288,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)350", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)340", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)350", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)340", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)Lemurkat.EastScarp_ZinfazuFruit", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Juliet": {
@@ -317,13 +311,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)376", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)376", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)420", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)376", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)731", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Kataryna": {
@@ -340,13 +334,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)560", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)561", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)561", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)560", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)121", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Keanu": {
@@ -363,13 +357,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)404", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)404", "MinQuantity": 1, "MaxQuantity": 2 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)DriedMushrooms", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)404", "MinQuantity": 1, "MaxQuantity": 3 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)227", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Kennedy": {
@@ -386,13 +380,10 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)306", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)306", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)203", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Lexi": {
@@ -409,13 +400,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)254", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)254", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)103", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)254", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)233", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Luma": {
@@ -432,13 +423,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)398", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)398", "MinQuantity": 1, "MaxQuantity": 2 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)551", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)398", "MinQuantity": 1, "MaxQuantity": 3 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)Raisins", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Michael": {
@@ -455,13 +446,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)591", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)88", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)88", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)591", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)EastScarp_SeaGlass", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Oliver": {
@@ -478,13 +469,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)167", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)167", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)557", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)167", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)587", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Rosa": {
@@ -501,13 +492,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)216", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)400", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)400", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)216", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)540", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Stella": {
@@ -524,13 +515,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)167", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)593", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)167", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)593", "MinQuantity": 1, "MaxQuantity": 2 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)346", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Tristan": {
@@ -539,7 +530,7 @@
 					"WaterColor": [
 						{
 							"Id": "{{ModId}}_Tristan",
-							"Color": "#859d73",
+							"Color": "#fac957",
 							"MinPopulation": 3,
 							"MinUnlockedPopulationGate": 0,
 							"Condition": null
@@ -547,13 +538,12 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)424", "MinQuantity": 1, "MaxQuantity": 1 },
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)424", "MinQuantity": 1, "MaxQuantity": 2 },
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)227", "MinQuantity": 1, "MaxQuantity": 1 },
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)715", "MinQuantity": 1, "MaxQuantity": 1 }
 					]
 				},
 				"id_(o){{ModId}}.Victoria": {
@@ -570,13 +560,13 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)394", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)903", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "(O)903", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "(O)394", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)EastScarp_FrostBerry_Bliss_Balls", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 				"id_(o){{ModId}}.Vivienne": {
@@ -593,13 +583,10 @@
 					],
 					"ProducedItems": [
 						{ "RequiredPopulation": 1, "Chance": 0.9, "ItemID": "(O)812", "MinQuantity": 1, "MaxQuantity": 1 },
-						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 1, "Chance": 0.1, "ItemID": "(O)64", "MinQuantity": 1, "MaxQuantity": 1 }, //!
+						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)64", "MinQuantity": 1, "MaxQuantity": 1 }, //!
 						{ "RequiredPopulation": 3, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 5, "Chance": 0.2, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.3, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 }, //!
-						{ "RequiredPopulation": 5, "Chance": 0.5, "ItemID": "(O)812", "MinQuantity": 2, "MaxQuantity": 4 },
-						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "", "MinQuantity": 1, "MaxQuantity": 1 } //!
+						{ "RequiredPopulation": 8, "Chance": 0.1, "ItemID": "(O)SkillBook_0", "MinQuantity": 1, "MaxQuantity": 1 } //!
 					]
 				},
 			}
