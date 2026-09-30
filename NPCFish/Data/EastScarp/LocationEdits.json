@@ -4,17 +4,340 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": ["map", "Fish"],
+			"TargetField": ["EastScarp_Village", "Fish"], // EastScarp main
 			"Entries": {
-				"{{ModId}}.NameFish": {
+				"{{ModId}}.AideenFish": {
 					"Chance": 1.0,
-					"Id": "{{ModId}}.NameFish",
+					"Id": "{{ModId}}.AideenFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					//"FishAreaId": "",
-					"ItemId": "{{ModId}}.Name",
-					"Condition": "SEASON xxxx,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
+					"FishAreaId": "ES main river",
+					"ItemId": "{{ModId}}.Aideen",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.BeatriceFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.BeatriceFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES main bay",
+					"ItemId": "{{ModId}}.Beatrice",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.CorwinFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.CorwinFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES main bay",
+					"ItemId": "{{ModId}}.Corwin",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.DaleFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.DaleFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES main river",
+					"ItemId": "{{ModId}}.Dale",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.EloiseFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.EloiseFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES main lighthouse bush",
+					"ItemId": "{{ModId}}.Eloise",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.JacobFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.JacobFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES main well",
+					"ItemId": "{{ModId}}.Jacob",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.JadeFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.JadeFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES main tidepools",
+					"ItemId": "{{ModId}}.Jade",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.VictoriaFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.VictoriaFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES main pond",
+					"ItemId": "{{ModId}}.Victoria",
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
 				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_Crossing", "Fish"], // EastScarp crossing
+			"Entries": {
+				"{{ModId}}.EthanFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.EthanFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Ethan",
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.JessieFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.JessieFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Jessie",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_Orchard", "Fish"], // EastScarp orchard
+			"Entries": {
+				"{{ModId}}.LumaFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.LumaFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Luma",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.RosaFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.RosaFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Rosa",
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_InnBath", "Fish"], // EastScarp Inn lower floor
+			"Entries": {
+				"{{ModId}}.EdithFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.EdithFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES inn shower",
+					"ItemId": "{{ModId}}.Edith",
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_VillageInn", "Fish"], // EastScarp Inn upper floor
+			"Entries": {
+				"{{ModId}}.KatarynaFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.KatarynaFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES inn barrel",
+					"ItemId": "{{ModId}}.Kataryna",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.MichaelFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.MichaelFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES inn front desk",
+					"ItemId": "{{ModId}}.Michael",
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_SeaCave", "Fish"], // EastScarp Sea Cave
+			"Entries": {
+				"{{ModId}}.LexiFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.LexiFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Lexi",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.OliverFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.OliverFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Oliver",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_DeepMountains", "Fish"], // EastScarp Deep mountain
+			"Entries": {
+				"{{ModId}}.EyvindFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.EyvindFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Eyvind",
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_LoresCove", "Fish"], // EastScarp Lore's Cove
+			"Entries": {
+				"{{ModId}}.KeanuFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.KeanuFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Keanu",
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_ThriftShop", "Fish"], // EastScarp suburb thrift store
+			"Entries": {
+				"{{ModId}}.KennedyFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.KennedyFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES store Bear plush",
+					"ItemId": "{{ModId}}.Kennedy",
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_ZuzuBurb", "Fish"], // EastScarp suburb
+			"Entries": {
+				"{{ModId}}.StellaFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.StellaFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "ES suburb flower plot",
+					"ItemId": "{{ModId}}.Stella",
+					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Town", "Fish"],
+			"Entries": {
+				"{{ModId}}.JulietFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.JulietFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Juliet",
+					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.TristanFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.TristanFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"FishAreaId": "Towards the sea",
+					"ItemId": "{{ModId}}.Tristan",
+					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+				"{{ModId}}.VivienneFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.VivienneFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Vivienne",
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Beach", "Fish"],
+			"Entries": {
+				"{{ModId}}.JosephineFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.JosephineFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Josephine",
+					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["UndergroundMine", "Fish"],
+			"Entries": {
+				"{{ModId}}.JasperFish": {
+					"Chance": 1.0,
+					"Id": "{{ModId}}.JasperFish",
+					"CatchLimit": 1,
+					"IsBossFish": "True",
+					"ItemId": "{{ModId}}.Jasper",
+					"Condition": "SEASON summer,Location_Name Here UndergroundMine20,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
+					"ContextTags": ["fish_legendary"]
+				},
 			}
 		},
 	]

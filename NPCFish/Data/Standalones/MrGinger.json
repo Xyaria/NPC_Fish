@@ -81,22 +81,6 @@
 				},
 			}
 		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["Town", "Fish"],
-			"Entries": {
-				"{{ModId}}.MrGingerFish": {
-					"Chance": 1.0,
-					"Id": "{{ModId}}.MrGingerFish",
-					"CatchLimit": 1,
-					"FishAreaId": "Towards the sea",
-					"IsBossFish": "True",
-					"ItemId": "{{ModId}}.MrGinger",
-					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy"
-				},
-			}
-		},
 
 		//
 		//    ▄████▄ ▄▄▄▄    ▄▄ ▄▄▄▄▄  ▄▄▄▄ ▄▄▄▄▄▄
