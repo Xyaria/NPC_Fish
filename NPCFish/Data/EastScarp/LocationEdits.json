@@ -1,5 +1,592 @@
 {
 	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps\\EastScarp_Village",
+			"MapTiles": [
+				// Well
+				{
+					"Position": {
+						"X": 22,
+						"Y": 22
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 23,
+						"Y": 22
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 24,
+						"Y": 22
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 23,
+						"Y": 23,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 23,
+						"Y": 23
+					},
+					"Layer": "Back",
+					"SetIndex": 86,
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				// Bush
+				{
+					"Position": {
+						"X": 81,
+						"Y": 106
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 81,
+						"Y": 107
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 82,
+						"Y": 106
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 82,
+						"Y": 107
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 83,
+						"Y": 106
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 83,
+						"Y": 107
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps\\EastScarp_InnBath",
+			"MapProperties": {
+				"IndoorWater": "T"
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 1,
+						"Y": 10
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 2,
+						"Y": 10
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 3,
+						"Y": 10
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 4,
+						"Y": 10
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 5,
+						"Y": 10
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 1,
+						"Y": 11
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 2,
+						"Y": 11
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 3,
+						"Y": 11
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 4,
+						"Y": 11
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 5,
+						"Y": 11
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps\\EastScarp_VillageInn",
+			"MapProperties": {
+				"IndoorWater": "T"
+			},
+			"MapTiles": [
+				// Barrel
+				{
+					"Position": {
+						"X": 47,
+						"Y": 8,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 47,
+						"Y": 8,
+					},
+					"Layer": "Back2",
+					"SetIndex": 112,
+				},
+				{
+					"Position": {
+						"X": 47,
+						"Y": 8
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 47,
+						"Y": 9
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 47,
+						"Y": 9
+					},
+					"Layer": "Back2",
+					"SetIndex": 1367,
+				},
+				{
+					"Position": {
+						"X": 47,
+						"Y": 9
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 48,
+						"Y": 9
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 48,
+						"Y": 9
+					},
+					"Layer": "Back2",
+					"SetIndex": 45,
+				},
+				{
+					"Position": {
+						"X": 48,
+						"Y": 9
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 48,
+						"Y": 9
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 48,
+						"Y": 9
+					},
+					"Layer": "Back2",
+					"SetIndex": 1360,
+				},
+				{
+					"Position": {
+						"X": 48,
+						"Y": 9
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				// Front Desk
+				{
+					"Position": {
+						"X": 44,
+						"Y": 33
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 45,
+						"Y": 33
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 46,
+						"Y": 33
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 44,
+						"Y": 34
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 45,
+						"Y": 34
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				{
+					"Position": {
+						"X": 46,
+						"Y": 34
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps\\EastScarp_ZuzuBurb",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 11,
+						"Y": 7,
+					},
+					"Layer": "Back2",
+					"SetIndex": 26,
+				},
+				{
+					"Position": {
+						"X": 11,
+						"Y": 7
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps\\EastScarp_ThriftShop",
+			"MapProperties": {
+				"IndoorWater": "T"
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 16,
+						"Y": 15,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 16,
+						"Y": 15,
+					},
+					"Layer": "Back2",
+					"SetIndex": 2721,
+				},
+				{
+					"Position": {
+						"X": 16,
+						"Y": 15
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+				
+				{
+					"Position": {
+						"X": 17,
+						"Y": 15,
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 17,
+						"Y": 15,
+					},
+					"Layer": "Back2",
+					"SetIndex": 2722,
+				},
+				{
+					"Position": {
+						"X": 17,
+						"Y": 15
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Water": "T"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_Village", "FishAreas"],
+			"Entries": {
+				"ESPond": {
+					"Position": {
+						"X": 21,
+						"Y": 61,
+						"Width": 12,
+						"Height": 9
+					}
+				},
+				"ESWell": {
+					"Position": {
+						"X": 22,
+						"Y": 22,
+						"Width": 3,
+						"Height": 2
+					}
+				},
+				"ESBush": {
+					"Position": {
+						"X": 81,
+						"Y": 106,
+						"Width": 3,
+						"Height": 2
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_InnBath", "FishAreas"],
+			"Entries": {
+				"ESShower": {
+					"Position": {
+						"X": 1,
+						"Y": 10,
+						"Width": 5,
+						"Height": 2
+					}
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_VillageInn", "FishAreas"],
+			"Entries": {
+				"ESBarrel": {
+					"Position": {
+						"X": 47,
+						"Y": 8,
+						"Width": 2,
+						"Height": 2
+					}
+				},
+				"ESFrontDesk": {
+					"Position": {
+						"X": 44,
+						"Y": 33,
+						"Width": 3,
+						"Height": 2
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_ZuzuBurb", "FishAreas"],
+			"Entries": {
+				"ESFlowerPlot": {
+					"Position": {
+						"X": 11,
+						"Y": 7,
+						"Width": 1,
+						"Height": 1
+					}
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_ThriftShop", "FishAreas"],
+			"Entries": {
+				"ESBearPlush": {
+					"Position": {
+						"X": 16,
+						"Y": 5,
+						"Width": 2,
+						"Height": 1
+					}
+				},
+			}
+		},
+
 		// ---------- Fish setup ----------
 		{
 			"Action": "EditData",
@@ -11,7 +598,7 @@
 					"Id": "{{ModId}}.AideenFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES main river",
+					"FishAreaId": "ESFreshwater",
 					"ItemId": "{{ModId}}.Aideen",
 					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -21,7 +608,7 @@
 					"Id": "{{ModId}}.BeatriceFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES main bay",
+					"FishAreaId": "ESBay",
 					"ItemId": "{{ModId}}.Beatrice",
 					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -31,7 +618,7 @@
 					"Id": "{{ModId}}.CorwinFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES main bay",
+					"FishAreaId": "ESBay",
 					"ItemId": "{{ModId}}.Corwin",
 					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -41,7 +628,7 @@
 					"Id": "{{ModId}}.DaleFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES main river",
+					"FishAreaId": "ESFreshwater",
 					"ItemId": "{{ModId}}.Dale",
 					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -51,7 +638,7 @@
 					"Id": "{{ModId}}.EloiseFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES main lighthouse bush",
+					"FishAreaId": "ESBush",
 					"ItemId": "{{ModId}}.Eloise",
 					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -61,7 +648,7 @@
 					"Id": "{{ModId}}.JacobFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES main well",
+					"FishAreaId": "ESWell",
 					"ItemId": "{{ModId}}.Jacob",
 					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -71,7 +658,7 @@
 					"Id": "{{ModId}}.JadeFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES main tidepools",
+					"FishAreaId": "ESTidepools",
 					"ItemId": "{{ModId}}.Jade",
 					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -81,7 +668,7 @@
 					"Id": "{{ModId}}.VictoriaFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES main pond",
+					"FishAreaId": "ESPond",
 					"ItemId": "{{ModId}}.Victoria",
 					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -148,7 +735,7 @@
 					"Id": "{{ModId}}.EdithFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES inn shower",
+					"FishAreaId": "ESShower",
 					"ItemId": "{{ModId}}.Edith",
 					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -165,7 +752,7 @@
 					"Id": "{{ModId}}.KatarynaFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES inn barrel",
+					"FishAreaId": "ESBarrel",
 					"ItemId": "{{ModId}}.Kataryna",
 					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -175,7 +762,7 @@
 					"Id": "{{ModId}}.MichaelFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES inn front desk",
+					"FishAreaId": "ESFrontDesk",
 					"ItemId": "{{ModId}}.Michael",
 					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -249,7 +836,7 @@
 					"Id": "{{ModId}}.KennedyFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES store Bear plush",
+					"FishAreaId": "ESBearPlush",
 					"ItemId": "{{ModId}}.Kennedy",
 					"Condition": "SEASON fall,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -266,7 +853,7 @@
 					"Id": "{{ModId}}.StellaFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ES suburb flower plot",
+					"FishAreaId": "ESFlowerPlot",
 					"ItemId": "{{ModId}}.Stella",
 					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
