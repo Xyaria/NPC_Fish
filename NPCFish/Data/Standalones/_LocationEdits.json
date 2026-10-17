@@ -16,6 +16,21 @@
 			}
 		},
 		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["Town", "FishAreas"],
+			"Entries": {
+				"Towards the sea": {
+					"Position": {
+						"X": 81,
+						"Y": 103,
+						"Width": 12,
+						"Height": 6
+					}
+				}
+			}
+		},
+		{
 			"Action": "EditMap",
 			"Target": "Maps/ArchaeologyHouse",
 			"When": {

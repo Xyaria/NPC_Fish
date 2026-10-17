@@ -594,7 +594,7 @@
 					"Category": -4,
 					"Price": "200",
 					"Texture": "Mods/{{ModId}}/es_sprites",
-					"SpriteIndex": 036,
+					"SpriteIndex": 36,
 					"ContextTags": [
 						"color_sans",
 						"fish_crab_pot",
@@ -611,7 +611,7 @@
 					"Category": -4,
 					"Price": "200",
 					"Texture": "Mods/{{ModId}}/es_sprites",
-					"SpriteIndex": 137,
+					"SpriteIndex": 37,
 					"ContextTags": [
 						"color_orange",
 						"fish_crab_pot",
@@ -628,7 +628,7 @@
 					"Category": -4,
 					"Price": "200",
 					"Texture": "Mods/{{ModId}}/es_sprites",
-					"SpriteIndex": 238,
+					"SpriteIndex": 38,
 					"ContextTags": [
 						"color_sand",
 						"fish_crab_pot",

@@ -1,125 +1,92 @@
 {
 	"Changes": [
 		{
-			"Action": "EditMap",
-			"Target": "Maps\\EastScarp_Village",
-			"MapTiles": [
-				// Well
-				{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_InnBath", "FishAreas"],
+			"When": {
+				"HasCaughtFish|contains={{ModId}}.Edith": false
+			},
+			"Entries": {
+				"ESShower": {
 					"Position": {
-						"X": 22,
-						"Y": 22
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "T"
+						"X": 1,
+						"Y": 10,
+						"Width": 5,
+						"Height": 2
 					}
 				},
-				{
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_VillageInn", "FishAreas"],
+			"When": {
+				"HasCaughtFish|contains={{ModId}}.Kataryna": false,
+				"HasCaughtFish|contains={{ModId}}.Michael": false
+			},
+			"Entries": {
+				"ESBarrel": {
 					"Position": {
-						"X": 23,
-						"Y": 22
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "T"
+						"X": 47,
+						"Y": 8,
+						"Width": 3,
+						"Height": 3
 					}
 				},
-				{
+				"ESFrontDesk": {
 					"Position": {
-						"X": 24,
-						"Y": 22
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "T"
+						"X": 44,
+						"Y": 33,
+						"Width": 3,
+						"Height": 2
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_ZuzuBurb", "FishAreas"],
+			"When": {
+				"HasCaughtFish|contains={{ModId}}.Stella": false
+			},
+			"Entries": {
+				"ESFlowerPlot": {
+					"Position": {
+						"X": 10,
+						"Y": 6,
+						"Width": 3,
+						"Height": 3
 					}
 				},
-				{
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": ["EastScarp_ThriftShop", "FishAreas"],
+			"When": {
+				"HasCaughtFish|contains={{ModId}}.Kennedy": false
+			},
+			"Entries": {
+				"ESBearPlush": {
 					"Position": {
-						"X": 23,
-						"Y": 23,
-					},
-					"Layer": "Buildings",
-					"Remove": true
-				},
-				{
-					"Position": {
-						"X": 23,
-						"Y": 23
-					},
-					"Layer": "Back",
-					"SetIndex": 86,
-					"SetProperties": {
-						"Water": "T"
+						"X": 16,
+						"Y": 5,
+						"Width": 2,
+						"Height": 1
 					}
 				},
-				// Bush
-				{
-					"Position": {
-						"X": 81,
-						"Y": 106
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "T"
-					}
-				},
-				{
-					"Position": {
-						"X": 81,
-						"Y": 107
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "T"
-					}
-				},
-				{
-					"Position": {
-						"X": 82,
-						"Y": 106
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "T"
-					}
-				},
-				{
-					"Position": {
-						"X": 82,
-						"Y": 107
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "T"
-					}
-				},
-				{
-					"Position": {
-						"X": 83,
-						"Y": 106
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "T"
-					}
-				},
-				{
-					"Position": {
-						"X": 83,
-						"Y": 107
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"Water": "T"
-					}
-				},
-			]
+			}
 		},
 		{
 			"Action": "EditMap",
 			"Target": "Maps\\EastScarp_InnBath",
+			"When": {
+				"HasCaughtFish|contains={{ModId}}.Edith": false
+			},
 			"MapProperties": {
 				"IndoorWater": "T"
 			},
@@ -131,7 +98,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -141,7 +108,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -151,7 +118,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -161,7 +128,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -171,7 +138,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -181,7 +148,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -191,7 +158,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -201,7 +168,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -211,7 +178,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -221,7 +188,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 			]
@@ -229,6 +196,10 @@
 		{
 			"Action": "EditMap",
 			"Target": "Maps\\EastScarp_VillageInn",
+			"When": {
+				"HasCaughtFish|contains={{ModId}}.Kataryna": false,
+				"HasCaughtFish|contains={{ModId}}.Michael": false
+			},
 			"MapProperties": {
 				"IndoorWater": "T"
 			},
@@ -249,6 +220,7 @@
 					},
 					"Layer": "Back2",
 					"SetIndex": 112,
+					"SetTilesheet": "1"
 				},
 				{
 					"Position": {
@@ -256,8 +228,10 @@
 						"Y": 8
 					},
 					"Layer": "Back",
+					"SetIndex": 112,
+					"SetTilesheet": "1",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -275,6 +249,7 @@
 					},
 					"Layer": "Back2",
 					"SetIndex": 1367,
+					"SetTilesheet": "1"
 				},
 				{
 					"Position": {
@@ -283,7 +258,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -300,7 +275,8 @@
 						"Y": 9
 					},
 					"Layer": "Back2",
-					"SetIndex": 45,
+					"SetIndex": 145,
+					"SetTilesheet": "1"
 				},
 				{
 					"Position": {
@@ -309,13 +285,13 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
 					"Position": {
 						"X": 48,
-						"Y": 9
+						"Y": 10
 					},
 					"Layer": "Buildings",
 					"Remove": true
@@ -323,19 +299,20 @@
 				{
 					"Position": {
 						"X": 48,
-						"Y": 9
+						"Y": 10
 					},
 					"Layer": "Back2",
 					"SetIndex": 1360,
+					"SetTilesheet": "1"
 				},
 				{
 					"Position": {
 						"X": 48,
-						"Y": 9
+						"Y": 10
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				// Front Desk
@@ -346,7 +323,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -356,7 +333,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -366,7 +343,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -376,7 +353,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -386,7 +363,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				{
@@ -396,7 +373,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 			]
@@ -404,14 +381,17 @@
 		{
 			"Action": "EditMap",
 			"Target": "Maps\\EastScarp_ZuzuBurb",
+			"When": {
+				"HasCaughtFish|contains={{ModId}}.Stella": false
+			},
 			"MapTiles": [
 				{
 					"Position": {
 						"X": 11,
-						"Y": 7,
+						"Y": 7
 					},
-					"Layer": "Back2",
-					"SetIndex": 26,
+					"Layer": "Buildings",
+					"Remove": true,
 				},
 				{
 					"Position": {
@@ -419,8 +399,9 @@
 						"Y": 7
 					},
 					"Layer": "Back",
+					"SetIndex": 26,
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 			]
@@ -428,6 +409,9 @@
 		{
 			"Action": "EditMap",
 			"Target": "Maps\\EastScarp_ThriftShop",
+			"When": {
+				"HasCaughtFish|contains={{ModId}}.Kennedy": false
+			},
 			"MapProperties": {
 				"IndoorWater": "T"
 			},
@@ -435,7 +419,7 @@
 				{
 					"Position": {
 						"X": 16,
-						"Y": 15,
+						"Y": 5,
 					},
 					"Layer": "Buildings",
 					"Remove": true
@@ -443,26 +427,29 @@
 				{
 					"Position": {
 						"X": 16,
-						"Y": 15,
+						"Y": 5,
 					},
 					"Layer": "Back2",
 					"SetIndex": 2721,
+					"SetTilesheet": "lemurfurniture"
 				},
 				{
 					"Position": {
 						"X": 16,
-						"Y": 15
+						"Y": 5
 					},
 					"Layer": "Back",
+					"SetIndex": 106,
+					"SetTilesheet": "1",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 				
 				{
 					"Position": {
 						"X": 17,
-						"Y": 15,
+						"Y": 5,
 					},
 					"Layer": "Buildings",
 					"Remove": true
@@ -470,121 +457,25 @@
 				{
 					"Position": {
 						"X": 17,
-						"Y": 15,
+						"Y": 5,
 					},
 					"Layer": "Back2",
 					"SetIndex": 2722,
+					"SetTilesheet": "lemurfurniture"
 				},
 				{
 					"Position": {
 						"X": 17,
-						"Y": 15
+						"Y": 5
 					},
 					"Layer": "Back",
+					"SetIndex": 106,
+					"SetTilesheet": "1",
 					"SetProperties": {
-						"Water": "T"
+						"Water": "I"
 					}
 				},
 			]
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["EastScarp_Village", "FishAreas"],
-			"Entries": {
-				"ESPond": {
-					"Position": {
-						"X": 21,
-						"Y": 61,
-						"Width": 12,
-						"Height": 9
-					}
-				},
-				"ESWell": {
-					"Position": {
-						"X": 22,
-						"Y": 22,
-						"Width": 3,
-						"Height": 2
-					}
-				},
-				"ESBush": {
-					"Position": {
-						"X": 81,
-						"Y": 106,
-						"Width": 3,
-						"Height": 2
-					}
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["EastScarp_InnBath", "FishAreas"],
-			"Entries": {
-				"ESShower": {
-					"Position": {
-						"X": 1,
-						"Y": 10,
-						"Width": 5,
-						"Height": 2
-					}
-				},
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["EastScarp_VillageInn", "FishAreas"],
-			"Entries": {
-				"ESBarrel": {
-					"Position": {
-						"X": 47,
-						"Y": 8,
-						"Width": 2,
-						"Height": 2
-					}
-				},
-				"ESFrontDesk": {
-					"Position": {
-						"X": 44,
-						"Y": 33,
-						"Width": 3,
-						"Height": 2
-					}
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["EastScarp_ZuzuBurb", "FishAreas"],
-			"Entries": {
-				"ESFlowerPlot": {
-					"Position": {
-						"X": 11,
-						"Y": 7,
-						"Width": 1,
-						"Height": 1
-					}
-				},
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": ["EastScarp_ThriftShop", "FishAreas"],
-			"Entries": {
-				"ESBearPlush": {
-					"Position": {
-						"X": 16,
-						"Y": 5,
-						"Width": 2,
-						"Height": 1
-					}
-				},
-			}
 		},
 
 		// ---------- Fish setup ----------
@@ -638,7 +529,7 @@
 					"Id": "{{ModId}}.EloiseFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ESBush",
+					"FishAreaId": "ESTidepools",
 					"ItemId": "{{ModId}}.Eloise",
 					"Condition": "SEASON spring,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -648,7 +539,7 @@
 					"Id": "{{ModId}}.JacobFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ESWell",
+					"FishAreaId": "ESFreshwater",
 					"ItemId": "{{ModId}}.Jacob",
 					"Condition": "SEASON summer,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
@@ -668,7 +559,7 @@
 					"Id": "{{ModId}}.VictoriaFish",
 					"CatchLimit": 1,
 					"IsBossFish": "True",
-					"FishAreaId": "ESPond",
+					"FishAreaId": "ESFreshwater",
 					"ItemId": "{{ModId}}.Victoria",
 					"Condition": "SEASON winter,PLAYER_HAS_CAUGHT_FISH Current (O){{ModId}}.Willy",
 					"ContextTags": ["fish_legendary"]
