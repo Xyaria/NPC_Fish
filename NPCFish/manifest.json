@@ -1,7 +1,7 @@
 {
 	"Name": "NPC Fish",
 	"Author": "Xyaria",
-	"Version": "1.2.0",
+	"Version": "1.3.0",
 	"Description": "Add new fish that look like the valley inhabitants",
 	"UniqueID": "xyaria.NPCFish",
 	"MinimumApiVersion": "4.0.0",
